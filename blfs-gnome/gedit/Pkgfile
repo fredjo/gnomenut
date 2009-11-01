@@ -1,0 +1,25 @@
+# Description: The official text editor of the GNOME desktop environment
+# URL: http://www.gnome.org/projects/gedit/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: libgnomeui, libglade, libgnomeprintui, eel, gnome-python-desktop, pygtksourceview
+# Group: gnome/desktop
+
+name=gedit
+version=2.26.2
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--sysconfdir=/etc \
+		--mandir=/usr/man \
+		--libexecdir=/usr/lib/$name \
+		--enable-python \
+		--disable-schemas-install \
+		--disable-deprecations \
+		--disable-spell # add back later with libenchant?
+	make
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,23 @@
+# Description: GNOME python desktop about screen
+# URL: http://www.gnome.org/about/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: pyorbit, libgnomeui, startup-notification, gnome-doc-utils
+# Group: gnome/desktop
+
+name=gnome-python
+version=2.26.1
+release=1
+gnomever=2.26.3
+source=(http://ftp.gnome.org/pub/gnome/sources/$name/2.26/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX \
+			--sysconfdir=/etc \
+            	--localstatedir=/var/lib \
+		--enable-bonobo_activation \
+		--enable-bonobo \
+		--mandir=/usr/man 
+	make
+	make DESTDIR=$PKG install
+}

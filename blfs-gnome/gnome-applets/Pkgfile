@@ -1,0 +1,23 @@
+# Description: Applets for use with the GNOME panel
+# URL: http://freshmeat.net/projects/gnome-applets/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: gnome-icon-theme, libgtop, gst-plugins-base, gnome-panel, gucharmap
+# Group: gnome/desktop
+
+name=gnome-applets
+version=2.26.3
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX \
+            --sysconfdir=/etc \
+            --localstatedir=/var/lib \
+            --libexecdir=$GNOME_PREFIX/lib/gnome-applets \
+            --mandir=$GNOME_PREFIX/share/man
+	make
+	make DESTDIR=$PKG install
+	make -C man install-man
+}

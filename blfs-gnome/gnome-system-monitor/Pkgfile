@@ -1,0 +1,20 @@
+# Description: Procman is a nicer, simpler, easier to use replacement to gtop
+# URL: http://www.personal.psu.edu/users/k/f/kfv101/procman/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: libgnomeui, libgtop, libwnck, libgnomesu, gtkmm
+# Group: gnome/desktop
+
+name=gnome-system-monitor
+version=2.26.2
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--sysconfdir=/etc \
+		--disable-schemas-install
+	make
+	make DESTDIR=$PKG install
+}

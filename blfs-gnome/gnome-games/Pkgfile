@@ -1,0 +1,24 @@
+# Description: Games for your GNOME desktop
+# URL: http://www.gnome.org/softwaremap/projects/gnome-games/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: libgnomeui, librsvg, rarian, gob, avahi, gnome-python-desktop, guile, libggz, ggz-client-libs
+# Group: gnome/desktop
+
+name=gnome-games
+version=2.26.3
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--localstatedir=/var \
+		--disable-schemas-install \
+		--disable-setgid \
+		--disable-tests \
+		--sysconfdir=/etc \
+		--disable-scrollkeeper
+	make
+	make DESTDIR=$PKG install
+}

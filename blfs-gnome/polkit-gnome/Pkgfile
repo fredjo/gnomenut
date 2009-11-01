@@ -1,0 +1,21 @@
+# Description: Systeme d'abstraction de materiel
+# URL: http://hal.freedesktop.org/docs/polkit-gnome
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: dbus, expat
+
+name=polkit-gnome
+version=0.92
+release=1
+source=(http://hal.freedesktop.org/releases/$name-$version.tar.bz2)
+build() {
+        cd $name-$version
+        ./configure --prefix=$GNOME_PREFIX\
+                    --sysconfdir=/etc \
+            --libexecdir=$GNOME_PREFIX/lib/polkit-gnome \
+            --mandir=$GNOME_PREFIX/share/man \
+                --localstatedir=/var \
+
+        make
+        make DESTDIR=$PKG install
+}

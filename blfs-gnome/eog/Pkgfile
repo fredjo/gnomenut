@@ -1,0 +1,25 @@
+# Description: image viewing and cataloging program
+# URL: http://www.gnome.org/gnome-office/eog.shtml
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: libgnomeui, libgnomeprint, gnome-desktop
+# Group: gnome/desktop
+
+name=eog
+version=2.24.3.1
+release=1
+gnomever=2.24.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--libexecdir=/usr/lib/$name \
+		--sysconfdir=/etc \
+		--disable-scrollkeeper \
+		--disable-schemas-install \
+		--enable-doc=no \
+		--enable-gtk-doc=no
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/gtk-doc
+}

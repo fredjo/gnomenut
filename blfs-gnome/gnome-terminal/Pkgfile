@@ -1,0 +1,20 @@
+# Description: Standard GNOME terminal application
+# URL: http://www.gnome.org/softwaremap/projects/gnome-terminal/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: libgnomeui, vte, startup-notification, gnome-doc-utils
+# Group: gnome/desktop
+
+name=gnome-terminal
+version=2.26.3.1
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX \
+			--sysconfdir=/etc \
+			--localstatedir=/var/lib
+	make
+	make DESTDIR=$PKG install
+}

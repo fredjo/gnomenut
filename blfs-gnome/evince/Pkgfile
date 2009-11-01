@@ -1,0 +1,26 @@
+# Description: Simply a document viewer
+# URL: http://www.gnome.org/projects/evince/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: poppler, poppler-glib, gtk, gnome-vfs, libgnomeui, gnome-doc-utils
+# Group: gnome/desktop
+
+name=evince
+version=2.26.2
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--mandir=/usr/man \
+		--sysconfdir=/etc \
+		--disable-schemas-install \
+		--disable-scrollkeeper \
+		--enable-dbus \
+		--enable-tiff \
+		--enable-nautilus 
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/gtk-doc
+}

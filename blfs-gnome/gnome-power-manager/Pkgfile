@@ -1,0 +1,21 @@
+# Description: GNOME desktop environment power manager
+# URL: http://www.gnome.org/projects/gnome-power-manager/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: dbus, hal, libgnomeui, libglade, libnotify, notification-daemon, gnome-panel, policykit-gnome, libcanberra, devicekit
+# Group: gnome/desktop
+
+name=gnome-power-manager
+version=2.26.2
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX \
+		--mandir=/usr/man \
+		--libexecdir=$GNOME_PREFIX/lib/$name \
+		--sysconfdir=/etc
+	make
+	make DESTDIR=$PKG install
+}

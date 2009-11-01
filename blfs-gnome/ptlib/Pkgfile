@@ -1,0 +1,21 @@
+# Description: Librairie pour ekiga
+# URL: http://www.gnome.org/
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on:
+
+name=ptlib
+version=2.6.5
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/$name/2.6/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+		./configure --prefix=/usr\
+		--sysconfdir=/etc \
+		--localstatedir=/var/lib \
+		--mandir=/usr/share/man \
+		--disable-esd
+	make
+	make DESTDIR=$PKG install
+}

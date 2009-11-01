@@ -1,0 +1,23 @@
+# Description: The GNOME desktop web browser
+# URL: http://www.gnome.org/projects/epiphany/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: iso-codes, libgnomeui, libgnomeprintui, librsvg, gnome-doc-utils, xulrunner, libnotify, gnome-desktop
+# Group: gnome/desktop
+
+name=epiphany
+version=2.26.3
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--mandir=/usr/man \
+		--disable-scrollkeeper \
+		--sysconfdir=/etc \
+		--disable-schemas-install
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/gtk-doc
+}

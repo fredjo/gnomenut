@@ -1,0 +1,17 @@
+# Description: A set of backgrounds for the GNOME desktop
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: p5-xml-parser
+# Group: gnome/desktop
+
+name=gnome-backgrounds
+version=2.24.1
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX
+	make
+	make DESTDIR=$PKG install
+}

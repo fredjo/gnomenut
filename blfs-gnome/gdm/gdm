@@ -1,0 +1,21 @@
+#!/bin/sh
+#
+# /etc/rc.d/gdm: start/stop GNOME display manager
+#
+
+case $1 in
+start)
+	/usr/sbin/gdm
+	;;
+stop)
+	/usr/sbin/gdm-stop
+	;;
+restart)
+	/usr/sbin/gdm-restart
+	;;
+*)
+	echo "usage: $0 [start|stop|restart]"
+	;;
+esac
+
+# End of file

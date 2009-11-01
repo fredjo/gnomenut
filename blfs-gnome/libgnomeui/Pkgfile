@@ -1,0 +1,23 @@
+# Description: main GNOME 2 UI library
+# URL: http://freshmeat.net/projects/libgnomeui/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: libbonoboui, gnome-keyring, libjpeg, esound
+# Group: gnome/platform
+
+name=libgnomeui
+version=2.24.1
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/libgnomeui/2.24/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX \
+		--libexecdir=$GNOME_PREFIX/lib/libgnomeui
+	make
+	make DESTDIR=$PKG install
+	if [ $GNOME_PREFIX != "/usr" ]; then
+    ln -v -s $GNOME_PREFIX/lib/gtk-2.0/2.10.0/filesystems \
+        /usr/lib/gtk-2.0/2.10.0
+fi
+
+}

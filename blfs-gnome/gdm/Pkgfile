@@ -1,0 +1,71 @@
+# Description: Gestionnaire de session GNOME
+# URL: http://www.5z.com/jirka/gdm.html
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: linux-pam, intltool, dbus-glib, gnome-panel, consolekit
+
+name=gdm
+version=2.26.1
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/$name/2.26/$name-$version.tar.bz2 \
+       http://kiao.no-ip.info/NuTyX/files/nutyx09.tar.gz \
+	defaults.conf NuTyXlogo.png \
+	gdm-2.26.1-libxklavier-4.0-1.patch \
+	gdm-2.26.1-sysconfdir-1.patch
+	
+)
+
+build() {
+	cd $name-$version
+
+patch -Np1 -i ../gdm-2.26.1-libxklavier-4.0-1.patch
+patch -Np1 -i ../gdm-2.26.1-sysconfdir-1.patch
+./configure --prefix=$GNOME_PREFIX \
+            --sysconfdir=/etc \
+            --localstatedir=/var \
+            --libexecdir=$GNOME_PREFIX/lib/gdm \
+            --with-pam-prefix=/etc
+	make
+	make install
+ln -s $GNOME_PREFIX/lib/gnome-settings-daemon/gnome-settings-daemon $GNOME_PREFIX/lib/gdm/ 
+ln -s $GNOME_PREFIX/lib/ConsoleKit/ck-get-x11-display-device $GNOME_PREFIX/lib/gdm/
+#	cd blfs-bootscripts-20090302
+#	make install-gdm
+
+cat > /etc/pam.d/gdm << "EOF"
+auth        required    pam_unix.so
+auth        requisite   pam_nologin.so
+account     required    pam_unix.so
+password    required    pam_unix.so
+session     required    pam_unix.so
+
+EOF
+cat > /etc/pam.d/gdm-autologin << "EOF"
+auth        required    pam_env.so
+auth        requisite   pam_nologin.so
+auth        required    pam_permit.so
+account     required    pam_unix.so
+password    required    pam_unix.so
+session     required    pam_unix.so
+
+EOF
+# rm -r $PKG/usr/share/xsessions
+	install -D -m644 ../NuTyXlogo.png $PKG/usr/share/pixmaps/gdm-foot-logo.png
+	#rm -r $PKG/usr/share/gdm/themes/nutyx
+	install -D -m444 ../defaults.conf $PKG/usr/share/gdm/defaults.conf
+	cp -a $SRC/nutyx09 $PKG/usr/share/gdm/themes/
+
+cat > $GNOME_PREFIX/share/xsessions/gnome-dbus.desktop << "EOF"
+[Desktop Entry]
+Encoding=UTF-8
+Name=GNOME with D-BUS
+Comment=GNOME Desktop with D-BUS support
+Exec=dbus-launch --exit-with-session gnome-session
+TryExec=/usr/bin/dbus-launch
+Icon=
+Type=Application
+
+EOF
+chmod -v 644 $GNOME_PREFIX/share/xsessions/gnome-dbus.desktop
+
+}

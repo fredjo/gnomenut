@@ -1,0 +1,18 @@
+# Description: Permet l'implémentation de code python dans des applications utilisant gtk
+# URL: http://www.pygtk.org/
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: gtk, pygobject, pycairo, libglade
+
+name=pygtksourceview
+version=2.6.0
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/$name/2.6/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--disable-docs
+	make
+	make DESTDIR=$PKG install
+}

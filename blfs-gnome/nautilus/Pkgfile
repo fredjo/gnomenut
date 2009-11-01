@@ -1,0 +1,22 @@
+# Description: GNOME shell and file manager
+# URL: http://www.gnome.org/projects/nautilus/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: esound, librsvg, libexif, libunique, startup-notification, gnome-desktop
+# Group: gnome/desktop
+
+name=nautilus
+version=2.26.3
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX \
+            --sysconfdir=/etc
+	make
+	make DESTDIR=$PKG install
+	install -v -m755 -d $GNOME_PREFIX/share/doc/nautilus-2.26.3
+	install -v -m644 docs/*.{txt,dia,pdf,sxw,faq,html} $GNOME_PREFIX/share/doc/nautilus-2.26.3
+
+}

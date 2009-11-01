@@ -1,0 +1,23 @@
+# Description: boring window manager for the adult in you
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: gtk, gconf, intltool, p5-xml-parser, zenity, startup-notification
+# Group: gnome/desktop
+
+name=metacity
+version=2.26.0
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--libexecdir=/usr/lib/$name \
+		--sysconfdir=/etc \
+		--with-gconf-schema-file-dir=/etc/gconf/schemas
+	make
+	make DESTDIR=$PKG install
+	install -v -m755 -d /usr/share/doc/metacity-2.26.0
+	install -v -m644 README rationales.txt doc/*.txt /usr/share/doc/metacity-2.26.0
+
+}

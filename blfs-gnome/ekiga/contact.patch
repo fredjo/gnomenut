@@ -1,0 +1,10 @@
+--- pixmaps/Makefile.am.ori	2009-10-23 19:23:19.000000000 +0200
++++ pixmaps/Makefile.am	2009-10-23 19:23:32.000000000 +0200
+@@ -34,7 +34,6 @@
+ 	16x16/stock_contrast.png \
+ 	16x16/system-search.png \
+ 	24x24/audio-input-microphone.png \
+-	24x24/contact-new.png \
+ 	24x24/internet-group-chat.png \
+ 	color-brightness-contrast.png \
+ 	local_contact.png \

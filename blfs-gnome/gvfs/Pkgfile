@@ -1,0 +1,20 @@
+# Description: A userspace virtual filesystem designed to work with gio
+# URL: http://www.gnome.org/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: dbus, glib, avahi, fuse, dbus-glib, expat, gconf, gnome-keyring, hal, gnome-keyring, libarchive, libcdio, libgphoto2, libsoup, samba, libxml2
+# Group: gnome/desktop
+
+name=gvfs
+version=1.2.3
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX \
+		--sysconfdir=/etc \
+            --libexecdir=$GNOME_PREFIX/lib/gvfs
+	make
+	make DESTDIR=$PKG install
+}

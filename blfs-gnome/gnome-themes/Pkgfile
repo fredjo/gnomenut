@@ -1,0 +1,18 @@
+# Description: Themes pour gnome
+# URL: http://www.gnome.org/
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: icon-naming-utils, gtk-engines
+
+name=gnome-themes
+version=2.26.3
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/$name/2.26/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+	--enable-all-themes
+	make
+	make DESTDIR=$PKG install
+}

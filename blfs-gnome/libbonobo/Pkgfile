@@ -1,0 +1,21 @@
+# Description: Object Activation Framework for GNOME 2
+# URL: http://developer.gnome.org/doc/API/2.0/libbonobo/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: orbit2, libxml2, popt, p5-xml-parser, dbus-glib, intltool
+# Group: gnome/platform
+
+name=libbonobo
+version=2.24.1
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/platform/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX \
+		--sysconfdir=/etc \
+		--mandir=$GNOME_PREFIX/share/man \
+		--libexecdir=$GNOME_PREFIX/lib/bonobo 
+	make
+	make DESTDIR=$PKG install
+}

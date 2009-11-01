@@ -1,0 +1,31 @@
+Submitted By: Wayne Blaszczyk
+Date: 2009-09-06
+Initial Package Version: 2.26.2
+Origin: Wayne Blaszczyk
+Upstream Status: Unknown
+Description: Removed hardcoded /etc/gconf paths.
+
+diff -Naur a/gconf/default.path.in b/gconf/default.path.in
+--- a/gconf/default.path.in	2009-04-25 16:44:06.000000000 +1000
++++ b/gconf/default.path.in	2009-09-06 12:32:07.000000000 +1000
+@@ -21,7 +21,7 @@
+ xml:readwrite:$(HOME)/.gconf
+ 
+ # Location for system-wide settings that are set by the defaults mechanism
+-xml:readonly:/etc/gconf/gconf.xml.system
++xml:readonly:@sysgconfdir@/gconf.xml.system
+ 
+ # To read in any defaults settings that the Sys Admin may have created
+ # prior to a desktop system upgrade. The SysAdmin can stick default values
+diff -Naur a/gconf/gconfd.c b/gconf/gconfd.c
+--- a/gconf/gconfd.c	2009-04-25 16:44:06.000000000 +1000
++++ b/gconf/gconfd.c	2009-09-06 12:29:41.000000000 +1000
+@@ -655,7 +655,7 @@
+ 
+ 	  gconf_log (GCL_DEBUG, "System defaults changed.  Notifying.");
+ 
+-	  addresses.data = "xml:merged:/etc/gconf/gconf.xml.system";
++	  addresses.data = g_strconcat("xml:merged:", GCONF_ETCDIR, "/gconf.xml.system", NULL);
+ 	  addresses.next = NULL;
+ 	  system_sources = gconf_sources_new_from_addresses (&addresses, NULL);
+ 

@@ -1,0 +1,25 @@
+# Description: general API for producing text-to-speech output
+# URL: http://mail.gnome.org/mailman/listinfo/gnome-accessibility-devel
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: libbonobo
+# Group: gnome/desktop
+
+name=gnome-speech
+version=0.4.22
+release=1
+gnomever=2.24.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--disable-gtk-doc \
+		--without-dectalk \
+		--without-theta \
+		--without-eloquence \
+		--without-java \
+		--without-jab \
+		--without-freetts
+		make
+		make DESTDIR=$PKG install
+}

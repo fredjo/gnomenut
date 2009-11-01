@@ -1,0 +1,19 @@
+# Description: GNOME 2.x User Documentation
+# URL: http://www.gnome.org/learn/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: gnome-doc-utils, rarian
+# Group: gnome/desktop
+
+name=gnome-user-docs
+version=2.26.2
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd gnome-user-docs-$version
+	./configure --prefix=$GNOME_PREFIX \
+            --localstatedir=/var/lib
+	make
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,18 @@
+# Description: Librairie pour gnome-panel
+# URL: http://www.gnome.org
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: libsoup
+
+name=libgweather
+version=2.26.2.1
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/$name/2.26/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX \
+		--sysconfdir=/etc
+	make
+	make DESTDIR=$PKG install
+}

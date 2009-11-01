@@ -1,0 +1,22 @@
+
+
+README for gnome-screensaver
+
+If you want to use xscreensaver hacks with gnome-screensaver, do the following:
+
+1. Install xscreensaver and libxslt (if not already installed)
+2. Migrate xscreensaver configs to gnome-screensaver format like so:
+
+	# mkdir temp; cd temp
+	# /usr/bin/migrate-xscreensaver-config /usr/share/xscreensaver/config/*.xml
+	# mv *.desktop /usr/share/applications/screensavers/
+	# cd ..; rmdir temp
+
+3. Run gnome-screensaver-preferences and select a screensaver
+
+
+** NOTE: If you have both xscreensaver and gnome-screensaver installed, there
+will be two (2) entries in the GNOME preferences menu for "Screensaver". If you
+want to get rid of the xscreensaver entry, move or delete the .desktop file,
+/usr/share/applications/gnome-screensaver-properties.desktop.
+

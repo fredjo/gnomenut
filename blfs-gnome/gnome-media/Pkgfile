@@ -1,0 +1,21 @@
+# Description: GNOME media tools
+# URL: http://www.prettypeople.org/~iain/gnome-media/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: esound, libgnomeui, gst-plugins-good, nautilus-cd-burner, rarian
+# Group: gnome/desktop
+
+name=gnome-media
+version=2.26.0
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--libexecdir=/usr/lib/$name \
+		--sysconfdir=/etc \
+		--disable-schemas-install
+	make
+	make DESTDIR=$PKG install
+}

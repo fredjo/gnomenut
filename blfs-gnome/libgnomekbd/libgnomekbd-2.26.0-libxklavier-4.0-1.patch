@@ -1,0 +1,19 @@
+Submitted By: Wayne Blaszczyk
+Date: 2009-09-01
+Initial Package Version: 2.26.0
+Origin: RedHat/Fedora /rpms/libgnomekbd/devel/libxklavier4.patch
+Upstream Status: Unknown
+Description: Fixes compatibility with libxklavier-4.0
+
+diff -Naur a/libgnomekbd/gkbd-indicator.c b/libgnomekbd/gkbd-indicator.c
+--- a/libgnomekbd/gkbd-indicator.c	2009-03-14 10:01:12.000000000 +1100
++++ b/libgnomekbd/gkbd-indicator.c	2009-09-01 22:26:47.000000000 +1000
+@@ -717,7 +717,7 @@
+ 	globals.registry =
+ 	    xkl_config_registry_get_instance (globals.engine);
+ 
+-	xkl_config_registry_load (globals.registry);
++	xkl_config_registry_load (globals.registry, FALSE);
+ 
+ 	gconf_client = gconf_client_get_default ();
+ 

@@ -1,0 +1,21 @@
+# Description: Assistive Technology Service Provider Interface
+# URL: http://developer.gnome.org/projects/gap/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: gtk, libbonobo, orbit2, gconf
+# Group: gnome/platform
+
+name=at-spi
+version=1.26.0
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/platform/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--libexecdir=/usr/lib/$name \
+		--sysconfdir=/etc \
+		--disable-gtk-doc
+	make
+	make DESTDIR=$PKG install
+}

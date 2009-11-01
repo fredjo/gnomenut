@@ -1,0 +1,21 @@
+# Description: Gnome keyboard configuration library
+# URL: http://www.gnome.org/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: libgnomeui, libxklavier
+# Group: gnome/desktop
+
+name=libgnomekbd
+version=2.26.0
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2 \
+	libgnomekbd-2.26.0-libxklavier-4.0-1.patch)
+
+build() {
+	cd $name-$version
+	 patch -Np1 -i ../libgnomekbd-2.26.0-libxklavier-4.0-1.patch
+	./configure --prefix=$GNOME_PREFIX \
+            --sysconfdir=/etc
+	make
+	make DESTDIR=$PKG install
+}

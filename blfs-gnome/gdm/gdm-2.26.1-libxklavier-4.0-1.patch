@@ -1,0 +1,19 @@
+Submitted By: Wayne Blaszczyk
+Date: 2009-09-02
+Initial Package Version: 2.26.1
+Origin: RedHat/Fedora /rpms/libgnomekbd/devel/libxklavier4.patch
+Upstream Status: Unknown
+Description: Fixes compatibility with libxklavier-4.0
+
+diff -Naur a/gui/simple-greeter/gdm-layouts.c b/gui/simple-greeter/gdm-layouts.c
+--- a/gui/simple-greeter/gdm-layouts.c	2009-03-28 01:28:45.000000000 +1100
++++ b/gui/simple-greeter/gdm-layouts.c	2009-09-02 23:23:51.000000000 +1000
+@@ -52,7 +52,7 @@
+                 engine = xkl_engine_get_instance (GDK_DISPLAY ());
+                 xkl_engine_backup_names_prop (engine);
+                 config_registry = xkl_config_registry_get_instance (engine);
+-                xkl_config_registry_load (config_registry);
++                xkl_config_registry_load (config_registry, FALSE);
+ 
+                 initial_config = xkl_config_rec_new ();
+                 if (!xkl_config_rec_get_from_backup (initial_config, engine)) {

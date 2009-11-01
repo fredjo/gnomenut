@@ -1,0 +1,19 @@
+# Description: Programs for mounting/unmounting/ejecting storage devices
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: hal, libgnomeui, nautilus
+# Group: gnome
+
+name=gnome-mount
+version=0.8
+release=1
+source=(http://hal.freedesktop.org/releases/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--sysconfdir=/etc \
+		--mandir=/usr/man \
+		--disable-schemas-install
+	make
+	make DESTDIR=$PKG install
+}

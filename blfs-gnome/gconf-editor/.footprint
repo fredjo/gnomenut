@@ -1,0 +1,195 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/gconf/
+drwxr-xr-x	root/root	etc/gconf/schemas/
+-rw-r--r--	root/root	etc/gconf/schemas/gconf-editor.schemas
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/gconf-editor
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/gconf-editor.desktop
+drwxr-xr-x	root/root	usr/share/gconf-editor/
+drwxr-xr-x	root/root	usr/share/gconf-editor/icons/
+drwxr-xr-x	root/root	usr/share/gconf-editor/icons/hicolor/
+drwxr-xr-x	root/root	usr/share/gconf-editor/icons/hicolor/16x16/
+drwxr-xr-x	root/root	usr/share/gconf-editor/icons/hicolor/16x16/status/
+-rw-r--r--	root/root	usr/share/gconf-editor/icons/hicolor/16x16/status/type-boolean.png
+-rw-r--r--	root/root	usr/share/gconf-editor/icons/hicolor/16x16/status/type-float.png
+-rw-r--r--	root/root	usr/share/gconf-editor/icons/hicolor/16x16/status/type-integer.png
+-rw-r--r--	root/root	usr/share/gconf-editor/icons/hicolor/16x16/status/type-list.png
+-rw-r--r--	root/root	usr/share/gconf-editor/icons/hicolor/16x16/status/type-pair.png
+-rw-r--r--	root/root	usr/share/gconf-editor/icons/hicolor/16x16/status/type-schema.png
+-rw-r--r--	root/root	usr/share/gconf-editor/icons/hicolor/16x16/status/type-string.png
+-rw-r--r--	root/root	usr/share/gconf-editor/icons/hicolor/16x16/status/type-undefined.png
+drwxr-xr-x	root/root	usr/share/gnome/
+drwxr-xr-x	root/root	usr/share/gnome/help/
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/C/
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/C/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/C/figures/entry-blank.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/C/figures/entry-bool.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/C/figures/entry-list.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/C/figures/entry-number.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/C/figures/entry-schema.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/C/figures/entry-string.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/C/figures/gconf_editor_anno_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/C/gconf-editor.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/C/legal.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/ca/
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/ca/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/ca/figures/entry-blank.png -> ../../C/figures/entry-blank.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/ca/figures/entry-bool.png -> ../../C/figures/entry-bool.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/ca/figures/entry-list.png -> ../../C/figures/entry-list.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/ca/figures/entry-number.png -> ../../C/figures/entry-number.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/ca/figures/entry-schema.png -> ../../C/figures/entry-schema.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/ca/figures/entry-string.png -> ../../C/figures/entry-string.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/ca/figures/gconf_editor_anno_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/ca/gconf-editor.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/de/
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/de/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/de/figures/entry-blank.png -> ../../C/figures/entry-blank.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/de/figures/entry-bool.png -> ../../C/figures/entry-bool.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/de/figures/entry-list.png -> ../../C/figures/entry-list.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/de/figures/entry-number.png -> ../../C/figures/entry-number.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/de/figures/entry-schema.png -> ../../C/figures/entry-schema.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/de/figures/entry-string.png -> ../../C/figures/entry-string.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/de/figures/gconf_editor_anno_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/de/gconf-editor.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/el/
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/el/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/el/figures/entry-blank.png -> ../../C/figures/entry-blank.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/el/figures/entry-bool.png -> ../../C/figures/entry-bool.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/el/figures/entry-list.png -> ../../C/figures/entry-list.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/el/figures/entry-number.png -> ../../C/figures/entry-number.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/el/figures/entry-schema.png -> ../../C/figures/entry-schema.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/el/figures/entry-string.png -> ../../C/figures/entry-string.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/el/figures/gconf_editor_anno_window.png -> ../../C/figures/gconf_editor_anno_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/el/gconf-editor.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/en_GB/
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/en_GB/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/en_GB/figures/entry-blank.png -> ../../C/figures/entry-blank.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/en_GB/figures/entry-bool.png -> ../../C/figures/entry-bool.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/en_GB/figures/entry-list.png -> ../../C/figures/entry-list.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/en_GB/figures/entry-number.png -> ../../C/figures/entry-number.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/en_GB/figures/entry-schema.png -> ../../C/figures/entry-schema.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/en_GB/figures/entry-string.png -> ../../C/figures/entry-string.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/en_GB/figures/gconf_editor_anno_window.png -> ../../C/figures/gconf_editor_anno_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/en_GB/gconf-editor.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/es/
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/es/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/es/figures/entry-blank.png -> ../../C/figures/entry-blank.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/es/figures/entry-bool.png -> ../../C/figures/entry-bool.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/es/figures/entry-list.png -> ../../C/figures/entry-list.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/es/figures/entry-number.png -> ../../C/figures/entry-number.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/es/figures/entry-schema.png -> ../../C/figures/entry-schema.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/es/figures/entry-string.png -> ../../C/figures/entry-string.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/es/figures/gconf_editor_anno_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/es/gconf-editor.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/fr/
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/fr/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/fr/figures/entry-blank.png -> ../../C/figures/entry-blank.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/fr/figures/entry-bool.png -> ../../C/figures/entry-bool.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/fr/figures/entry-list.png -> ../../C/figures/entry-list.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/fr/figures/entry-number.png -> ../../C/figures/entry-number.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/fr/figures/entry-schema.png -> ../../C/figures/entry-schema.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/fr/figures/entry-string.png -> ../../C/figures/entry-string.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/fr/figures/gconf_editor_anno_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/fr/gconf-editor.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/it/
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/it/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/it/figures/entry-blank.png -> ../../C/figures/entry-blank.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/it/figures/entry-bool.png -> ../../C/figures/entry-bool.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/it/figures/entry-list.png -> ../../C/figures/entry-list.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/it/figures/entry-number.png -> ../../C/figures/entry-number.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/it/figures/entry-schema.png -> ../../C/figures/entry-schema.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/it/figures/entry-string.png -> ../../C/figures/entry-string.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/it/figures/gconf_editor_anno_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/it/gconf-editor.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/oc/
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/oc/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/oc/figures/entry-blank.png -> ../../C/figures/entry-blank.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/oc/figures/entry-bool.png -> ../../C/figures/entry-bool.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/oc/figures/entry-list.png -> ../../C/figures/entry-list.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/oc/figures/entry-number.png -> ../../C/figures/entry-number.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/oc/figures/entry-schema.png -> ../../C/figures/entry-schema.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/oc/figures/entry-string.png -> ../../C/figures/entry-string.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/oc/figures/gconf_editor_anno_window.png -> ../../C/figures/gconf_editor_anno_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/oc/gconf-editor.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/pt_BR/
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/pt_BR/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/pt_BR/figures/entry-blank.png -> ../../C/figures/entry-blank.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/pt_BR/figures/entry-bool.png -> ../../C/figures/entry-bool.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/pt_BR/figures/entry-list.png -> ../../C/figures/entry-list.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/pt_BR/figures/entry-number.png -> ../../C/figures/entry-number.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/pt_BR/figures/entry-schema.png -> ../../C/figures/entry-schema.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/pt_BR/figures/entry-string.png -> ../../C/figures/entry-string.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/pt_BR/figures/gconf_editor_anno_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/pt_BR/gconf-editor.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/ru/
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/ru/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/ru/figures/entry-blank.png -> ../../C/figures/entry-blank.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/ru/figures/entry-bool.png -> ../../C/figures/entry-bool.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/ru/figures/entry-list.png -> ../../C/figures/entry-list.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/ru/figures/entry-number.png -> ../../C/figures/entry-number.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/ru/figures/entry-schema.png -> ../../C/figures/entry-schema.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/ru/figures/entry-string.png -> ../../C/figures/entry-string.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/ru/figures/gconf_editor_anno_window.png -> ../../C/figures/gconf_editor_anno_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/ru/gconf-editor.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/sv/
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/sv/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/sv/figures/entry-blank.png -> ../../C/figures/entry-blank.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/sv/figures/entry-bool.png -> ../../C/figures/entry-bool.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/sv/figures/entry-list.png -> ../../C/figures/entry-list.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/sv/figures/entry-number.png -> ../../C/figures/entry-number.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/sv/figures/entry-schema.png -> ../../C/figures/entry-schema.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/sv/figures/entry-string.png -> ../../C/figures/entry-string.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/sv/figures/gconf_editor_anno_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/sv/gconf-editor.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/th/
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/th/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/th/figures/entry-blank.png -> ../../C/figures/entry-blank.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/th/figures/entry-bool.png -> ../../C/figures/entry-bool.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/th/figures/entry-list.png -> ../../C/figures/entry-list.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/th/figures/entry-number.png -> ../../C/figures/entry-number.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/th/figures/entry-schema.png -> ../../C/figures/entry-schema.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/th/figures/entry-string.png -> ../../C/figures/entry-string.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/th/figures/gconf_editor_anno_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/th/gconf-editor.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/uk/
+drwxr-xr-x	root/root	usr/share/gnome/help/gconf-editor/uk/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/uk/figures/entry-blank.png -> ../../C/figures/entry-blank.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/uk/figures/entry-bool.png -> ../../C/figures/entry-bool.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/uk/figures/entry-list.png -> ../../C/figures/entry-list.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/uk/figures/entry-number.png -> ../../C/figures/entry-number.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/uk/figures/entry-schema.png -> ../../C/figures/entry-schema.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gconf-editor/uk/figures/entry-string.png -> ../../C/figures/entry-string.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/uk/figures/gconf_editor_anno_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gconf-editor/uk/gconf-editor.xml
+drwxr-xr-x	root/root	usr/share/icons/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gconf-editor.png
+drwxr-xr-x	root/root	usr/share/locale/
+drwxr-xr-x	root/root	usr/share/locale/fr/
+drwxr-xr-x	root/root	usr/share/locale/fr/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/fr/LC_MESSAGES/gconf-editor.mo
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/gconf-editor.1.gz
+drwxr-xr-x	root/root	usr/share/omf/
+drwxr-xr-x	root/root	usr/share/omf/gconf-editor/
+-rw-r--r--	root/root	usr/share/omf/gconf-editor/gconf-editor-C.omf
+-rw-r--r--	root/root	usr/share/omf/gconf-editor/gconf-editor-ca.omf
+-rw-r--r--	root/root	usr/share/omf/gconf-editor/gconf-editor-de.omf
+-rw-r--r--	root/root	usr/share/omf/gconf-editor/gconf-editor-el.omf
+-rw-r--r--	root/root	usr/share/omf/gconf-editor/gconf-editor-en_GB.omf
+-rw-r--r--	root/root	usr/share/omf/gconf-editor/gconf-editor-es.omf
+-rw-r--r--	root/root	usr/share/omf/gconf-editor/gconf-editor-fr.omf
+-rw-r--r--	root/root	usr/share/omf/gconf-editor/gconf-editor-it.omf
+-rw-r--r--	root/root	usr/share/omf/gconf-editor/gconf-editor-oc.omf
+-rw-r--r--	root/root	usr/share/omf/gconf-editor/gconf-editor-pt_BR.omf
+-rw-r--r--	root/root	usr/share/omf/gconf-editor/gconf-editor-ru.omf
+-rw-r--r--	root/root	usr/share/omf/gconf-editor/gconf-editor-sv.omf
+-rw-r--r--	root/root	usr/share/omf/gconf-editor/gconf-editor-th.omf
+-rw-r--r--	root/root	usr/share/omf/gconf-editor/gconf-editor-uk.omf

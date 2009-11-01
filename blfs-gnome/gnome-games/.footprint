@@ -1,0 +1,2070 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/blackjack
+-rwxr-xr-x	root/root	usr/bin/glchess
+-rwxr-xr-x	root/root	usr/bin/glines
+-rwxr-xr-x	root/root	usr/bin/gnect
+-rwxr-xr-x	root/root	usr/bin/gnibbles
+-rwxr-xr-x	root/root	usr/bin/gnobots2
+-rwxr-xr-x	root/root	usr/bin/gnome-gnuchess
+-rwxr-xr-x	root/root	usr/bin/gnome-sudoku
+-rwxr-xr-x	root/root	usr/bin/gnometris
+-rwxr-xr-x	root/root	usr/bin/gnomine
+-rwxr-xr-x	root/root	usr/bin/gnotravex
+-rwxr-xr-x	root/root	usr/bin/gnotski
+-rwxr-xr-x	root/root	usr/bin/gtali
+-rwxr-xr-x	root/root	usr/bin/iagno
+-rwxr-xr-x	root/root	usr/bin/mahjongg
+-rwxr-xr-x	root/root	usr/bin/same-gnome
+-rwxr-xr-x	root/root	usr/bin/sol
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/gconf/
+drwxr-xr-x	root/root	usr/etc/gconf/schemas/
+-rw-r--r--	root/root	usr/etc/gconf/schemas/aisleriot.schemas
+-rw-r--r--	root/root	usr/etc/gconf/schemas/blackjack.schemas
+-rw-r--r--	root/root	usr/etc/gconf/schemas/glchess.schemas
+-rw-r--r--	root/root	usr/etc/gconf/schemas/glines.schemas
+-rw-r--r--	root/root	usr/etc/gconf/schemas/gnect.schemas
+-rw-r--r--	root/root	usr/etc/gconf/schemas/gnibbles.schemas
+-rw-r--r--	root/root	usr/etc/gconf/schemas/gnobots2.schemas
+-rw-r--r--	root/root	usr/etc/gconf/schemas/gnometris.schemas
+-rw-r--r--	root/root	usr/etc/gconf/schemas/gnomine.schemas
+-rw-r--r--	root/root	usr/etc/gconf/schemas/gnotravex.schemas
+-rw-r--r--	root/root	usr/etc/gconf/schemas/gnotski.schemas
+-rw-r--r--	root/root	usr/etc/gconf/schemas/gtali.schemas
+-rw-r--r--	root/root	usr/etc/gconf/schemas/iagno.schemas
+-rw-r--r--	root/root	usr/etc/gconf/schemas/mahjongg.schemas
+-rw-r--r--	root/root	usr/etc/gconf/schemas/same-gnome.schemas
+-rw-r--r--	root/root	usr/etc/ggz.modules
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/ggz/
+drwxr-xr-x	root/root	usr/lib/gnome-games/
+-rwxr-xr-x	root/root	usr/lib/gnome-games/gnome-games-render-cards
+drwxr-xr-x	root/root	usr/lib/python2.6/
+drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/
+drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/glchess/
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/__init__.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/__init__.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/__init__.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ai.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ai.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ai.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/cecp.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/cecp.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/cecp.pyo
+drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/glchess/chess/
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/__init__.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/__init__.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/__init__.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/bitboard.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/bitboard.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/bitboard.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/board.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/board.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/board.pyo
+drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/glchess/chess/fics/
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/fics/__init__.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/fics/__init__.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/fics/__init__.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/fics/client.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/fics/client.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/fics/client.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/fics/server.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/fics/server.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/fics/server.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/fics/style12.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/fics/style12.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/fics/style12.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/fics/telnet.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/fics/telnet.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/fics/telnet.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/lan.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/lan.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/lan.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/pgn.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/pgn.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/pgn.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/san.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/san.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/chess/san.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/config.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/config.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/config.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/defaults.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/defaults.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/defaults.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/display.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/display.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/display.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/game.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/game.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/game.pyo
+drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/glchess/ggz/
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ggz/__init__.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ggz/__init__.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ggz/__init__.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ggz/chess.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ggz/chess.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ggz/chess.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ggz/client.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ggz/client.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ggz/client.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ggz/protocol.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ggz/protocol.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ggz/protocol.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/glchess.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/glchess.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/glchess.pyo
+drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/__init__.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/__init__.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/__init__.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/chessview.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/chessview.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/chessview.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/dialogs.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/dialogs.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/dialogs.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/gtkui.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/gtkui.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/gtkui.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/log.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/log.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/log.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/network.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/network.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/gtkui/network.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/history.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/history.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/history.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/main.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/main.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/main.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/network.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/network.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/network.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/player.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/player.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/player.pyo
+drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/glchess/scene/
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/__init__.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/__init__.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/__init__.pyo
+drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/glchess/scene/cairo/
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/cairo/__init__.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/cairo/__init__.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/cairo/__init__.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/cairo/pieces.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/cairo/pieces.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/cairo/pieces.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/human.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/human.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/human.pyo
+drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/__init__.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/__init__.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/__init__.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/builtin_models.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/builtin_models.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/builtin_models.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/new_models.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/new_models.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/new_models.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/opengl.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/opengl.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/opengl.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/png.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/png.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/png.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/texture.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/texture.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/scene/opengl/texture.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/uci.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/uci.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/uci.pyo
+drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/glchess/ui/
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ui/__init__.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ui/__init__.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ui/__init__.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ui/ui.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ui/ui.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/glchess/ui/ui.pyo
+drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/__init__.py (EMPTY)
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/__init__.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/__init__.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/colors.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/colors.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/colors.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/defaults.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/defaults.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/defaults.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/dialog_swallower.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/dialog_swallower.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/dialog_swallower.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/game_selector.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/game_selector.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/game_selector.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gnome_sudoku.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gnome_sudoku.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gnome_sudoku.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gsudoku.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gsudoku.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gsudoku.pyo
+drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gtk_goodies/
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gtk_goodies/Undo.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gtk_goodies/Undo.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gtk_goodies/Undo.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gtk_goodies/__init__.py (EMPTY)
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gtk_goodies/__init__.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gtk_goodies/__init__.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gtk_goodies/dialog_extras.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gtk_goodies/dialog_extras.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gtk_goodies/dialog_extras.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gtk_goodies/gconf_wrapper.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gtk_goodies/gconf_wrapper.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gtk_goodies/gconf_wrapper.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gtk_goodies/image_extras.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gtk_goodies/image_extras.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/gtk_goodies/image_extras.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/main.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/main.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/main.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/pausable.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/pausable.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/pausable.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/printing.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/printing.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/printing.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/saver.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/saver.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/saver.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/simple_debug.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/simple_debug.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/simple_debug.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/sudoku.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/sudoku.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/sudoku.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/sudoku_generator_gui.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/sudoku_generator_gui.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/sudoku_generator_gui.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/sudoku_labeller.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/sudoku_labeller.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/sudoku_labeller.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/sudoku_maker.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/sudoku_maker.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/sudoku_maker.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/sudoku_thumber.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/sudoku_thumber.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/sudoku_thumber.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/timer.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/timer.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/gnome_sudoku/timer.pyo
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/blackjack.desktop
+-rw-r--r--	root/root	usr/share/applications/freecell.desktop
+-rw-r--r--	root/root	usr/share/applications/glchess.desktop
+-rw-r--r--	root/root	usr/share/applications/glines.desktop
+-rw-r--r--	root/root	usr/share/applications/gnect.desktop
+-rw-r--r--	root/root	usr/share/applications/gnibbles.desktop
+-rw-r--r--	root/root	usr/share/applications/gnobots2.desktop
+-rw-r--r--	root/root	usr/share/applications/gnome-sudoku.desktop
+-rw-r--r--	root/root	usr/share/applications/gnometris.desktop
+-rw-r--r--	root/root	usr/share/applications/gnomine.desktop
+-rw-r--r--	root/root	usr/share/applications/gnotravex.desktop
+-rw-r--r--	root/root	usr/share/applications/gnotski.desktop
+-rw-r--r--	root/root	usr/share/applications/gtali.desktop
+-rw-r--r--	root/root	usr/share/applications/iagno.desktop
+-rw-r--r--	root/root	usr/share/applications/mahjongg.desktop
+-rw-r--r--	root/root	usr/share/applications/same-gnome.desktop
+-rw-r--r--	root/root	usr/share/applications/sol.desktop
+drwxr-xr-x	root/root	usr/share/ggz/
+drwxr-xr-x	root/root	usr/share/ggz/gnome-games/
+-rw-r--r--	root/root	usr/share/ggz/gnome-games/about_bg.png
+-rw-r--r--	root/root	usr/share/ggz/gnome-games/ggz_gtk_admin.svg
+-rw-r--r--	root/root	usr/share/ggz/gnome-games/ggz_gtk_bot.svg
+-rw-r--r--	root/root	usr/share/ggz/gnome-games/ggz_gtk_guest.svg
+-rw-r--r--	root/root	usr/share/ggz/gnome-games/ggz_gtk_lag0.svg
+-rw-r--r--	root/root	usr/share/ggz/gnome-games/ggz_gtk_lag1.svg
+-rw-r--r--	root/root	usr/share/ggz/gnome-games/ggz_gtk_lag2.svg
+-rw-r--r--	root/root	usr/share/ggz/gnome-games/ggz_gtk_lag3.svg
+-rw-r--r--	root/root	usr/share/ggz/gnome-games/ggz_gtk_lag4.svg
+-rw-r--r--	root/root	usr/share/ggz/gnome-games/ggz_gtk_lag5.svg
+-rw-r--r--	root/root	usr/share/ggz/gnome-games/ggz_gtk_registered.svg
+drwxr-xr-x	root/root	usr/share/glchess/
+-rw-r--r--	root/root	usr/share/glchess/ai.xml
+-rw-r--r--	root/root	usr/share/glchess/chess_view.glade
+-rw-r--r--	root/root	usr/share/glchess/glchess.glade
+-rw-r--r--	root/root	usr/share/glchess/load_game.glade
+-rw-r--r--	root/root	usr/share/glchess/log.glade
+-rw-r--r--	root/root	usr/share/glchess/network_game.glade
+-rw-r--r--	root/root	usr/share/glchess/new_game.glade
+-rw-r--r--	root/root	usr/share/glchess/preferences.glade
+-rw-r--r--	root/root	usr/share/glchess/save_game.glade
+drwxr-xr-x	root/root	usr/share/gnect/
+-rw-r--r--	root/root	usr/share/gnect/white_ob.cn4.gz
+drwxr-xr-x	root/root	usr/share/gnibbles/
+-rw-r--r--	root/root	usr/share/gnibbles/level001.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level002.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level003.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level004.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level005.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level006.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level007.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level008.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level009.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level010.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level011.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level012.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level013.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level014.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level015.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level016.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level017.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level018.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level019.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level020.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level021.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level022.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level023.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level024.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level025.gnl
+-rw-r--r--	root/root	usr/share/gnibbles/level026.gnl
+drwxr-xr-x	root/root	usr/share/gnobots2/
+-rw-r--r--	root/root	usr/share/gnobots2/classic_robots.cfg
+-rw-r--r--	root/root	usr/share/gnobots2/nightmare.cfg
+-rw-r--r--	root/root	usr/share/gnobots2/robots2.cfg
+-rw-r--r--	root/root	usr/share/gnobots2/robots2_easy.cfg
+-rw-r--r--	root/root	usr/share/gnobots2/robots_with_safe_teleport.cfg
+drwxr-xr-x	root/root	usr/share/gnome-games-common/
+drwxr-xr-x	root/root	usr/share/gnome-games-common/cards/
+-rw-r--r--	root/root	usr/share/gnome-games-common/cards/gnomangelo_bitmap.svg
+drwxr-xr-x	root/root	usr/share/gnome-games/
+drwxr-xr-x	root/root	usr/share/gnome-games/aisleriot/
+drwxr-xr-x	root/root	usr/share/gnome-games/aisleriot/games/
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/agnes.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/athena.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/auld_lang_syne.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/aunt_mary.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/backbone.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/bakers_dozen.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/bakers_game.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/beleaguered_castle.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/block_ten.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/bristol.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/camelot.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/canfield.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/carpet.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/chessboard.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/clock.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/cover.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/cruel.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/diamond_mine.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/doublets.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/eagle_wing.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/easthaven.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/eight_off.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/elevator.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/escalator.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/first_law.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/fortress.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/fortunes.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/forty_thieves.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/fourteen.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/freecell.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/gaps.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/gay_gordons.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/glenwood.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/gold_mine.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/golf.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/gypsy.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/helsinki.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/hopscotch.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/isabel.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/jamestown.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/jumbo.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/kansas.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/king_albert.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/kings_audience.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/klondike.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/labyrinth.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/lady_jane.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/maze.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/monte_carlo.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/napoleons_tomb.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/neighbor.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/odessa.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/osmosis.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/peek.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/pileon.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/plait.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/poker.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/quatorze.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/royal_east.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/saratoga.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/scorpion.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/scuffle.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/seahaven.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/sir_tommy.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/sol.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/spider.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/spider_three_decks.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/spiderette.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/straight_up.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/streets_and_alleys.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/ten_across.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/thieves.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/thirteen.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/thumb_and_pouch.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/treize.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/triple_peaks.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/union_square.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/valentine.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/westhaven.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/whitehead.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/will_o_the_wisp.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/yield.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/yukon.scm
+-rw-r--r--	root/root	usr/share/gnome-games/aisleriot/games/zebra.scm
+drwxr-xr-x	root/root	usr/share/gnome-games/blackjack/
+drwxr-xr-x	root/root	usr/share/gnome-games/blackjack/pixmaps/
+-rw-r--r--	root/root	usr/share/gnome-games/blackjack/pixmaps/baize.png
+-rw-r--r--	root/root	usr/share/gnome-games/blackjack/pixmaps/blackjack-splash.png
+-rw-r--r--	root/root	usr/share/gnome-games/blackjack/pixmaps/chip-1.svg
+-rw-r--r--	root/root	usr/share/gnome-games/blackjack/pixmaps/chip-100.svg
+-rw-r--r--	root/root	usr/share/gnome-games/blackjack/pixmaps/chip-25.svg
+-rw-r--r--	root/root	usr/share/gnome-games/blackjack/pixmaps/chip-5.svg
+-rw-r--r--	root/root	usr/share/gnome-games/blackjack/pixmaps/white-outline.svg
+drwxr-xr-x	root/root	usr/share/gnome-games/blackjack/rules/
+-rw-r--r--	root/root	usr/share/gnome-games/blackjack/rules/Ameristar.rules
+-rw-r--r--	root/root	usr/share/gnome-games/blackjack/rules/Atlantic_City.rules
+-rw-r--r--	root/root	usr/share/gnome-games/blackjack/rules/Vegas_Downtown.rules
+-rw-r--r--	root/root	usr/share/gnome-games/blackjack/rules/Vegas_Strip.rules
+drwxr-xr-x	root/root	usr/share/gnome-games/gnotski/
+-rw-r--r--	root/root	usr/share/gnome-games/gnotski/gnotski.svg
+drwxr-xr-x	root/root	usr/share/gnome-games/icons/
+drwxr-xr-x	root/root	usr/share/gnome-games/icons/hicolor/
+drwxr-xr-x	root/root	usr/share/gnome-games/icons/hicolor/24x24/
+drwxr-xr-x	root/root	usr/share/gnome-games/icons/hicolor/24x24/actions/
+-rw-r--r--	root/root	usr/share/gnome-games/icons/hicolor/24x24/actions/teleport-random.png
+-rw-r--r--	root/root	usr/share/gnome-games/icons/hicolor/24x24/actions/teleport.png
+drwxr-xr-x	root/root	usr/share/gnome-games/icons/hicolor/scalable/
+drwxr-xr-x	root/root	usr/share/gnome-games/icons/hicolor/scalable/actions/
+-rw-r--r--	root/root	usr/share/gnome-games/icons/hicolor/scalable/actions/cards-deal.svg
+drwxr-xr-x	root/root	usr/share/gnome-games/mahjongg/
+drwxr-xr-x	root/root	usr/share/gnome-games/mahjongg/maps/
+-rw-r--r--	root/root	usr/share/gnome-games/mahjongg/maps/mahjongg.map
+drwxr-xr-x	root/root	usr/share/gnome-games/pixmaps/
+-rw-r--r--	root/root	usr/share/gnome-games/pixmaps/baize.png
+-rw-r--r--	root/root	usr/share/gnome-games/pixmaps/slot.svg
+drwxr-xr-x	root/root	usr/share/gnome-games/same-gnome/
+drwxr-xr-x	root/root	usr/share/gnome-games/same-gnome/themes/
+drwxr-xr-x	root/root	usr/share/gnome-games/same-gnome/themes/2.10/
+-rw-r--r--	root/root	usr/share/gnome-games/same-gnome/themes/2.10/planets.png
+-rw-r--r--	root/root	usr/share/gnome-games/same-gnome/themes/2.10/stones.png
+drwxr-xr-x	root/root	usr/share/gnome-games/sounds/
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/appear.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/bad.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/bonus.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/click.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/crash.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/die.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/flip-piece.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/gameover.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/gnometris.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/gobble.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/land.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/laughter.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/life.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/lines1.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/lines2.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/lines3.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/pop.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/reverse.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/slide.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/splat.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/teleport.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/turn.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/victory.ogg
+-rw-r--r--	root/root	usr/share/gnome-games/sounds/yahoo.ogg
+drwxr-xr-x	root/root	usr/share/gnome-sudoku/
+-rw-r--r--	root/root	usr/share/gnome-sudoku/print_games.glade
+-rw-r--r--	root/root	usr/share/gnome-sudoku/puzzle_generator.glade
+drwxr-xr-x	root/root	usr/share/gnome-sudoku/puzzles/
+-rw-r--r--	root/root	usr/share/gnome-sudoku/puzzles/easy
+-rw-r--r--	root/root	usr/share/gnome-sudoku/puzzles/hard
+-rw-r--r--	root/root	usr/share/gnome-sudoku/puzzles/medium
+-rw-r--r--	root/root	usr/share/gnome-sudoku/puzzles/very_hard
+-rw-r--r--	root/root	usr/share/gnome-sudoku/select_game.glade
+-rw-r--r--	root/root	usr/share/gnome-sudoku/tracker.glade
+drwxr-xr-x	root/root	usr/share/gnome/
+drwxr-xr-x	root/root	usr/share/gnome/help/
+drwxr-xr-x	root/root	usr/share/gnome/help/aisleriot/
+drwxr-xr-x	root/root	usr/share/gnome/help/aisleriot/C/
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/agnes.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/aisleriot.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/athena.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/auld_lang_syne.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/aunt_mary.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/backbone.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/bakers_dozen.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/bakers_game.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/beleaguered_castle.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/block_ten.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/bristol.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/camelot.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/canfield.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/carpet.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/chessboard.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/clock.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/cover.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/cruel.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/definitions.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/diamond_mine.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/doublets.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/eagle-wing.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/easthaven.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/eight_off.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/elevator.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/escalator.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/aisleriot/C/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/figures/camelot-goal.png
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/figures/clock-rules.png
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/first_law.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/fortress.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/fortunes.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/forty_thieves.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/fourteen.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/freecell.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/gaps.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/gay_gordons.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/glenwood.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/gold_mine.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/golf.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/gypsy.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/helsinki.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/hopscotch.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/isabel.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/jamestown.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/jumbo.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/kansas.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/king_albert.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/kings_audience.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/klondike.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/labyrinth.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/lady_jane.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/legal.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/maze.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/monte_carlo.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/napoleons_tomb.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/neighbor.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/odessa.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/osmosis.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/peek.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/pileon.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/plait.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/poker.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/quatorze.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/royal_east.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/saratoga.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/scorpion.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/scuffle.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/seahaven.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/sir_tommy.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/spider.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/spider_three_decks.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/spiderette.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/straight_up.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/streets_and_alleys.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/ten_across.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/thieves.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/thirteen.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/thumb_and_pouch.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/treize.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/triple_peaks.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/union_square.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/valentine.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/westhaven.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/whitehead.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/will_o_the_wisp.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/yield.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/yukon.xml
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/C/zebra.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/aisleriot/ca/
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/ca/aisleriot.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/aisleriot/ca/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/ca/figures/camelot-goal.png
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/ca/figures/clock-rules.png
+drwxr-xr-x	root/root	usr/share/gnome/help/aisleriot/de/
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/de/aisleriot.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/aisleriot/de/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/aisleriot/de/figures/camelot-goal.png -> ../../C/figures/camelot-goal.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/aisleriot/de/figures/clock-rules.png -> ../../C/figures/clock-rules.png
+drwxr-xr-x	root/root	usr/share/gnome/help/aisleriot/es/
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/es/aisleriot.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/aisleriot/es/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/es/figures/camelot-goal.png
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/es/figures/clock-rules.png
+drwxr-xr-x	root/root	usr/share/gnome/help/aisleriot/fr/
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/fr/aisleriot.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/aisleriot/fr/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/aisleriot/fr/figures/camelot-goal.png -> ../../C/figures/camelot-goal.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/aisleriot/fr/figures/clock-rules.png -> ../../C/figures/clock-rules.png
+drwxr-xr-x	root/root	usr/share/gnome/help/aisleriot/oc/
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/oc/aisleriot.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/aisleriot/oc/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/aisleriot/oc/figures/camelot-goal.png -> ../../C/figures/camelot-goal.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/aisleriot/oc/figures/clock-rules.png -> ../../C/figures/clock-rules.png
+drwxr-xr-x	root/root	usr/share/gnome/help/aisleriot/ru/
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/ru/aisleriot.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/aisleriot/ru/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/aisleriot/ru/figures/camelot-goal.png -> ../../C/figures/camelot-goal.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/aisleriot/ru/figures/clock-rules.png -> ../../C/figures/clock-rules.png
+drwxr-xr-x	root/root	usr/share/gnome/help/aisleriot/sv/
+-rw-r--r--	root/root	usr/share/gnome/help/aisleriot/sv/aisleriot.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/aisleriot/sv/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/aisleriot/sv/figures/camelot-goal.png -> ../../C/figures/camelot-goal.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/aisleriot/sv/figures/clock-rules.png -> ../../C/figures/clock-rules.png
+drwxr-xr-x	root/root	usr/share/gnome/help/blackjack/
+drwxr-xr-x	root/root	usr/share/gnome/help/blackjack/C/
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/C/blackjack.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/blackjack/C/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/C/figures/blackjack_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/C/figures/blackjack_win_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/C/legal.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/blackjack/ca/
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/ca/blackjack.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/blackjack/ca/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/ca/figures/blackjack_start_window.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/blackjack/ca/figures/blackjack_win_window.png -> ../../C/figures/blackjack_win_window.png
+drwxr-xr-x	root/root	usr/share/gnome/help/blackjack/de/
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/de/blackjack.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/blackjack/de/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/de/figures/blackjack_start_window.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/blackjack/de/figures/blackjack_win_window.png -> ../../C/figures/blackjack_win_window.png
+drwxr-xr-x	root/root	usr/share/gnome/help/blackjack/el/
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/el/blackjack.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/blackjack/el/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/blackjack/el/figures/blackjack_start_window.png -> ../../C/figures/blackjack_start_window.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/blackjack/el/figures/blackjack_win_window.png -> ../../C/figures/blackjack_win_window.png
+drwxr-xr-x	root/root	usr/share/gnome/help/blackjack/es/
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/es/blackjack.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/blackjack/es/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/es/figures/blackjack_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/es/figures/blackjack_win_window.png
+drwxr-xr-x	root/root	usr/share/gnome/help/blackjack/fr/
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/fr/blackjack.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/blackjack/fr/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/fr/figures/blackjack_start_window.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/blackjack/fr/figures/blackjack_win_window.png -> ../../C/figures/blackjack_win_window.png
+drwxr-xr-x	root/root	usr/share/gnome/help/blackjack/oc/
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/oc/blackjack.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/blackjack/oc/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/blackjack/oc/figures/blackjack_start_window.png -> ../../C/figures/blackjack_start_window.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/blackjack/oc/figures/blackjack_win_window.png -> ../../C/figures/blackjack_win_window.png
+drwxr-xr-x	root/root	usr/share/gnome/help/blackjack/sv/
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/sv/blackjack.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/blackjack/sv/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/sv/figures/blackjack_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/blackjack/sv/figures/blackjack_win_window.png
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/C/
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/C/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/C/figures/game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/C/figures/new_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/C/figures/preferences_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/C/figures/preferences_view.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/C/glchess.xml
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/C/legal.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/ca/
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/ca/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/ca/figures/game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/ca/figures/new_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/ca/figures/preferences_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/ca/figures/preferences_view.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/ca/glchess.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/de/
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/de/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/de/figures/game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/de/figures/new_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/de/figures/preferences_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/de/figures/preferences_view.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/de/glchess.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/el/
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/el/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/glchess/el/figures/game.png -> ../../C/figures/game.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glchess/el/figures/new_game.png -> ../../C/figures/new_game.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glchess/el/figures/preferences_game.png -> ../../C/figures/preferences_game.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glchess/el/figures/preferences_view.png -> ../../C/figures/preferences_view.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/el/glchess.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/es/
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/es/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/es/figures/game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/es/figures/new_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/es/figures/preferences_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/es/figures/preferences_view.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/es/glchess.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/fr/
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/fr/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/fr/figures/game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/fr/figures/new_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/fr/figures/preferences_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/fr/figures/preferences_view.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/fr/glchess.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/oc/
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/oc/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/glchess/oc/figures/game.png -> ../../C/figures/game.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glchess/oc/figures/new_game.png -> ../../C/figures/new_game.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glchess/oc/figures/preferences_game.png -> ../../C/figures/preferences_game.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glchess/oc/figures/preferences_view.png -> ../../C/figures/preferences_view.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/oc/glchess.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/pt_BR/
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/pt_BR/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/glchess/pt_BR/figures/game.png -> ../../C/figures/game.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glchess/pt_BR/figures/new_game.png -> ../../C/figures/new_game.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glchess/pt_BR/figures/preferences_game.png -> ../../C/figures/preferences_game.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glchess/pt_BR/figures/preferences_view.png -> ../../C/figures/preferences_view.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/pt_BR/glchess.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/ru/
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/ru/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/ru/figures/game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/ru/figures/new_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/ru/figures/preferences_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/ru/figures/preferences_view.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/ru/glchess.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/sv/
+drwxr-xr-x	root/root	usr/share/gnome/help/glchess/sv/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/glchess/sv/figures/game.png -> ../../C/figures/game.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glchess/sv/figures/new_game.png -> ../../C/figures/new_game.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glchess/sv/figures/preferences_game.png -> ../../C/figures/preferences_game.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glchess/sv/figures/preferences_view.png -> ../../C/figures/preferences_view.png
+-rw-r--r--	root/root	usr/share/gnome/help/glchess/sv/glchess.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/C/
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/C/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/glines/C/figures/glines-gameover.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/C/figures/glines-startgame.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/C/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/C/glines.xml
+-rw-r--r--	root/root	usr/share/gnome/help/glines/C/legal.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/ca/
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/ca/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/glines/ca/figures/glines-gameover.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/ca/figures/glines-startgame.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/ca/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/ca/glines.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/de/
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/de/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/glines/de/figures/glines-gameover.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/de/figures/glines-startgame.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/de/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/de/glines.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/en_GB/
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/en_GB/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/glines/en_GB/figures/glines-gameover.png -> ../../C/figures/glines-gameover.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glines/en_GB/figures/glines-startgame.png -> ../../C/figures/glines-startgame.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glines/en_GB/figures/preferences.png -> ../../C/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/en_GB/glines.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/es/
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/es/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/glines/es/figures/glines-gameover.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/es/figures/glines-startgame.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/es/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/es/glines.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/fr/
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/fr/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/glines/fr/figures/glines-gameover.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/fr/figures/glines-startgame.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/fr/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/fr/glines.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/it/
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/it/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/glines/it/figures/glines-gameover.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/it/figures/glines-startgame.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/it/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/it/glines.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/oc/
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/oc/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/glines/oc/figures/glines-gameover.png -> ../../C/figures/glines-gameover.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glines/oc/figures/glines-startgame.png -> ../../C/figures/glines-startgame.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glines/oc/figures/preferences.png -> ../../C/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/oc/glines.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/ru/
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/ru/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/glines/ru/figures/glines-gameover.png -> ../../C/figures/glines-gameover.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glines/ru/figures/glines-startgame.png -> ../../C/figures/glines-startgame.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/glines/ru/figures/preferences.png -> ../../C/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/ru/glines.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/sv/
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/sv/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/glines/sv/figures/glines-gameover.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/sv/figures/glines-startgame.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/sv/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/sv/glines.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/tr/
+drwxr-xr-x	root/root	usr/share/gnome/help/glines/tr/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/glines/tr/figures/glines-gameover.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/tr/figures/glines-startgame.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/tr/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/glines/tr/glines.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/C/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/C/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/C/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/C/figures/mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/C/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/C/figures/tileset.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/C/gnect.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/C/legal.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/C/network-games.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/ca/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/ca/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/ca/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/ca/figures/mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/ca/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/ca/figures/tileset.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/ca/gnect.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/de/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/de/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/de/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/de/figures/mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/de/figures/tables.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnect/de/figures/tileset.png -> ../../C/figures/tileset.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/de/gnect.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/en_GB/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/en_GB/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnect/en_GB/figures/connect.png -> ../../C/figures/connect.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnect/en_GB/figures/mainwindow.png -> ../../C/figures/mainwindow.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnect/en_GB/figures/tables.png -> ../../C/figures/tables.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnect/en_GB/figures/tileset.png -> ../../C/figures/tileset.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/en_GB/gnect.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/es/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/es/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/es/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/es/figures/mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/es/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/es/figures/tileset.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/es/gnect.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/fr/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/fr/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/fr/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/fr/figures/mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/fr/figures/tables.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnect/fr/figures/tileset.png -> ../../C/figures/tileset.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/fr/gnect.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/it/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/it/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/it/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/it/figures/mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/it/figures/tables.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnect/it/figures/tileset.png -> ../../C/figures/tileset.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/it/gnect.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/oc/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/oc/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnect/oc/figures/connect.png -> ../../C/figures/connect.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnect/oc/figures/mainwindow.png -> ../../C/figures/mainwindow.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnect/oc/figures/tables.png -> ../../C/figures/tables.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnect/oc/figures/tileset.png -> ../../C/figures/tileset.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/oc/gnect.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/sv/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnect/sv/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnect/sv/figures/connect.png -> ../../C/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/sv/figures/mainwindow.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnect/sv/figures/tables.png -> ../../C/figures/tables.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnect/sv/figures/tileset.png -> ../../C/figures/tileset.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnect/sv/gnect.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnibbles/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnibbles/C/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnibbles/C/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/C/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/C/figures/game.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/C/figures/intro.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/C/figures/playing.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/C/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/C/figures/worm_op.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/C/gnibbles.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/C/legal.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/C/network-games.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnibbles/ca/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnibbles/ca/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/ca/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/ca/figures/game.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/ca/figures/intro.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/ca/figures/playing.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/ca/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/ca/figures/worm_op.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/ca/gnibbles.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnibbles/de/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnibbles/de/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/de/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/de/figures/game.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/de/figures/intro.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/de/figures/playing.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/de/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/de/figures/worm_op.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/de/gnibbles.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnibbles/es/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnibbles/es/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/es/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/es/figures/game.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/es/figures/intro.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/es/figures/playing.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/es/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/es/figures/worm_op.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/es/gnibbles.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnibbles/fr/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnibbles/fr/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/fr/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/fr/figures/game.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/fr/figures/intro.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/fr/figures/playing.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/fr/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/fr/figures/worm_op.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/fr/gnibbles.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnibbles/it/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnibbles/it/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/it/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/it/figures/game.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/it/figures/intro.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/it/figures/playing.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/it/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/it/figures/worm_op.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/it/gnibbles.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnibbles/oc/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnibbles/oc/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnibbles/oc/figures/connect.png -> ../../C/figures/connect.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnibbles/oc/figures/game.png -> ../../C/figures/game.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnibbles/oc/figures/intro.png -> ../../C/figures/intro.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnibbles/oc/figures/playing.png -> ../../C/figures/playing.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnibbles/oc/figures/tables.png -> ../../C/figures/tables.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnibbles/oc/figures/worm_op.png -> ../../C/figures/worm_op.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/oc/gnibbles.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnibbles/sv/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnibbles/sv/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnibbles/sv/figures/connect.png -> ../../C/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/sv/figures/game.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/sv/figures/intro.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/sv/figures/playing.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnibbles/sv/figures/tables.png -> ../../C/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/sv/figures/worm_op.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnibbles/sv/gnibbles.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/C/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/C/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/C/figures/gnobots2-main.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/C/gnobots2.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/C/legal.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/ca/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/ca/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/ca/figures/gnobots2-main.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/ca/gnobots2.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/da/
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/da/gnobots2.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/da/legal.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/de/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/de/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/de/figures/gnobots2-main.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/de/gnobots2.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/es/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/es/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/es/figures/gnobots2-main.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/es/gnobots2.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/fr/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/fr/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/fr/figures/gnobots2-main.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/fr/gnobots2.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/it/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/it/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/it/figures/gnobots2-main.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/it/gnobots2.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/oc/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/oc/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnobots2/oc/figures/gnobots2-main.png -> ../../C/figures/gnobots2-main.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/oc/gnobots2.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/sv/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/sv/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/sv/figures/gnobots2-main.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/sv/gnobots2.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/C/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/C/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/C/figures/Print_Sudokus.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/C/figures/always_show_hint.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/C/figures/error_highlighting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/C/figures/highlighting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/C/figures/hints.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/C/figures/resuming.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/C/figures/starting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/C/gnome-sudoku.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/C/legal.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/ca/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/ca/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/ca/figures/Print_Sudokus.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/ca/figures/always_show_hint.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/ca/figures/error_highlighting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/ca/figures/highlighting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/ca/figures/hints.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/ca/figures/resuming.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/ca/figures/starting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/ca/gnome-sudoku.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/da/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/da/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/da/figures/Print_Sudokus.png -> ../../C/figures/Print_Sudokus.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/da/figures/always_show_hint.png -> ../../C/figures/always_show_hint.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/da/figures/error_highlighting.png -> ../../C/figures/error_highlighting.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/da/figures/highlighting.png -> ../../C/figures/highlighting.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/da/figures/hints.png -> ../../C/figures/hints.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/da/figures/resuming.png -> ../../C/figures/resuming.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/da/figures/starting.png -> ../../C/figures/starting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/da/gnome-sudoku.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/de/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/de/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/de/figures/Print_Sudokus.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/de/figures/always_show_hint.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/de/figures/error_highlighting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/de/figures/highlighting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/de/figures/hints.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/de/figures/resuming.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/de/figures/starting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/de/gnome-sudoku.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/es/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/es/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/es/figures/Print_Sudokus.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/es/figures/always_show_hint.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/es/figures/error_highlighting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/es/figures/highlighting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/es/figures/hints.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/es/figures/resuming.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/es/figures/starting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/es/gnome-sudoku.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/fr/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/fr/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/fr/figures/Print_Sudokus.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/fr/figures/always_show_hint.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/fr/figures/error_highlighting.png -> ../../C/figures/error_highlighting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/fr/figures/highlighting.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/fr/figures/hints.png -> ../../C/figures/hints.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/fr/figures/resuming.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/fr/figures/starting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/fr/gnome-sudoku.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/it/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/it/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/it/figures/Print_Sudokus.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/it/figures/always_show_hint.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/it/figures/error_highlighting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/it/figures/highlighting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/it/figures/hints.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/it/figures/resuming.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/it/figures/starting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/it/gnome-sudoku.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/oc/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/oc/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/oc/figures/Print_Sudokus.png -> ../../C/figures/Print_Sudokus.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/oc/figures/always_show_hint.png -> ../../C/figures/always_show_hint.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/oc/figures/error_highlighting.png -> ../../C/figures/error_highlighting.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/oc/figures/highlighting.png -> ../../C/figures/highlighting.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/oc/figures/hints.png -> ../../C/figures/hints.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/oc/figures/resuming.png -> ../../C/figures/resuming.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/oc/figures/starting.png -> ../../C/figures/starting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/oc/gnome-sudoku.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/pt_BR/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/pt_BR/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/pt_BR/figures/Print_Sudokus.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/pt_BR/figures/always_show_hint.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/pt_BR/figures/error_highlighting.png -> ../../C/figures/error_highlighting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/pt_BR/figures/highlighting.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/pt_BR/figures/hints.png -> ../../C/figures/hints.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/pt_BR/figures/resuming.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/pt_BR/figures/starting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/pt_BR/gnome-sudoku.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/ru/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/ru/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/ru/figures/Print_Sudokus.png -> ../../C/figures/Print_Sudokus.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/ru/figures/always_show_hint.png -> ../../C/figures/always_show_hint.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/ru/figures/error_highlighting.png -> ../../C/figures/error_highlighting.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/ru/figures/highlighting.png -> ../../C/figures/highlighting.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/ru/figures/hints.png -> ../../C/figures/hints.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/ru/figures/resuming.png -> ../../C/figures/resuming.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/ru/figures/starting.png -> ../../C/figures/starting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/ru/gnome-sudoku.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/sv/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-sudoku/sv/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/sv/figures/Print_Sudokus.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/sv/figures/always_show_hint.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/sv/figures/error_highlighting.png -> ../../C/figures/error_highlighting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/sv/figures/highlighting.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/sv/figures/hints.png -> ../../C/figures/hints.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/sv/figures/resuming.png -> ../../C/figures/resuming.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-sudoku/sv/figures/starting.png -> ../../C/figures/starting.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-sudoku/sv/gnome-sudoku.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnometris/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnometris/C/
+-rw-r--r--	root/root	usr/share/gnome/help/gnometris/C/gnometris.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gnometris/C/legal.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnometris/ca/
+-rw-r--r--	root/root	usr/share/gnome/help/gnometris/ca/gnometris.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnometris/de/
+-rw-r--r--	root/root	usr/share/gnome/help/gnometris/de/gnometris.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnometris/el/
+-rw-r--r--	root/root	usr/share/gnome/help/gnometris/el/gnometris.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnometris/es/
+-rw-r--r--	root/root	usr/share/gnome/help/gnometris/es/gnometris.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnometris/fr/
+-rw-r--r--	root/root	usr/share/gnome/help/gnometris/fr/gnometris.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnometris/it/
+-rw-r--r--	root/root	usr/share/gnome/help/gnometris/it/gnometris.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnometris/oc/
+-rw-r--r--	root/root	usr/share/gnome/help/gnometris/oc/gnometris.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnometris/sv/
+-rw-r--r--	root/root	usr/share/gnome/help/gnometris/sv/gnometris.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnomine/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnomine/C/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnomine/C/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/C/figures/easy-hints-1.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/C/figures/easy-hints-2.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/C/figures/easy-hints-3.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/C/figures/faces.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/C/figures/flags.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/C/figures/hard-hints-1.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/C/figures/hard-hints-2.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/C/figures/hard-hints-3.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/C/figures/highscores.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/C/figures/imnotsureflagscheckbox.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/C/figures/main-window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/C/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/C/figures/statusbar.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/C/gnomine.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/C/legal.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnomine/ca/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnomine/ca/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/ca/figures/easy-hints-1.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/ca/figures/easy-hints-2.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/ca/figures/easy-hints-3.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/ca/figures/faces.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/ca/figures/flags.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/ca/figures/hard-hints-1.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/ca/figures/hard-hints-2.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/ca/figures/hard-hints-3.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/ca/figures/highscores.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/ca/figures/imnotsureflagscheckbox.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/ca/figures/main-window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/ca/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/ca/figures/statusbar.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/ca/gnomine.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnomine/de/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnomine/de/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/de/figures/easy-hints-1.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/de/figures/easy-hints-2.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/de/figures/easy-hints-3.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/de/figures/faces.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/de/figures/flags.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/de/figures/hard-hints-1.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/de/figures/hard-hints-2.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/de/figures/hard-hints-3.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/de/figures/highscores.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/de/figures/imnotsureflagscheckbox.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/de/figures/main-window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/de/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/de/figures/statusbar.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/de/gnomine.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnomine/es/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnomine/es/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/es/figures/easy-hints-1.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/es/figures/easy-hints-2.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/es/figures/easy-hints-3.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/es/figures/faces.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/es/figures/flags.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/es/figures/hard-hints-1.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/es/figures/hard-hints-2.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/es/figures/hard-hints-3.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/es/figures/highscores.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/es/figures/imnotsureflagscheckbox.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/es/figures/main-window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/es/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/es/figures/statusbar.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/es/gnomine.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnomine/fr/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnomine/fr/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/fr/figures/easy-hints-1.png -> ../../C/figures/easy-hints-1.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/fr/figures/easy-hints-2.png -> ../../C/figures/easy-hints-2.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/fr/figures/easy-hints-3.png -> ../../C/figures/easy-hints-3.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/fr/figures/faces.png -> ../../C/figures/faces.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/fr/figures/flags.png -> ../../C/figures/flags.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/fr/figures/hard-hints-1.png -> ../../C/figures/hard-hints-1.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/fr/figures/hard-hints-2.png -> ../../C/figures/hard-hints-2.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/fr/figures/hard-hints-3.png -> ../../C/figures/hard-hints-3.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/fr/figures/highscores.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/fr/figures/imnotsureflagscheckbox.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/fr/figures/main-window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/fr/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/fr/figures/statusbar.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/fr/gnomine.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnomine/it/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnomine/it/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/it/figures/easy-hints-1.png -> ../../C/figures/easy-hints-1.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/it/figures/easy-hints-2.png -> ../../C/figures/easy-hints-2.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/it/figures/easy-hints-3.png -> ../../C/figures/easy-hints-3.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/it/figures/faces.png -> ../../C/figures/faces.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/it/figures/flags.png -> ../../C/figures/flags.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/it/figures/hard-hints-1.png -> ../../C/figures/hard-hints-1.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/it/figures/hard-hints-2.png -> ../../C/figures/hard-hints-2.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/it/figures/hard-hints-3.png -> ../../C/figures/hard-hints-3.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/it/figures/highscores.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/it/figures/imnotsureflagscheckbox.png -> ../../C/figures/imnotsureflagscheckbox.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/it/figures/main-window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/it/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/it/figures/statusbar.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/it/gnomine.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnomine/oc/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnomine/oc/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/oc/figures/easy-hints-1.png -> ../../C/figures/easy-hints-1.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/oc/figures/easy-hints-2.png -> ../../C/figures/easy-hints-2.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/oc/figures/easy-hints-3.png -> ../../C/figures/easy-hints-3.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/oc/figures/faces.png -> ../../C/figures/faces.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/oc/figures/flags.png -> ../../C/figures/flags.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/oc/figures/hard-hints-1.png -> ../../C/figures/hard-hints-1.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/oc/figures/hard-hints-2.png -> ../../C/figures/hard-hints-2.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/oc/figures/hard-hints-3.png -> ../../C/figures/hard-hints-3.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/oc/figures/highscores.png -> ../../C/figures/highscores.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/oc/figures/imnotsureflagscheckbox.png -> ../../C/figures/imnotsureflagscheckbox.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/oc/figures/main-window.png -> ../../C/figures/main-window.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/oc/figures/preferences.png -> ../../C/figures/preferences.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/oc/figures/statusbar.png -> ../../C/figures/statusbar.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/oc/gnomine.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnomine/sv/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnomine/sv/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/sv/figures/easy-hints-1.png -> ../../C/figures/easy-hints-1.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/sv/figures/easy-hints-2.png -> ../../C/figures/easy-hints-2.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/sv/figures/easy-hints-3.png -> ../../C/figures/easy-hints-3.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/sv/figures/faces.png -> ../../C/figures/faces.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/sv/figures/flags.png -> ../../C/figures/flags.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/sv/figures/hard-hints-1.png -> ../../C/figures/hard-hints-1.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/sv/figures/hard-hints-2.png -> ../../C/figures/hard-hints-2.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/sv/figures/hard-hints-3.png -> ../../C/figures/hard-hints-3.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/sv/figures/highscores.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/sv/figures/imnotsureflagscheckbox.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnomine/sv/figures/main-window.png -> ../../C/figures/main-window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/sv/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/sv/figures/statusbar.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnomine/sv/gnomine.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/C/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/C/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/C/figures/gnotravex_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/C/figures/gnotravex_mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/C/gnotravex.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/C/legal.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/ca/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/ca/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/ca/figures/gnotravex_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/ca/figures/gnotravex_mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/ca/gnotravex.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/de/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/de/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/de/figures/gnotravex_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/de/figures/gnotravex_mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/de/gnotravex.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/el/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/el/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/el/figures/gnotravex_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/el/figures/gnotravex_mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/el/gnotravex.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/es/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/es/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/es/figures/gnotravex_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/es/figures/gnotravex_mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/es/gnotravex.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/fr/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/fr/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/fr/figures/gnotravex_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/fr/figures/gnotravex_mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/fr/gnotravex.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/it/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/it/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/it/figures/gnotravex_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/it/figures/gnotravex_mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/it/gnotravex.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/oc/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/oc/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnotravex/oc/figures/gnotravex_game.png -> ../../C/figures/gnotravex_game.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnotravex/oc/figures/gnotravex_mainwindow.png -> ../../C/figures/gnotravex_mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/oc/gnotravex.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/ru/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/ru/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/ru/figures/gnotravex_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/ru/figures/gnotravex_mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/ru/gnotravex.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/sv/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/sv/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/sv/figures/gnotravex_game.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/sv/figures/gnotravex_mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/sv/gnotravex.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotski/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotski/C/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotski/C/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/C/figures/gnotski_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/C/figures/gnotski_win.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/C/gnotski.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/C/legal.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotski/ca/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotski/ca/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/ca/figures/gnotski_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/ca/figures/gnotski_win.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/ca/gnotski.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotski/de/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotski/de/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/de/figures/gnotski_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/de/figures/gnotski_win.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/de/gnotski.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotski/es/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotski/es/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/es/figures/gnotski_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/es/figures/gnotski_win.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/es/gnotski.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotski/fr/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotski/fr/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/fr/figures/gnotski_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/fr/figures/gnotski_win.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/fr/gnotski.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotski/it/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotski/it/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/it/figures/gnotski_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/it/figures/gnotski_win.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/it/gnotski.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotski/oc/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotski/oc/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnotski/oc/figures/gnotski_start_window.png -> ../../C/figures/gnotski_start_window.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnotski/oc/figures/gnotski_win.png -> ../../C/figures/gnotski_win.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/oc/gnotski.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotski/sv/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnotski/sv/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/sv/figures/gnotski_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/sv/figures/gnotski_win.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotski/sv/gnotski.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/C/
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/C/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/C/figures/mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/C/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/C/gtali.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/C/legal.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/ca/
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/ca/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/ca/figures/mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/ca/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/ca/gtali.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/da/
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/da/gtali.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/da/legal.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/de/
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/de/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/de/figures/mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/de/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/de/gtali.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/es/
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/es/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/es/figures/mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/es/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/es/gtali.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/fr/
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/fr/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/fr/figures/mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/fr/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/fr/gtali.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/it/
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/it/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/it/figures/mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/it/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/it/gtali.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/oc/
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/oc/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gtali/oc/figures/mainwindow.png -> ../../C/figures/mainwindow.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gtali/oc/figures/preferences.png -> ../../C/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/oc/gtali.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/pt_BR/
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/pt_BR/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gtali/pt_BR/figures/mainwindow.png -> ../../C/figures/mainwindow.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gtali/pt_BR/figures/preferences.png -> ../../C/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/pt_BR/gtali.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/sv/
+drwxr-xr-x	root/root	usr/share/gnome/help/gtali/sv/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/sv/figures/mainwindow.png
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/sv/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/gtali/sv/gtali.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/C/
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/C/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/C/figures/ANIMATION.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/C/figures/BLOCK.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/C/figures/FIRST.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/C/figures/PLAYER.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/C/figures/START.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/C/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/C/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/C/iagno.xml
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/C/legal.xml
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/C/network-games.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/ca/
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/ca/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/ca/figures/ANIMATION.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/ca/figures/BLOCK.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/ca/figures/FIRST.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/ca/figures/PLAYER.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/ca/figures/START.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/ca/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/ca/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/ca/iagno.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/de/
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/de/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/de/figures/ANIMATION.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/de/figures/BLOCK.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/de/figures/FIRST.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/de/figures/PLAYER.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/de/figures/START.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/de/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/de/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/de/iagno.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/es/
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/es/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/es/figures/ANIMATION.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/es/figures/BLOCK.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/es/figures/FIRST.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/es/figures/PLAYER.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/es/figures/START.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/es/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/es/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/es/iagno.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/fr/
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/fr/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/fr/figures/ANIMATION.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/fr/figures/BLOCK.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/fr/figures/FIRST.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/fr/figures/PLAYER.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/fr/figures/START.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/iagno/fr/figures/connect.png -> ../../C/figures/connect.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/iagno/fr/figures/tables.png -> ../../C/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/fr/iagno.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/it/
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/it/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/it/figures/ANIMATION.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/it/figures/BLOCK.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/it/figures/FIRST.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/it/figures/PLAYER.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/it/figures/START.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/it/figures/connect.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/it/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/it/iagno.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/oc/
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/oc/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/iagno/oc/figures/ANIMATION.png -> ../../C/figures/ANIMATION.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/iagno/oc/figures/BLOCK.png -> ../../C/figures/BLOCK.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/iagno/oc/figures/FIRST.png -> ../../C/figures/FIRST.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/iagno/oc/figures/PLAYER.png -> ../../C/figures/PLAYER.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/iagno/oc/figures/START.png -> ../../C/figures/START.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/iagno/oc/figures/connect.png -> ../../C/figures/connect.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/iagno/oc/figures/tables.png -> ../../C/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/oc/iagno.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/pt_BR/
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/pt_BR/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/pt_BR/figures/ANIMATION.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/pt_BR/figures/BLOCK.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/pt_BR/figures/FIRST.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/pt_BR/figures/PLAYER.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/pt_BR/figures/START.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/iagno/pt_BR/figures/connect.png -> ../../C/figures/connect.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/iagno/pt_BR/figures/tables.png -> ../../C/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/pt_BR/iagno.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/sv/
+drwxr-xr-x	root/root	usr/share/gnome/help/iagno/sv/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/sv/figures/ANIMATION.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/sv/figures/BLOCK.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/sv/figures/FIRST.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/sv/figures/PLAYER.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/sv/figures/START.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/iagno/sv/figures/connect.png -> ../../C/figures/connect.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/iagno/sv/figures/tables.png -> ../../C/figures/tables.png
+-rw-r--r--	root/root	usr/share/gnome/help/iagno/sv/iagno.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/mahjongg/
+drwxr-xr-x	root/root	usr/share/gnome/help/mahjongg/C/
+drwxr-xr-x	root/root	usr/share/gnome/help/mahjongg/C/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/C/figures/mahjongg.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/C/figures/no-move.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/C/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/C/figures/toolbar.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/C/legal.xml
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/C/mahjongg.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/mahjongg/ca/
+drwxr-xr-x	root/root	usr/share/gnome/help/mahjongg/ca/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/ca/figures/mahjongg.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/ca/figures/no-move.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/ca/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/ca/figures/toolbar.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/ca/mahjongg.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/mahjongg/de/
+drwxr-xr-x	root/root	usr/share/gnome/help/mahjongg/de/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/de/figures/mahjongg.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/de/figures/no-move.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/de/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/de/figures/toolbar.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/de/mahjongg.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/mahjongg/es/
+drwxr-xr-x	root/root	usr/share/gnome/help/mahjongg/es/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/es/figures/mahjongg.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/es/figures/no-move.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/es/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/es/figures/toolbar.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/es/mahjongg.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/mahjongg/fr/
+drwxr-xr-x	root/root	usr/share/gnome/help/mahjongg/fr/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/fr/figures/mahjongg.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/fr/figures/no-move.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/fr/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/fr/figures/toolbar.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/fr/mahjongg.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/mahjongg/it/
+drwxr-xr-x	root/root	usr/share/gnome/help/mahjongg/it/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/it/figures/mahjongg.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/it/figures/no-move.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/it/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/it/figures/toolbar.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/it/mahjongg.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/mahjongg/oc/
+drwxr-xr-x	root/root	usr/share/gnome/help/mahjongg/oc/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/mahjongg/oc/figures/mahjongg.png -> ../../C/figures/mahjongg.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/mahjongg/oc/figures/no-move.png -> ../../C/figures/no-move.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/mahjongg/oc/figures/preferences.png -> ../../C/figures/preferences.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/mahjongg/oc/figures/toolbar.png -> ../../C/figures/toolbar.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/oc/mahjongg.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/mahjongg/sv/
+drwxr-xr-x	root/root	usr/share/gnome/help/mahjongg/sv/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/sv/figures/mahjongg.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/sv/figures/no-move.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/sv/figures/preferences.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/sv/figures/toolbar.png
+-rw-r--r--	root/root	usr/share/gnome/help/mahjongg/sv/mahjongg.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/C/
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/C/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/C/figures/play.png
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/C/figures/start-up.png
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/C/legal.xml
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/C/same-gnome.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/ca/
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/ca/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/ca/figures/play.png
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/ca/figures/start-up.png
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/ca/legal.xml
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/ca/same-gnome.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/de/
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/de/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/de/figures/play.png
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/de/figures/start-up.png
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/de/legal.xml
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/de/same-gnome.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/en_GB/
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/en_GB/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/same-gnome/en_GB/figures/play.png -> ../../C/figures/play.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/same-gnome/en_GB/figures/start-up.png -> ../../C/figures/start-up.png
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/en_GB/legal.xml
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/en_GB/same-gnome.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/es/
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/es/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/es/figures/play.png
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/es/figures/start-up.png
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/es/legal.xml
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/es/same-gnome.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/fr/
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/fr/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/fr/figures/play.png
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/fr/figures/start-up.png
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/fr/legal.xml
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/fr/same-gnome.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/it/
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/it/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/it/figures/play.png
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/it/figures/start-up.png
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/it/legal.xml
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/it/same-gnome.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/oc/
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/oc/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/same-gnome/oc/figures/play.png -> ../../C/figures/play.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/same-gnome/oc/figures/start-up.png -> ../../C/figures/start-up.png
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/oc/legal.xml
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/oc/same-gnome.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/ru/
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/ru/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/same-gnome/ru/figures/play.png -> ../../C/figures/play.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/same-gnome/ru/figures/start-up.png -> ../../C/figures/start-up.png
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/ru/legal.xml
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/ru/same-gnome.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/sv/
+drwxr-xr-x	root/root	usr/share/gnome/help/same-gnome/sv/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/sv/figures/play.png
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/sv/figures/start-up.png
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/sv/legal.xml
+-rw-r--r--	root/root	usr/share/gnome/help/same-gnome/sv/same-gnome.xml
+drwxr-xr-x	root/root	usr/share/icons/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/gnome-aisleriot.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/gnome-blackjack.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/gnome-freecell.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/gnome-glchess.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/gnome-glines.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/gnome-gnect.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/gnome-gnibbles.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/gnome-gnometris.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/gnome-iagno.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/gnome-klotski.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/gnome-mahjongg.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/gnome-mines.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/gnome-robots.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/gnome-samegnome.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/gnome-sudoku.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/gnome-tali.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/gnome-tetravex.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/gnome-aisleriot.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/gnome-blackjack.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/gnome-freecell.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/gnome-glchess.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/gnome-glines.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/gnome-gnect.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/gnome-gnibbles.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/gnome-gnometris.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/gnome-iagno.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/gnome-klotski.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/gnome-mahjongg.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/gnome-mines.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/gnome-robots.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/gnome-samegnome.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/gnome-sudoku.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/gnome-tali.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/gnome-tetravex.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/24x24/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/24x24/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/gnome-aisleriot.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/gnome-blackjack.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/gnome-freecell.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/gnome-glchess.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/gnome-glines.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/gnome-gnect.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/gnome-gnibbles.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/gnome-gnometris.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/gnome-iagno.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/gnome-klotski.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/gnome-mahjongg.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/gnome-mines.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/gnome-robots.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/gnome-samegnome.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/gnome-sudoku.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/gnome-tali.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/gnome-tetravex.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/gnome-aisleriot.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/gnome-blackjack.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/gnome-freecell.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/gnome-glchess.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/gnome-glines.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/gnome-gnect.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/gnome-gnibbles.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/gnome-gnometris.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/gnome-iagno.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/gnome-klotski.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/gnome-mahjongg.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/gnome-mines.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/gnome-robots.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/gnome-samegnome.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/gnome-sudoku.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/gnome-tali.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/gnome-tetravex.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gnome-aisleriot.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gnome-blackjack.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gnome-freecell.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gnome-glchess.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gnome-glines.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gnome-gnect.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gnome-gnibbles.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gnome-gnometris.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gnome-iagno.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gnome-klotski.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gnome-mahjongg.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gnome-mines.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gnome-robots.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gnome-samegnome.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gnome-sudoku.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gnome-tali.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/gnome-tetravex.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/gnome-aisleriot.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/gnome-blackjack.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/gnome-freecell.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/gnome-glchess.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/gnome-glines.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/gnome-gnect.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/gnome-gnibbles.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/gnome-gnometris.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/gnome-iagno.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/gnome-klotski.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/gnome-mines.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/gnome-robots.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/gnome-samegnome.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/gnome-sudoku.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/gnome-tali.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/gnome-tetravex.svg
+drwxr-xr-x	root/root	usr/share/omf/
+drwxr-xr-x	root/root	usr/share/omf/aisleriot/
+-rw-r--r--	root/root	usr/share/omf/aisleriot/aisleriot-C.omf
+-rw-r--r--	root/root	usr/share/omf/aisleriot/aisleriot-ca.omf
+-rw-r--r--	root/root	usr/share/omf/aisleriot/aisleriot-de.omf
+-rw-r--r--	root/root	usr/share/omf/aisleriot/aisleriot-es.omf
+-rw-r--r--	root/root	usr/share/omf/aisleriot/aisleriot-fr.omf
+-rw-r--r--	root/root	usr/share/omf/aisleriot/aisleriot-oc.omf
+-rw-r--r--	root/root	usr/share/omf/aisleriot/aisleriot-ru.omf
+-rw-r--r--	root/root	usr/share/omf/aisleriot/aisleriot-sv.omf
+drwxr-xr-x	root/root	usr/share/omf/blackjack/
+-rw-r--r--	root/root	usr/share/omf/blackjack/blackjack-C.omf
+-rw-r--r--	root/root	usr/share/omf/blackjack/blackjack-ca.omf
+-rw-r--r--	root/root	usr/share/omf/blackjack/blackjack-de.omf
+-rw-r--r--	root/root	usr/share/omf/blackjack/blackjack-el.omf
+-rw-r--r--	root/root	usr/share/omf/blackjack/blackjack-es.omf
+-rw-r--r--	root/root	usr/share/omf/blackjack/blackjack-fr.omf
+-rw-r--r--	root/root	usr/share/omf/blackjack/blackjack-oc.omf
+-rw-r--r--	root/root	usr/share/omf/blackjack/blackjack-sv.omf
+drwxr-xr-x	root/root	usr/share/omf/glchess/
+-rw-r--r--	root/root	usr/share/omf/glchess/glchess-C.omf
+-rw-r--r--	root/root	usr/share/omf/glchess/glchess-ca.omf
+-rw-r--r--	root/root	usr/share/omf/glchess/glchess-de.omf
+-rw-r--r--	root/root	usr/share/omf/glchess/glchess-el.omf
+-rw-r--r--	root/root	usr/share/omf/glchess/glchess-es.omf
+-rw-r--r--	root/root	usr/share/omf/glchess/glchess-fr.omf
+-rw-r--r--	root/root	usr/share/omf/glchess/glchess-oc.omf
+-rw-r--r--	root/root	usr/share/omf/glchess/glchess-pt_BR.omf
+-rw-r--r--	root/root	usr/share/omf/glchess/glchess-ru.omf
+-rw-r--r--	root/root	usr/share/omf/glchess/glchess-sv.omf
+drwxr-xr-x	root/root	usr/share/omf/glines/
+-rw-r--r--	root/root	usr/share/omf/glines/glines-C.omf
+-rw-r--r--	root/root	usr/share/omf/glines/glines-ca.omf
+-rw-r--r--	root/root	usr/share/omf/glines/glines-de.omf
+-rw-r--r--	root/root	usr/share/omf/glines/glines-en_GB.omf
+-rw-r--r--	root/root	usr/share/omf/glines/glines-es.omf
+-rw-r--r--	root/root	usr/share/omf/glines/glines-fr.omf
+-rw-r--r--	root/root	usr/share/omf/glines/glines-it.omf
+-rw-r--r--	root/root	usr/share/omf/glines/glines-oc.omf
+-rw-r--r--	root/root	usr/share/omf/glines/glines-ru.omf
+-rw-r--r--	root/root	usr/share/omf/glines/glines-sv.omf
+-rw-r--r--	root/root	usr/share/omf/glines/glines-tr.omf
+drwxr-xr-x	root/root	usr/share/omf/gnect/
+-rw-r--r--	root/root	usr/share/omf/gnect/gnect-C.omf
+-rw-r--r--	root/root	usr/share/omf/gnect/gnect-ca.omf
+-rw-r--r--	root/root	usr/share/omf/gnect/gnect-de.omf
+-rw-r--r--	root/root	usr/share/omf/gnect/gnect-en_GB.omf
+-rw-r--r--	root/root	usr/share/omf/gnect/gnect-es.omf
+-rw-r--r--	root/root	usr/share/omf/gnect/gnect-fr.omf
+-rw-r--r--	root/root	usr/share/omf/gnect/gnect-it.omf
+-rw-r--r--	root/root	usr/share/omf/gnect/gnect-oc.omf
+-rw-r--r--	root/root	usr/share/omf/gnect/gnect-sv.omf
+drwxr-xr-x	root/root	usr/share/omf/gnibbles/
+-rw-r--r--	root/root	usr/share/omf/gnibbles/gnibbles-C.omf
+-rw-r--r--	root/root	usr/share/omf/gnibbles/gnibbles-ca.omf
+-rw-r--r--	root/root	usr/share/omf/gnibbles/gnibbles-de.omf
+-rw-r--r--	root/root	usr/share/omf/gnibbles/gnibbles-es.omf
+-rw-r--r--	root/root	usr/share/omf/gnibbles/gnibbles-fr.omf
+-rw-r--r--	root/root	usr/share/omf/gnibbles/gnibbles-it.omf
+-rw-r--r--	root/root	usr/share/omf/gnibbles/gnibbles-oc.omf
+-rw-r--r--	root/root	usr/share/omf/gnibbles/gnibbles-sv.omf
+drwxr-xr-x	root/root	usr/share/omf/gnobots2/
+-rw-r--r--	root/root	usr/share/omf/gnobots2/gnobots2-C.omf
+-rw-r--r--	root/root	usr/share/omf/gnobots2/gnobots2-ca.omf
+-rw-r--r--	root/root	usr/share/omf/gnobots2/gnobots2-de.omf
+-rw-r--r--	root/root	usr/share/omf/gnobots2/gnobots2-es.omf
+-rw-r--r--	root/root	usr/share/omf/gnobots2/gnobots2-fr.omf
+-rw-r--r--	root/root	usr/share/omf/gnobots2/gnobots2-it.omf
+-rw-r--r--	root/root	usr/share/omf/gnobots2/gnobots2-oc.omf
+-rw-r--r--	root/root	usr/share/omf/gnobots2/gnobots2-sv.omf
+drwxr-xr-x	root/root	usr/share/omf/gnome-games/
+-rw-r--r--	root/root	usr/share/omf/gnome-games/gnobots2-da.omf
+-rw-r--r--	root/root	usr/share/omf/gnome-games/gtali-da.omf
+drwxr-xr-x	root/root	usr/share/omf/gnome-sudoku/
+-rw-r--r--	root/root	usr/share/omf/gnome-sudoku/gnome-sudoku-C.omf
+-rw-r--r--	root/root	usr/share/omf/gnome-sudoku/gnome-sudoku-ca.omf
+-rw-r--r--	root/root	usr/share/omf/gnome-sudoku/gnome-sudoku-da.omf
+-rw-r--r--	root/root	usr/share/omf/gnome-sudoku/gnome-sudoku-de.omf
+-rw-r--r--	root/root	usr/share/omf/gnome-sudoku/gnome-sudoku-es.omf
+-rw-r--r--	root/root	usr/share/omf/gnome-sudoku/gnome-sudoku-fr.omf
+-rw-r--r--	root/root	usr/share/omf/gnome-sudoku/gnome-sudoku-it.omf
+-rw-r--r--	root/root	usr/share/omf/gnome-sudoku/gnome-sudoku-oc.omf
+-rw-r--r--	root/root	usr/share/omf/gnome-sudoku/gnome-sudoku-pt_BR.omf
+-rw-r--r--	root/root	usr/share/omf/gnome-sudoku/gnome-sudoku-ru.omf
+-rw-r--r--	root/root	usr/share/omf/gnome-sudoku/gnome-sudoku-sv.omf
+drwxr-xr-x	root/root	usr/share/omf/gnometris/
+-rw-r--r--	root/root	usr/share/omf/gnometris/gnometris-C.omf
+-rw-r--r--	root/root	usr/share/omf/gnometris/gnometris-ca.omf
+-rw-r--r--	root/root	usr/share/omf/gnometris/gnometris-de.omf
+-rw-r--r--	root/root	usr/share/omf/gnometris/gnometris-el.omf
+-rw-r--r--	root/root	usr/share/omf/gnometris/gnometris-es.omf
+-rw-r--r--	root/root	usr/share/omf/gnometris/gnometris-fr.omf
+-rw-r--r--	root/root	usr/share/omf/gnometris/gnometris-it.omf
+-rw-r--r--	root/root	usr/share/omf/gnometris/gnometris-oc.omf
+-rw-r--r--	root/root	usr/share/omf/gnometris/gnometris-sv.omf
+drwxr-xr-x	root/root	usr/share/omf/gnomine/
+-rw-r--r--	root/root	usr/share/omf/gnomine/gnomine-C.omf
+-rw-r--r--	root/root	usr/share/omf/gnomine/gnomine-ca.omf
+-rw-r--r--	root/root	usr/share/omf/gnomine/gnomine-de.omf
+-rw-r--r--	root/root	usr/share/omf/gnomine/gnomine-es.omf
+-rw-r--r--	root/root	usr/share/omf/gnomine/gnomine-fr.omf
+-rw-r--r--	root/root	usr/share/omf/gnomine/gnomine-it.omf
+-rw-r--r--	root/root	usr/share/omf/gnomine/gnomine-oc.omf
+-rw-r--r--	root/root	usr/share/omf/gnomine/gnomine-sv.omf
+drwxr-xr-x	root/root	usr/share/omf/gnotravex/
+-rw-r--r--	root/root	usr/share/omf/gnotravex/gnotravex-C.omf
+-rw-r--r--	root/root	usr/share/omf/gnotravex/gnotravex-ca.omf
+-rw-r--r--	root/root	usr/share/omf/gnotravex/gnotravex-de.omf
+-rw-r--r--	root/root	usr/share/omf/gnotravex/gnotravex-el.omf
+-rw-r--r--	root/root	usr/share/omf/gnotravex/gnotravex-es.omf
+-rw-r--r--	root/root	usr/share/omf/gnotravex/gnotravex-fr.omf
+-rw-r--r--	root/root	usr/share/omf/gnotravex/gnotravex-it.omf
+-rw-r--r--	root/root	usr/share/omf/gnotravex/gnotravex-oc.omf
+-rw-r--r--	root/root	usr/share/omf/gnotravex/gnotravex-ru.omf
+-rw-r--r--	root/root	usr/share/omf/gnotravex/gnotravex-sv.omf
+drwxr-xr-x	root/root	usr/share/omf/gnotski/
+-rw-r--r--	root/root	usr/share/omf/gnotski/gnotski-C.omf
+-rw-r--r--	root/root	usr/share/omf/gnotski/gnotski-ca.omf
+-rw-r--r--	root/root	usr/share/omf/gnotski/gnotski-de.omf
+-rw-r--r--	root/root	usr/share/omf/gnotski/gnotski-es.omf
+-rw-r--r--	root/root	usr/share/omf/gnotski/gnotski-fr.omf
+-rw-r--r--	root/root	usr/share/omf/gnotski/gnotski-it.omf
+-rw-r--r--	root/root	usr/share/omf/gnotski/gnotski-oc.omf
+-rw-r--r--	root/root	usr/share/omf/gnotski/gnotski-sv.omf
+drwxr-xr-x	root/root	usr/share/omf/gtali/
+-rw-r--r--	root/root	usr/share/omf/gtali/gtali-C.omf
+-rw-r--r--	root/root	usr/share/omf/gtali/gtali-ca.omf
+-rw-r--r--	root/root	usr/share/omf/gtali/gtali-de.omf
+-rw-r--r--	root/root	usr/share/omf/gtali/gtali-es.omf
+-rw-r--r--	root/root	usr/share/omf/gtali/gtali-fr.omf
+-rw-r--r--	root/root	usr/share/omf/gtali/gtali-it.omf
+-rw-r--r--	root/root	usr/share/omf/gtali/gtali-oc.omf
+-rw-r--r--	root/root	usr/share/omf/gtali/gtali-pt_BR.omf
+-rw-r--r--	root/root	usr/share/omf/gtali/gtali-sv.omf
+drwxr-xr-x	root/root	usr/share/omf/iagno/
+-rw-r--r--	root/root	usr/share/omf/iagno/iagno-C.omf
+-rw-r--r--	root/root	usr/share/omf/iagno/iagno-ca.omf
+-rw-r--r--	root/root	usr/share/omf/iagno/iagno-de.omf
+-rw-r--r--	root/root	usr/share/omf/iagno/iagno-es.omf
+-rw-r--r--	root/root	usr/share/omf/iagno/iagno-fr.omf
+-rw-r--r--	root/root	usr/share/omf/iagno/iagno-it.omf
+-rw-r--r--	root/root	usr/share/omf/iagno/iagno-oc.omf
+-rw-r--r--	root/root	usr/share/omf/iagno/iagno-pt_BR.omf
+-rw-r--r--	root/root	usr/share/omf/iagno/iagno-sv.omf
+drwxr-xr-x	root/root	usr/share/omf/mahjongg/
+-rw-r--r--	root/root	usr/share/omf/mahjongg/mahjongg-C.omf
+-rw-r--r--	root/root	usr/share/omf/mahjongg/mahjongg-ca.omf
+-rw-r--r--	root/root	usr/share/omf/mahjongg/mahjongg-de.omf
+-rw-r--r--	root/root	usr/share/omf/mahjongg/mahjongg-es.omf
+-rw-r--r--	root/root	usr/share/omf/mahjongg/mahjongg-fr.omf
+-rw-r--r--	root/root	usr/share/omf/mahjongg/mahjongg-it.omf
+-rw-r--r--	root/root	usr/share/omf/mahjongg/mahjongg-oc.omf
+-rw-r--r--	root/root	usr/share/omf/mahjongg/mahjongg-sv.omf
+drwxr-xr-x	root/root	usr/share/omf/same-gnome/
+-rw-r--r--	root/root	usr/share/omf/same-gnome/same-gnome-C.omf
+-rw-r--r--	root/root	usr/share/omf/same-gnome/same-gnome-ca.omf
+-rw-r--r--	root/root	usr/share/omf/same-gnome/same-gnome-de.omf
+-rw-r--r--	root/root	usr/share/omf/same-gnome/same-gnome-en_GB.omf
+-rw-r--r--	root/root	usr/share/omf/same-gnome/same-gnome-es.omf
+-rw-r--r--	root/root	usr/share/omf/same-gnome/same-gnome-fr.omf
+-rw-r--r--	root/root	usr/share/omf/same-gnome/same-gnome-it.omf
+-rw-r--r--	root/root	usr/share/omf/same-gnome/same-gnome-oc.omf
+-rw-r--r--	root/root	usr/share/omf/same-gnome/same-gnome-ru.omf
+-rw-r--r--	root/root	usr/share/omf/same-gnome/same-gnome-sv.omf
+drwxr-xr-x	root/root	usr/share/pixmaps/
+drwxr-xr-x	root/root	usr/share/pixmaps/glchess/
+-rw-r--r--	root/root	usr/share/pixmaps/glchess/board.png
+-rw-r--r--	root/root	usr/share/pixmaps/glchess/piece.png
+drwxr-xr-x	root/root	usr/share/pixmaps/glines/
+-rw-r--r--	root/root	usr/share/pixmaps/glines/balls.svg
+-rw-r--r--	root/root	usr/share/pixmaps/glines/shapes.svg
+drwxr-xr-x	root/root	usr/share/pixmaps/gnect/
+-rw-r--r--	root/root	usr/share/pixmaps/gnect/bg_grotty.jpg
+-rw-r--r--	root/root	usr/share/pixmaps/gnect/bg_nightfall.jpg
+-rw-r--r--	root/root	usr/share/pixmaps/gnect/bg_toplight.png
+-rw-r--r--	root/root	usr/share/pixmaps/gnect/tileset_50x50_catseyes.png
+-rw-r--r--	root/root	usr/share/pixmaps/gnect/tileset_50x50_glassy.png
+-rw-r--r--	root/root	usr/share/pixmaps/gnect/tileset_50x50_hcinverse.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnect/tileset_50x50_hcontrast.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnect/tileset_50x50_square.png
+-rw-r--r--	root/root	usr/share/pixmaps/gnect/tileset_50x50_sunspot.svg
+drwxr-xr-x	root/root	usr/share/pixmaps/gnibbles/
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/blank.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/bonus1.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/bonus2.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/bonus3.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/bonus4.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/bonus5.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/diamond.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/gnibbles-logo.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/life.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/questionmark.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/snake-blue.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/snake-cyan.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/snake-green.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/snake-grey.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/snake-magenta.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/snake-red.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/snake-yellow.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/wall-corner-bottom-left.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/wall-corner-bottom-right.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/wall-corner-top-left.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/wall-corner-top-right.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/wall-cross.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/wall-empty.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/wall-straight-side.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/wall-straight-up.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/wall-tee-down.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/wall-tee-left.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/wall-tee-right.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnibbles/wall-tee-up.svg
+drwxr-xr-x	root/root	usr/share/pixmaps/gnobots2/
+-rw-r--r--	root/root	usr/share/pixmaps/gnobots2/aieee.png
+-rw-r--r--	root/root	usr/share/pixmaps/gnobots2/boo.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnobots2/gnomes.png
+-rw-r--r--	root/root	usr/share/pixmaps/gnobots2/robots.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnobots2/splat.png
+-rw-r--r--	root/root	usr/share/pixmaps/gnobots2/ufo.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnobots2/yahoo.png
+drwxr-xr-x	root/root	usr/share/pixmaps/gnome-sudoku/
+-rw-r--r--	root/root	usr/share/pixmaps/gnome-sudoku/footprints.png
+drwxr-xr-x	root/root	usr/share/pixmaps/gnometris/
+-rw-r--r--	root/root	usr/share/pixmaps/gnometris/7blocks-gw.png
+-rw-r--r--	root/root	usr/share/pixmaps/gnometris/7blocks-tig.png
+-rw-r--r--	root/root	usr/share/pixmaps/gnometris/gnometris.svg
+drwxr-xr-x	root/root	usr/share/pixmaps/gnomine/
+-rw-r--r--	root/root	usr/share/pixmaps/gnomine/bang.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnomine/face-cool.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnomine/face-sad.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnomine/face-smile.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnomine/face-win.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnomine/face-worried.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnomine/flag-question.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnomine/flag.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnomine/mine.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gnomine/warning.svg
+drwxr-xr-x	root/root	usr/share/pixmaps/gnotravex/
+-rw-r--r--	root/root	usr/share/pixmaps/gnotravex/baize.png
+drwxr-xr-x	root/root	usr/share/pixmaps/gtali/
+-rw-r--r--	root/root	usr/share/pixmaps/gtali/gnome-dice-1.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gtali/gnome-dice-2.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gtali/gnome-dice-3.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gtali/gnome-dice-4.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gtali/gnome-dice-5.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gtali/gnome-dice-6.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gtali/gnome-dice-none.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gtali/kismet-none.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gtali/kismet1.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gtali/kismet2.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gtali/kismet3.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gtali/kismet4.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gtali/kismet5.svg
+-rw-r--r--	root/root	usr/share/pixmaps/gtali/kismet6.svg
+drwxr-xr-x	root/root	usr/share/pixmaps/iagno/
+-rw-r--r--	root/root	usr/share/pixmaps/iagno/classic.png
+-rw-r--r--	root/root	usr/share/pixmaps/iagno/woodtrim.png
+drwxr-xr-x	root/root	usr/share/pixmaps/mahjongg/
+-rw-r--r--	root/root	usr/share/pixmaps/mahjongg/postmodern.svg
+-rw-r--r--	root/root	usr/share/pixmaps/mahjongg/smooth.png
+drwxr-xr-x	root/root	var/
+drwxr-xr-x	root/root	var/games/
+-rw-rw-r--	root/root	var/games/glines.Large.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/glines.Medium.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/glines.Small.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnibbles.1.0.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnibbles.1.1.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnibbles.2.0.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnibbles.2.1.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnibbles.3.0.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnibbles.3.1.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnibbles.4.0.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnibbles.4.1.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnobots2.classic_robots-safe.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnobots2.classic_robots-super-safe.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnobots2.classic_robots.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnobots2.nightmare-safe.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnobots2.nightmare-super-safe.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnobots2.nightmare.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnobots2.robots2-safe.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnobots2.robots2-super-safe.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnobots2.robots2.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnobots2.robots2_easy-safe.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnobots2.robots2_easy-super-safe.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnobots2.robots2_easy.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnobots2.robots_with_safe_teleport-safe.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnobots2.robots_with_safe_teleport-super-safe.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnobots2.robots_with_safe_teleport.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnometris.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnomine.Custom.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnomine.Large.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnomine.Medium.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnomine.Small.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotravex.2x2.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotravex.3x3.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotravex.4x4.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotravex.5x5.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotravex.6x6.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.1.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.10.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.11.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.12.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.13.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.14.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.15.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.16.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.17.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.18.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.19.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.2.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.20.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.21.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.22.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.23.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.24.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.25.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.26.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.27.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.28.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.29.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.3.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.30.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.31.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.32.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.33.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.34.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.35.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.36.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.37.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.4.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.5.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.6.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.7.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.8.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gnotski.9.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gtali.Colors.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/gtali.Regular.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/mahjongg.bridges.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/mahjongg.cloud.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/mahjongg.confounding.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/mahjongg.difficult.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/mahjongg.dragon.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/mahjongg.easy.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/mahjongg.pyramid.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/mahjongg.tictactoe.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/mahjongg.ziggurat.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/same-gnome.Large.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/same-gnome.Medium.scores (EMPTY)
+-rw-rw-r--	root/root	var/games/same-gnome.Small.scores (EMPTY)

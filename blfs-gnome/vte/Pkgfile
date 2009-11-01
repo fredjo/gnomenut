@@ -1,0 +1,25 @@
+# Description: Implémentation pour émulateur de terminals
+# URL: http://developer.gnome.org/arch/gnome/widgets/vte.html
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: gtk, p5-xml-parser, pygtk
+
+name=vte
+version=0.20.5
+release=1
+source=( http://ftp.gnome.org/pub/gnome/sources/$name/0.20/$name-$version.tar.bz2 )
+
+
+
+build() {
+	cd $name-$version
+	sed -i 's%\\177:%&kh=\\EOH:@7=\\EOF:%' termcaps/xterm
+	./configure --prefix=/usr\
+		--mandir=/usr/share/man\
+		--infodir=/usr/share/info\
+		--with-xft2 \
+		--with-glx \
+		--libexecdir=/usr/lib/vte
+	make
+	make DESTDIR=$PKG install
+}

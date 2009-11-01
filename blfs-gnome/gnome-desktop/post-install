@@ -1,0 +1,16 @@
+#!/bin/sh
+
+port=gnome-desktop
+
+# scrolls
+SCROLLS="`pkginfo -l $port | grep usr/share/omf/.*\.omf$`"
+
+for SCROLL in $SCROLLS
+do
+	scrollkeeper-install -q -p /var/lib/scrollkeeper /$SCROLL > /dev/null
+done
+
+# desktop database
+update-desktop-database > /dev/null
+
+# End of file

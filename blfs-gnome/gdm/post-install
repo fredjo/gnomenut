@@ -1,0 +1,10 @@
+#!/bin/sh
+
+port=gdm
+cp custom.conf /etc/gdm/
+cp defaults.conf /etc/gdm/
+
+# desktop database
+update-desktop-database > /dev/null
+
+# End of file

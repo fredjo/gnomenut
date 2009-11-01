@@ -1,0 +1,21 @@
+# Description: Featureful unicode character map
+# URL: http://gucharmap.sourceforge.net/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: libgnomeui, gnome-doc-utils
+# Group: gnome/desktop
+
+name=gucharmap
+version=2.26.3.1
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version  
+	./configure --prefix=/usr \
+		--sysconfdir=/etc \
+		--enable-gnome \
+		--disable-scrollkeeper
+	make
+	make DESTDIR=$PKG install
+}

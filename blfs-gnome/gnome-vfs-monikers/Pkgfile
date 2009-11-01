@@ -1,0 +1,17 @@
+# Description: Librairie pour le système de fichiers virtuel de gnome
+# URL: http://library.gnome.org/devel/gnome-vfs-2.0/
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: gconf, gnome-mime-data, libbonobo, gnome-vfs
+
+name=gnome-vfs-monikers
+version=2.15.3
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/$name/2.15/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX
+	make
+	make DESTDIR=$PKG install
+}

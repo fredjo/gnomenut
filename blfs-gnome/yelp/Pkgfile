@@ -1,0 +1,21 @@
+# Description: help browser for GNOME
+# URL: http://www.gnome.org/softwaremap/projects/Yelp
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: libgnomeui, gnome-doc-utils, xulrunner, startup-notification
+# Group: gnome/desktop
+
+name=yelp
+version=2.26.0
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX \
+            --sysconfdir=/etc \
+            --localstatedir=/var/lib \
+            --enable-cpp-rtti
+	make
+	make DESTDIR=$PKG install
+}

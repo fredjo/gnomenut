@@ -1,0 +1,21 @@
+# Description: Set de plugins essentiels pour l'outil multimedia gstreamer
+# URL: http://gstreamer.freedesktop.org/modules/gst-plugins-base.html
+# Maintainer: NuTyX core team
+# Packager: fred.galusik at gmail dot com
+# Depends on: cdparanoia, dbus, gstreamer, libogg, liboil, libtheora, libvisual, libvorbis, libxml2 
+
+name=gst-plugins-good
+version=0.10.15
+release=1
+source=(http://gstreamer.freedesktop.org/src/$name/$name-$version.tar.gz)
+
+build() {
+cd $name-$version
+	./configure --prefix=/usr \
+	--localstatedir=/var \
+	--sysconfdir=/etc \
+	--disable-static
+	make
+	make DESTDIR=$PKG install
+}
+

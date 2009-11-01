@@ -1,0 +1,23 @@
+# Description: Systeme d'abstraction de materiel
+# URL: http://hal.freedesktop.org/docs/PolicyKit/
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: dbus, expat
+
+name=DeviceKit-power
+version=010
+release=1
+source=(http://hal.freedesktop.org/releases/$name-$version.tar.gz)
+build() {
+        cd $name-$version
+        ./configure --prefix=$GNOME_PREFIX\
+                    --sysconfdir=/etc \
+            --libexecdir=$GNOME_PREFIX/lib/DeviceKit-power \
+	--disable-man-pages \
+	--disable-gtk-doc \
+            --mandir=$GNOME_PREFIX/share/man \
+                --localstatedir=/var \
+
+        make
+        make DESTDIR=$PKG install
+}

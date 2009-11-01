@@ -1,0 +1,19 @@
+# Description:outil de gravage GNOME
+# URL: http://www.realistanew.com/projects/alacarte
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: intltool, pygtk, gnome-menus
+# Group: gnome/desktop
+
+name=brasero
+version=2.26.3
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--sysconfdir=/etc 
+	make
+	make DESTDIR=$PKG install
+}

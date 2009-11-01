@@ -1,0 +1,17 @@
+# Description: Contient lse themes et motor pour GTK2
+# URL: http://www.gnome.org/
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: gtk, p5-xml-parser
+
+name=gtk-engines
+version=2.18.1
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/$name/2.18/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

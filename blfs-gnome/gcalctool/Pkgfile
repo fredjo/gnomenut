@@ -1,0 +1,22 @@
+# Description: Calculator from the OpenWindows Deskset in Solaris 8
+# URL: http://www.gnome.org/softwaremap/projects/gcalctool/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: libgnomeui
+# Group: gnome/desktop
+
+name=gcalctool
+version=5.26.3
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--sysconfdir=/etc \
+		--mandir=/usr/man \
+		--disable-schemas-install \
+		--disable-scrollkeeper
+	make
+	make DESTDIR=$PKG install
+}

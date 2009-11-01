@@ -1,0 +1,22 @@
+# Description: A clean, mean, and lean CD ripper for GNOME
+# URL: http://www.burtonini.com/blog/computers/sound-juicer/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: libmusicbrainz, libgnomeui, gst-plugins-base, gnome-doc-utils, nautilus-cd-burner, gnome-media
+# Group: gnome/desktop
+
+name=sound-juicer
+version=2.26.1
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--sysconfdir=/etc \
+		--mandir=/usr/man \
+		--disable-scrollkeeper \
+		--disable-schemas-install
+	make
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,41 @@
+Submitted By: Wayne Blaszczyk
+Date: 2009-09-06
+Initial Package Version: 2.26.1
+Origin: Wayne Blaszczyk
+Upstream Status: Unknown
+Description: Removed hardcoded /etc/gconf paths.
+
+diff -Naur a/data/gconf.path b/data/gconf.path
+--- a/data/gconf.path	2009-02-20 13:45:14.000000000 +1100
++++ b/data/gconf.path	2009-09-06 23:02:00.000000000 +1000
+@@ -1,5 +1,5 @@
+ # treat system-wide settings as mandatory
+-xml:readonly:/etc/gconf/gconf.xml.system
++xml:readonly:@sysconfdir@/gconf/gconf.xml.system
+ 
+ # override some settings
+ # we treat settings in this location as
+diff -Naur a/data/Makefile.am b/data/Makefile.am
+--- a/data/Makefile.am	2009-02-20 13:45:14.000000000 +1100
++++ b/data/Makefile.am	2009-09-06 23:06:01.000000000 +1000
+@@ -209,7 +209,7 @@
+ 		chown root:gdm $(DESTDIR)$(workingdir) || : ; \
+ 	fi
+ 
+-	$(INSTALL_DATA) $(srcdir)/gconf.path $(DESTDIR)$(workingdir)/.gconf.path
++	sed -e 's,[@]sysconfdir[@],$(sysconfdir),g' < $(srcdir)/gconf.path > $(DESTDIR)$(workingdir)/.gconf.path
+ 	gconftool-2 --direct --config-source=xml:merged:$(DESTDIR)$(workingdir)/.gconf.mandatory --recursive-unset /
+ 	gconftool-2 --direct --config-source=xml:merged:$(DESTDIR)$(workingdir)/.gconf.mandatory --load $(srcdir)/session-setup.entries
+ 	chown -R root:gdm $(DESTDIR)$(workingdir)/.gconf.mandatory || :
+diff -Naur a/data/Makefile.in b/data/Makefile.in
+--- a/data/Makefile.in	2009-04-15 00:21:27.000000000 +1000
++++ b/data/Makefile.in	2009-09-06 23:06:36.000000000 +1000
+@@ -874,7 +874,7 @@
+ 		chown root:gdm $(DESTDIR)$(workingdir) || : ; \
+ 	fi
+ 
+-	$(INSTALL_DATA) $(srcdir)/gconf.path $(DESTDIR)$(workingdir)/.gconf.path
++	sed -e 's,[@]sysconfdir[@],$(sysconfdir),g' < $(srcdir)/gconf.path > $(DESTDIR)$(workingdir)/.gconf.path
+ 	gconftool-2 --direct --config-source=xml:merged:$(DESTDIR)$(workingdir)/.gconf.mandatory --recursive-unset /
+ 	gconftool-2 --direct --config-source=xml:merged:$(DESTDIR)$(workingdir)/.gconf.mandatory --load $(srcdir)/session-setup.entries
+ 	chown -R root:gdm $(DESTDIR)$(workingdir)/.gconf.mandatory || :

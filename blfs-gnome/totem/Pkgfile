@@ -1,0 +1,29 @@
+# Description: The official movie player of the GNOME desktop environment
+# URL: http://www.gnome.org/projects/totem/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: iso-codes, eel, gst-plugins-good, nautilus, gst-plugins-bad, gst-plugins-ugly, gst-ffmpeg, totem-pl-parser
+# Group: gnome/desktop
+
+name=totem
+version=2.26.3
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--sysconfdir=/etc \
+		--mandir=/usr/man \
+		--libexecdir=/usr/lib/$name \
+		--disable-schemas-install \
+		--enable-gstreamer=yes \
+		--enable-browser-plugins \
+		--disable-lirc \
+		--disable-nvtv \
+		--disable-vanity \
+		--disable-debug \
+		--disable-scrollkeeper
+	make
+	make DESTDIR=$PKG install
+}

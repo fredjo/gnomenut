@@ -1,0 +1,20 @@
+# Description: Implementation of freedesktop.org's Desktop Menu Specification
+# URL: http://www.gnome.org/projects/nautilus/
+# Maintainer: Matt Housh jaeger at morpheus dot net
+# Depends on: glib, p5-xml-parser, python, gamin, intltool
+# Group: gnome/desktop
+
+name=gnome-menus
+version=2.26.2
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX \
+            --sysconfdir=/etc \
+            --enable-inotify
+	make
+	make DESTDIR=$PKG install
+}

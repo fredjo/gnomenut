@@ -1,0 +1,20 @@
+# Description: GNOME On-Screen Keyboard
+# URL: http://www.gok.ca/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: at-spi, libgnomeui, libwnck
+# Group: gnome/desktop
+
+name=gok
+version=2.26.0
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--sysconfdir=/etc \
+		--disable-schemas-install
+	make
+	make DESTDIR=$PKG install
+}

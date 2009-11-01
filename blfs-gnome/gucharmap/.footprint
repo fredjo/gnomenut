@@ -1,0 +1,164 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/gconf/
+drwxr-xr-x	root/root	etc/gconf/schemas/
+-rw-r--r--	root/root	etc/gconf/schemas/gucharmap.schemas
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+lrwxrwxrwx	root/root	usr/bin/charmap -> gucharmap
+lrwxrwxrwx	root/root	usr/bin/gnome-character-map -> gucharmap
+-rwxr-xr-x	root/root	usr/bin/gucharmap
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/gucharmap-2/
+drwxr-xr-x	root/root	usr/include/gucharmap-2/gucharmap/
+-rw-r--r--	root/root	usr/include/gucharmap-2/gucharmap/gucharmap-block-chapters-model.h
+-rw-r--r--	root/root	usr/include/gucharmap-2/gucharmap/gucharmap-block-codepoint-list.h
+-rw-r--r--	root/root	usr/include/gucharmap-2/gucharmap/gucharmap-chapters-model.h
+-rw-r--r--	root/root	usr/include/gucharmap-2/gucharmap/gucharmap-chapters-view.h
+-rw-r--r--	root/root	usr/include/gucharmap-2/gucharmap/gucharmap-charmap.h
+-rw-r--r--	root/root	usr/include/gucharmap-2/gucharmap/gucharmap-chartable.h
+-rw-r--r--	root/root	usr/include/gucharmap-2/gucharmap/gucharmap-codepoint-list.h
+-rw-r--r--	root/root	usr/include/gucharmap-2/gucharmap/gucharmap-script-chapters-model.h
+-rw-r--r--	root/root	usr/include/gucharmap-2/gucharmap/gucharmap-script-codepoint-list.h
+-rw-r--r--	root/root	usr/include/gucharmap-2/gucharmap/gucharmap-type-builtins.h
+-rw-r--r--	root/root	usr/include/gucharmap-2/gucharmap/gucharmap-unicode-info.h
+-rw-r--r--	root/root	usr/include/gucharmap-2/gucharmap/gucharmap.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libgucharmap.la
+lrwxrwxrwx	root/root	usr/lib/libgucharmap.so -> libgucharmap.so.7.0.0
+lrwxrwxrwx	root/root	usr/lib/libgucharmap.so.7 -> libgucharmap.so.7.0.0
+-rwxr-xr-x	root/root	usr/lib/libgucharmap.so.7.0.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/gucharmap-2.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/gucharmap.desktop
+drwxr-xr-x	root/root	usr/share/gnome/
+drwxr-xr-x	root/root	usr/share/gnome/help/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/C/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/C/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/C/figures/gucharmap_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/C/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/C/gucharmap.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/C/legal.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/bg/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/bg/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/bg/figures/gucharmap_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/bg/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/bg/gucharmap.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/ca/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/ca/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gucharmap/ca/figures/gucharmap_start_window.png -> ../../C/figures/gucharmap_start_window.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gucharmap/ca/figures/gucharmap_window.png -> ../../C/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/ca/gucharmap.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/cs/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/cs/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gucharmap/cs/figures/gucharmap_start_window.png -> ../../C/figures/gucharmap_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/cs/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/cs/gucharmap.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/de/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/de/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gucharmap/de/figures/gucharmap_start_window.png -> ../../C/figures/gucharmap_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/de/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/de/gucharmap.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/el/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/el/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gucharmap/el/figures/gucharmap_start_window.png -> ../../C/figures/gucharmap_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/el/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/el/gucharmap.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/en_GB/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/en_GB/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gucharmap/en_GB/figures/gucharmap_start_window.png -> ../../C/figures/gucharmap_start_window.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gucharmap/en_GB/figures/gucharmap_window.png -> ../../C/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/en_GB/gucharmap.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/es/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/es/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/es/figures/gucharmap_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/es/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/es/gucharmap.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/fi/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/fi/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gucharmap/fi/figures/gucharmap_start_window.png -> ../../C/figures/gucharmap_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/fi/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/fi/gucharmap.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/fr/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/fr/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gucharmap/fr/figures/gucharmap_start_window.png -> ../../C/figures/gucharmap_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/fr/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/fr/gucharmap.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/it/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/it/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/it/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/it/gucharmap.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/it/legal.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/ja/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/ja/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/ja/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/ja/gucharmap.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/ja/legal.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/ko/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/ko/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gucharmap/ko/figures/gucharmap_start_window.png -> ../../C/figures/gucharmap_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/ko/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/ko/gucharmap.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/oc/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/oc/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gucharmap/oc/figures/gucharmap_start_window.png -> ../../C/figures/gucharmap_start_window.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gucharmap/oc/figures/gucharmap_window.png -> ../../C/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/oc/gucharmap.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/pt_BR/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/pt_BR/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gucharmap/pt_BR/figures/gucharmap_start_window.png -> ../../C/figures/gucharmap_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/pt_BR/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/pt_BR/gucharmap.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/ru/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/ru/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gucharmap/ru/figures/gucharmap_start_window.png -> ../../C/figures/gucharmap_start_window.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gucharmap/ru/figures/gucharmap_window.png -> ../../C/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/ru/gucharmap.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/sv/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/sv/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/sv/figures/gucharmap_start_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/sv/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/sv/gucharmap.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/vi/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/vi/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gucharmap/vi/figures/gucharmap_start_window.png -> ../../C/figures/gucharmap_start_window.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gucharmap/vi/figures/gucharmap_window.png -> ../../C/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/vi/gucharmap.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/zh_CN/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/zh_CN/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/zh_CN/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/zh_CN/gucharmap.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/zh_CN/legal.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/zh_TW/
+drwxr-xr-x	root/root	usr/share/gnome/help/gucharmap/zh_TW/figures/
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/zh_TW/figures/gucharmap_window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/zh_TW/gucharmap.xml
+-rw-r--r--	root/root	usr/share/gnome/help/gucharmap/zh_TW/legal.xml
+drwxr-xr-x	root/root	usr/share/locale/
+drwxr-xr-x	root/root	usr/share/locale/fr/
+drwxr-xr-x	root/root	usr/share/locale/fr/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/fr/LC_MESSAGES/gucharmap.mo
+drwxr-xr-x	root/root	usr/share/omf/
+drwxr-xr-x	root/root	usr/share/omf/gucharmap/
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-C.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-bg.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-ca.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-cs.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-de.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-el.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-en_GB.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-es.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-fi.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-fr.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-it.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-ja.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-ko.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-oc.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-pt_BR.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-ru.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-sv.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-vi.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-zh_CN.omf
+-rw-r--r--	root/root	usr/share/omf/gucharmap/gucharmap-zh_TW.omf

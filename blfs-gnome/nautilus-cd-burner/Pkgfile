@@ -1,0 +1,22 @@
+# Description: Write files to a CD burner in Nautilus
+# URL: http://cvs.gnome.org/viewcvs/nautilus-cd-burner/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: gnome-mount, dbus, hal, nautilus
+# Group: gnome/desktop
+
+name=nautilus-cd-burner
+version=2.24.0
+release=1
+gnomever=2.24.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version 
+	./configure --prefix=/usr \
+		--sysconfdir=/etc \
+		--libexecdir=/usr/lib/$name \
+		--disable-schemas-install \
+		--enable-dummy-write
+	make
+	make DESTDIR=$PKG install
+}

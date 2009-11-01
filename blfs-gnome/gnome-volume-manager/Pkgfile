@@ -1,0 +1,22 @@
+# Description: GNOME volume manager daemon
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: libgnomeui, dbus, hal, eject, xorg-sessreg
+# Group: gnome/desktop
+
+name=gnome-volume-manager
+version=2.24.0
+release=1
+gnomever=2.24.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	rm po/*.po
+	sed -i -e 's/USE_NLS=yes/USE_NLS=no/' \
+		-e 's/ENABLE_NLS 1/ENABLE_NLS 0/' configure
+	./configure --prefix=/usr \
+		--libexecdir=/usr/lib/$name \
+		--disable-schemas-install
+	make
+	make DESTDIR=$PKG install
+}

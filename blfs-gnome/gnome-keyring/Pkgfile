@@ -1,0 +1,22 @@
+# Description: Demon gerant les mots de passe et autres secrets des utilisateurs 
+# URL: http://www.gnome.org/
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: libtasn1, gtk, p5-xml-parser, libcrypt, python
+
+name=gnome-keyring
+version=2.26.3
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/$name/2.26/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX \
+		--libexecdir=$GNOME_PREFIX/lib/gnome-keyring \
+                --sysconfdir=/etc 
+	make
+	make DESTDIR=$PKG install
+	install -v -m755 -d $GNOME_PREFIX/share/doc/gnome-keyring-2.26.3
+	install -v -m644 *.txt $GNOME_PREFIX/share/doc/gnome-keyring-2.26.3
+
+}

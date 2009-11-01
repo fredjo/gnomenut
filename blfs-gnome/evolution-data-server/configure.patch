@@ -1,0 +1,47 @@
+--- configure.ori	2009-10-13 22:08:15.000000000 +0200
++++ configure	2009-10-13 22:06:33.000000000 +0200
+@@ -17801,7 +17801,7 @@
+ 
+ 				if test "x${with_nspr_libs}" != "x"; then
+ 		       			LIBS="$nsprlibs"
+-		       			LDFLAGS="$LDFLAGS -L$with_nspr_libs"
++		       			LDFLAGS="$LDFLAGS $with_nspr_libs"
+ 				else
+ 		       			LIBS="$nsprlibs"
+ 		       			LDFLAGS="$LDFLAGS"
+@@ -17870,7 +17870,7 @@
+ $as_echo "$moz_nspr_libs" >&6; }
+ 			if test "x$moz_nspr_libs" != "xno"; then
+ 				have_nspr_libs="yes"
+-				MANUAL_NSPR_LIBS="-L$with_nspr_libs $nsprlibs"
++				MANUAL_NSPR_LIBS="$with_nspr_libs $nsprlibs"
+ 			else
+ 				MANUAL_NSPR_CLFAGS=""
+ 			fi
+@@ -18093,7 +18093,7 @@
+ else
+ 
+ 	 			LIBS_save="$LIBS"
+-				LDFLAGS="$LDFLAGS -L$with_nspr_libs $nsprlibs -L$with_nss_libs $nsslibs"
++				LDFLAGS="$LDFLAGS $with_nspr_libs $nsprlibs $with_nss_libs $nsslibs"
+ 		      		LIBS="$nsslibs $nsprlibs"
+ 				cat >conftest.$ac_ext <<_ACEOF
+ /* confdefs.h.  */
+@@ -18151,7 +18151,7 @@
+       conftest$ac_exeext conftest.$ac_ext
+ 				if test "$moz_nss_libs" = no; then
+ 					nsslibs="-lssl3 -lsmime3 -lnss3 $SOFTOKN3_LIB"
+-					LDFLAGS="$LDFLAGS -L$with_nspr_libs $nsprlibs -L$with_nss_libs $nsslibs"
++					LDFLAGS="$LDFLAGS $with_nspr_libs $nsprlibs $with_nss_libs $nsslibs"
+ 					cat >conftest.$ac_ext <<_ACEOF
+ /* confdefs.h.  */
+ _ACEOF
+@@ -18235,7 +18235,7 @@
+ 
+ 					msg_smime="yes (Mozilla NSS)"
+ 				fi
+-				MANUAL_NSS_LIBS="-L$with_nss_libs $nsslibs"
++				MANUAL_NSS_LIBS="$with_nss_libs $nsslibs"
+ 			else
+ 				MANUAL_NSS_CFLAGS=""
+ 				MANUAL_NSPR_CFLAGS=""

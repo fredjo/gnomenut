@@ -1,0 +1,21 @@
+# Description: Contient le jeu de fichiers type et applications pour gnome
+# URL: http://www.gnome.org
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: p5-xml-parser
+
+name=gnome-mime-data
+version=2.18.0
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/$name/2.18/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX \
+            --sysconfdir=/etc \
+		--mandir=$GNOME_PREFIX/share/man
+	make
+	make DESTDIR=$PKG install
+	install -v -m644 -D man/gnome-vfs-mime.5 \
+		$GNOME_PREFIX/share/man/man5/gnome-vfs-mime.5
+}

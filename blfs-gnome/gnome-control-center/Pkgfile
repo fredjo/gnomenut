@@ -1,0 +1,23 @@
+# Description: A collection of core GNOME configuration utilities
+# URL: http://www.gnome.org/softwaremap/projects/control-center/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on:  metacity, gnome-settings-daemon, gnome-panel, hal, shared-mime-info, evolution-data-server
+# Group: gnome/desktop
+
+name=gnome-control-center
+version=2.26.0
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2 \
+gnome-control-center-2.26.0-libxklavier-4.0-1.patch)
+
+build() {
+	cd $name-$version
+	patch -Np1 -i ../gnome-control-center-2.26.0-libxklavier-4.0-1.patch
+	./configure --prefix=$GNOME_PREFIX \
+            --sysconfdir=/etc \
+            --localstatedir=/var/lib \
+            --libexecdir=$GNOME_PREFIX/lib/gnome-control-center
+	make
+	make DESTDIR=$PKG install
+}

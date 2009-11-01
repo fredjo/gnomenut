@@ -1,0 +1,21 @@
+# Description: Assistive technology for people with visual impairments
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: gnome-python, atk, at-spi, eel, gnome-speech
+# Group: gnome/desktop
+
+name=orca
+version=2.26.3
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--mandir=/usr/man \
+		--sysconfdir=/etc \
+		--with-widget=vte \
+		--disable-schemas-install
+	make
+	make DESTDIR=$PKG install
+}

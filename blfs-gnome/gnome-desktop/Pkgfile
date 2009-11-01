@@ -1,0 +1,23 @@
+# Description: GNOME desktop about screen
+# URL: http://www.gnome.org/about/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: libgnomeui, startup-notification, gnome-doc-utils
+# Group: gnome/desktop
+
+name=gnome-desktop
+version=2.26.3
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX \
+			--sysconfdir=/etc \
+            	--localstatedir=/var/lib \
+		--mandir=/usr/man \
+		--with-gnome-distributor="NUTYX" \
+		--disable-scrollkeeper
+	make
+	make DESTDIR=$PKG install
+}

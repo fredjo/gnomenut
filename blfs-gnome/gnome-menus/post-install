@@ -1,0 +1,8 @@
+#!/bin/sh
+
+port=gnome-menus
+
+# desktop database
+update-desktop-database > /dev/null
+
+# End of file

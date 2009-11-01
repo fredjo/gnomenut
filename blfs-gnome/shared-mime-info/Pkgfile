@@ -1,0 +1,17 @@
+# Description: Permet la mise à jour centralisée des info MIME pour toutes les appli. supportées
+# URL:  http://freedesktop.org/
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: p5-xml-parser, libxml2, glib, intltool
+
+name=shared-mime-info
+version=0.60
+release=1
+source=( http://freedesktop.org/~hadess/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr 
+	make
+	make DESTDIR=$PKG install
+}

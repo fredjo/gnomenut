@@ -1,0 +1,18 @@
+# Description: gail for libgnomeui and libbonoboui
+# URL: http://developer.gnome.org/projects/gap/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: gnome-panel, libgnomecanvas, at-spi, libbonoboui, libgnomeui, libpanelapplet
+# Group: gnome/desktop
+
+name=libgail-gnome
+version=1.20.1
+release=1
+gnomever=2.24.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

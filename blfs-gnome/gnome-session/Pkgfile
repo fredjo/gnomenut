@@ -1,0 +1,20 @@
+# Description: GNOME session manager, configuration program, and proxy
+# URL: http://www.gnome.org/softwaremap/projects/gnome-session/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: gtk, dbus-glib, libglade, startup-notification, gconf
+# Group: gnome/desktop
+
+name=gnome-session
+version=2.26.2
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX \
+            --sysconfdir=/etc/ \
+            --mandir=$GNOME_PREFIX/share/man 
+	make
+	make DESTDIR=$PKG install
+}

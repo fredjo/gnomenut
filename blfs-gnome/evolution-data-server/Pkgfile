@@ -1,0 +1,25 @@
+# Description: Evolution's Backend Server
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: gtk-doc, libgnomeui, libsoup, nss, libical
+# Group: gnome/desktop
+
+name=evolution-data-server
+version=2.26.3
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/evolution-data-server/2.26/$name-$version.tar.bz2 configure.patch)
+
+build() {
+	cd $name-$version
+	patch -Np0 -i ../configure.patch
+	./configure --prefix=$GNOME_PREFIX \
+            --libexecdir=$GNOME_PREFIX/lib/evolution-data-server \
+            --enable-nntp \
+            --enable-gnome-keyring \
+            --enable-nss \
+		--with-nspr-includes=/usr/include/nspr \
+		--with-nss-includes=/usr/include/nss \
+            --enable-smime \
+		
+	make
+	make DESTDIR=$PKG install
+}

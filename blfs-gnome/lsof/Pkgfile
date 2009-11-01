@@ -1,0 +1,20 @@
+# Description: list open files
+# URL: http://people.freebsd.org/~abe/
+# Maintainer: Antti Nykanen, aon at iki dot fi
+# Packager: sten, nick dot steeves at shaw dot ca
+
+name=lsof
+version=4.82
+release=1
+source=(ftp://ftp.fu-berlin.de/pub/unix/tools/lsof/lsof_$version.tar.bz2)
+
+build() {
+    cd lsof_${version}
+    tar -xf lsof_${version}_src.tar
+    cd lsof_${version}_src
+    yes "" | ./Configure linux
+    sed -i -e "s/-DLINUXV/${CFLAGS} -DLINUXV/" Makefile
+    make
+    install -D -m 755 lsof $PKG/usr/sbin/lsof
+    install -D -m 644 lsof.8 $PKG/usr/man/man8/lsof.8
+}

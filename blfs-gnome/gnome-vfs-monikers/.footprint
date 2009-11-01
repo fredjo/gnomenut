@@ -1,0 +1,11 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/bonobo/
+drwxr-xr-x	root/root	usr/lib/bonobo/monikers/
+-rw-r--r--	root/root	usr/lib/bonobo/monikers/libmoniker_gnome_vfs_std.a
+-rwxr-xr-x	root/root	usr/lib/bonobo/monikers/libmoniker_gnome_vfs_std.la
+-rwxr-xr-x	root/root	usr/lib/bonobo/monikers/libmoniker_gnome_vfs_std.so
+drwxr-xr-x	root/root	usr/lib/bonobo/servers/
+-rw-r--r--	root/root	usr/lib/bonobo/servers/GNOME_VFS_Moniker_std.server
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/locale/

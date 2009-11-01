@@ -1,0 +1,34 @@
+# Description: An xscreensaver replacement designed to integrate with GNOME
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: gtk, libgnomeui, dbus
+# Group: gnome/desktop
+
+name=gnome-screensaver
+version=2.26.1
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--mandir=/usr/man \
+		--libexecdir=/usr/lib/$name \
+		--enable-locking \
+		--disable-pam \
+		--with-shadow \
+		--sysconfdir=/etc \
+		--disable-schemas-install
+	make
+	make DESTDIR=$PKG install
+
+	sed -e 's|${DIST_BIN}|/usr/share/gnome-screensaver|' \
+		data/migrate-xscreensaver-config.sh > \
+		$PKG/usr/bin/migrate-xscreensaver-config
+	chmod +x $PKG/usr/bin/migrate-xscreensaver-config
+	install -m 0644 -o root -g root data/xscreensaver-config.xsl \
+		$PKG/usr/share/$name/
+
+	# needed for locking with shadow
+	chmod u+s $PKG/usr/lib/$name/$name-dialog
+}

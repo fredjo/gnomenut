@@ -1,0 +1,14 @@
+#!/bin/sh
+
+if [ -z "`grep '^gdm:' /etc/group`" ]
+then
+  /usr/sbin/groupadd -g 21 gdm
+fi
+
+if [ -z "`grep '^gdm:' /etc/passwd`" ]
+then
+  /usr/sbin/useradd  -u 21 -g gdm -d /var/gdm -s /bin/false gdm
+  /usr/bin/passwd -l gdm
+fi
+
+# End of file

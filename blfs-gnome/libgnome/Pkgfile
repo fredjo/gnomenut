@@ -1,0 +1,20 @@
+# Description: Librairie gnome libgnome
+# URL: http://www.gnome.org/
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: libbonobo, gnome-vfs, esound
+
+name=libgnome
+version=2.26.0
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/$name/2.26/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+		./configure --prefix=$GNOME_PREFIX \
+		--sysconfdir=/etc \
+		--localstatedir=/var/lib \
+		--mandir=$GNOME_PREFIX/share/man
+	make
+	make DESTDIR=$PKG install
+}

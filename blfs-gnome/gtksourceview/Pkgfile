@@ -1,0 +1,18 @@
+# Description: Syntax highlighting for the GtkTextView widget
+# URL: http://mail.gnome.org/mailman/listinfo/gnome-devtools
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: gtk, libxml2, libgnomeprint, gnome-vfs
+# Group: gnome/desktop
+
+name=gtksourceview
+version=2.6.2
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version  
+	./configure --prefix=$GNOME_PREFIX 
+	make
+	make DESTDIR=$PKG install
+}

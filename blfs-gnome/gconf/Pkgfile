@@ -1,0 +1,24 @@
+# Description: configuration database system
+# URL: http://www.gnome.org/projects/gconf/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: orbit2, libxml2, gtk, dbus-glib, policykit
+# Group: gnome/platform
+
+name=gconf
+version=2.26.2
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/platform/${gnomever%.*}/$gnomever/sources/GConf-$version.tar.bz2 \
+	GConf-2.26.2-sysconfdir-1.patch)
+
+build() {
+	cd GConf-$version
+	patch -Np1 -i ../GConf-2.26.2-sysconfdir-1.patch
+	./configure --prefix=$GNOME_PREFIX \
+		--sysconfdir=/etc \
+		--mandir=$GNOME_PREFIX/share/man \
+		--libexecdir=$GNOME_PREFIX/lib/GConf
+	make
+	make DESTDIR=$PKG install
+	install -v m755 -d /etc/gconf/gconf.xml.system
+}

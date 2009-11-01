@@ -1,0 +1,11 @@
+cat > /etc/dbus-1/system-local.conf << "EOF"
+<!DOCTYPE busconfig PUBLIC
+ "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
+<busconfig>
+
+  <!-- Search for .conf files in /etc/dbus-1/system.d -->
+  <includedir>/etc/dbus-1/system.d</includedir>
+
+</busconfig>
+EOF

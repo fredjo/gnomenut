@@ -1,0 +1,23 @@
+# Description: GNOME utility programs
+# URL: http://www.gnome.org/softwaremap/projects/gnome-utils/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: libgnomeui, gnome-panel
+# Group: gnome/desktop
+
+name=gnome-utils
+version=2.26.0
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX \
+		--mandir=$GNOME_PREFIX/share/man \
+		--libexecdir=$GNOME_PREFIX/lib/$name \
+		--sysconfdir=/etc \
+		--localstatedir=/var/lib
+	make
+	make DESTDIR=$PKG install
+
+}

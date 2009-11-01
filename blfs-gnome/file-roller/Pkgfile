@@ -1,0 +1,22 @@
+# Description: Archive manager utility for the GNOME Environment
+# URL: http://fileroller.sourceforge.net/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: gnome-doc-utils, nautilus
+# Group: gnome/desktop
+
+name=file-roller
+version=2.26.3
+release=1
+gnomever=2.26.3
+source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--sysconfdir=/etc \
+		--libexecdir=/usr/lib/$name \
+		--disable-schemas-install \
+		--disable-scrollkeeper
+	make
+	make DESTDIR=$PKG install
+}
