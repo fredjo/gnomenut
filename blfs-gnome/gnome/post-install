@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# update the desktop database
+/usr/bin/update-desktop-database
+
+# set the default desktop wallpaper
+gconftool-2 --direct --config-source \
+	xml:readwrite:/etc/gconf/gconf.xml.defaults --type string \
+	--set /desktop/gnome/background/picture_filename \
+	/usr/share/gdm/themes/crux/crux.png
+gconftool-2 --direct --config-source \
+	xml:readwrite:/etc/gconf/gconf.xml.defaults --type string \
+	--set /desktop/gnome/background/picture_options "zoom"
+
+# force gconfd to reload its caches
+if [ ! -z "`/bin/pidof gconfd-2`" ]
+then
+	killall -HUP gconfd-2
+fi

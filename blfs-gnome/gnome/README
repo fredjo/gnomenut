@@ -1,0 +1,32 @@
+
+README for gnome
+
+
+It's no longer necessary to set the XDG environment variables or
+manually symlink /usr/etc/xdg to /etc/xdg, the gnome meta-port
+Pkgfile creates the symlink for you.
+
+*BUILD NOTE*
+	GnuPG requires a /usr/sbin/sendmail. There are numerous ways
+	to provide this, installing sendmail and postfix among them. The quickest
+	method is probably to either touch a fake file there, or my preferred
+	method, to install ssmtp from ports and symlink /usr/sbin/ssmtp to
+	/usr/sbin/sendmail. GnuPG seems to be happy with that.
+
+DBUS NOTE
+
+	To use dbus correctly, it needs to run two different sessions. One of
+	these is taken care of by the init script, /etc/rc.d/dbus. It's run
+	as root and the user doesn't need to mess with it. The other session
+	is started by the user and invoked like this:
+
+		$ eval `dbus-launch --sh-syntax --exit-with-session`
+		$ export DBUS_SESSION_BUS_ADDRESS
+		$ export DBUS_SESSION_BUS_PID
+
+	If you're using GDM, you don't need to do anything, gdm will launch
+	dbus when you log in using /etc/X11/xinit/xinitrc.d/30dbus-launch.sh.
+	If, on the other hand, you're running gnome-session from a .xinitrc
+	file or the like, you'll need to put lines like the above into it.
+
+

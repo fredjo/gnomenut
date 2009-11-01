@@ -1,0 +1,5 @@
+drwxr-xr-x	root/root	etc/
+lrwxrwxrwx	root/root	etc/xdg -> /usr/etc/xdg
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/etc/
+-rw-r--r--	root/root	usr/etc/gnome

@@ -1,0 +1,15 @@
+# Description: The GNOME desktop environment (meta-port)
+# URL: http://www.gnome.org/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: glib, gtk, orbit, libbonobo, gconf, alacarte, iso-codes, libunique, DeviceKit, DeviceKit-power, brasero, bug-buddy, gnome-control-center, dasher, deskbar-applet, eel, eog, epiphany, evince, evolution, evolution-data-server, evolution-exchange, evolution-webcal, file-roller, gcalctool, gconf-editor, gdm, gedit, gnome-applets, gnome-backgrounds, gnome-desktop, gnome-doc-utils, gnome-games, gnome-icon-theme, gnome-keyring, gnome-mag, gnome-media, gnome-menus, gnome-netstatus, gnome-panel, gnome-power-manager, gnome-python-desktop, gnome-screensaver, gnome-session, gnome-speech, gnome-system-monitor, gnome-terminal, gnome-themes, gnome-user-docs, gnome-utils, gok, gst-plugins-base, gst-plugins-good, gstreamer, gtk-engines, gtkhtml, gtksourceview, gucharmap, libgail-gnome, libgnomeprint, libgnomeprintui, libgtop, librsvg, libsoup, libwnck, zenity, metacity, nautilus, nautilus-cd-burner, orca, rarian, sound-juicer, startup-notification, totem, vino, vte, yelp, vinagre, cheese
+# Group: gnome
+
+name=gnome
+version=2.26.3
+release=1
+group=gnome
+source=()
+
+build() {
+	mkdir -p $PKG/$GNOME_PREFIX
+}
