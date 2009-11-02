@@ -13,7 +13,8 @@ source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name
 build() {
 	cd gnome-user-docs-$version
 	./configure --prefix=$GNOME_PREFIX \
-            --localstatedir=/var/lib
+            --localstatedir=/var/lib\
+		--disable-scrollkeeper
 	make
 	make DESTDIR=$PKG install
 }

@@ -169,6 +169,9 @@ drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/Thunderbi
 -rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/acroread.py
 -rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/acroread.pyc
 -rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/acroread.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/ekiga.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/ekiga.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/ekiga.pyo
 drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/evolution/
 -rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/evolution/__init__.py
 -rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/evolution/__init__.pyc
@@ -239,6 +242,9 @@ drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/gnome-win
 -rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/gnome_segv2.py
 -rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/gnome_segv2.pyc
 -rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/gnome_segv2.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/gtk-window-decorator.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/gtk-window-decorator.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/gtk-window-decorator.pyo
 -rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/liferea.py
 -rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/liferea.pyc
 -rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/liferea.pyo
@@ -251,6 +257,9 @@ drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/gnome-win
 -rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/notification-daemon.py
 -rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/notification-daemon.pyc
 -rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/notification-daemon.pyo
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/notify-osd.py
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/notify-osd.pyc
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/notify-osd.pyo
 drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/pidgin/
 -rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/pidgin/__init__.py
 -rw-r--r--	root/root	usr/lib/python2.6/site-packages/orca/scripts/apps/pidgin/__init__.pyc
@@ -422,6 +431,10 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/orca.svg
+drwxr-xr-x	root/root	usr/share/locale/
+drwxr-xr-x	root/root	usr/share/locale/fr/
+drwxr-xr-x	root/root	usr/share/locale/fr/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/fr/LC_MESSAGES/orca.mo
 drwxr-xr-x	root/root	usr/share/orca/
 drwxr-xr-x	root/root	usr/share/orca/glade/
 -rw-r--r--	root/root	usr/share/orca/glade/orca-find.glade

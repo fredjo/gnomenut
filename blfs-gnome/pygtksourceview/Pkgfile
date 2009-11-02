@@ -2,7 +2,7 @@
 # URL: http://www.pygtk.org/
 # Maintainer: NuTyX core team
 # Packager: thierryn1 at hispeed dot ch
-# Depends on: gtk, pygobject, pycairo, libglade
+# Depends on: gtk, gtksourceview, pygobject, pycairo, libglade
 
 name=pygtksourceview
 version=2.6.0

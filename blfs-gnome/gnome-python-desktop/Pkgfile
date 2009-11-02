@@ -1,7 +1,7 @@
 # Description: GNOME python desktop about screen
 # URL: http://www.gnome.org/about/
 # Maintainer: Matt Housh, jaeger at morpheus dot net
-# Depends on: libgnomeui, startup-notification, gnome-doc-utils
+# Depends on: gtksourceview, gnome-python, libgnomeui, startup-notification, gnome-doc-utils, totem, nautilus-cd-burner
 # Group: gnome/desktop
 
 name=gnome-python-desktop
