@@ -12,9 +12,9 @@ drwxr-xr-x	root/root	usr/include/gnome-menus/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libgnome-menu.a
 -rwxr-xr-x	root/root	usr/lib/libgnome-menu.la
-lrwxrwxrwx	root/root	usr/lib/libgnome-menu.so -> libgnome-menu.so.2.2.15
-lrwxrwxrwx	root/root	usr/lib/libgnome-menu.so.2 -> libgnome-menu.so.2.2.15
--rwxr-xr-x	root/root	usr/lib/libgnome-menu.so.2.2.15
+lrwxrwxrwx	root/root	usr/lib/libgnome-menu.so -> libgnome-menu.so.2.4.1
+lrwxrwxrwx	root/root	usr/lib/libgnome-menu.so.2 -> libgnome-menu.so.2.4.1
+-rwxr-xr-x	root/root	usr/lib/libgnome-menu.so.2.4.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libgnome-menu.pc
 drwxr-xr-x	root/root	usr/lib/python2.6/
@@ -68,8 +68,8 @@ drwxr-xr-x	root/root	usr/share/desktop-directories/
 drwxr-xr-x	root/root	usr/share/gnome-menus/
 drwxr-xr-x	root/root	usr/share/gnome-menus/examples/
 -rw-r--r--	root/root	usr/share/gnome-menus/examples/gnome-menus-ls.py
-drwxr-xr-x	root/root	usr/share/gnome-menus/glade/
--rw-r--r--	root/root	usr/share/gnome-menus/glade/gmenu-simple-editor.glade
+drwxr-xr-x	root/root	usr/share/gnome-menus/ui/
+-rw-r--r--	root/root	usr/share/gnome-menus/ui/gmenu-simple-editor.ui
 drwxr-xr-x	root/root	usr/share/locale/
 drwxr-xr-x	root/root	usr/share/locale/fr/
 drwxr-xr-x	root/root	usr/share/locale/fr/LC_MESSAGES/
