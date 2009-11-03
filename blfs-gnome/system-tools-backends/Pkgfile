@@ -11,7 +11,7 @@ source=(http://ftp.gnome.org/pub/gnome/sources/$name/2.6/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version
-	./configure --prefix=$(pkg-config --variable=prefix ORBit-2.0) \
+	./configure --prefix=$GNOME_PREFIX \
 		--sysconfdir=/etc
 	make
 	make DESTDIR=$PKG install
