@@ -4,19 +4,16 @@
 # Group: gnome/desktop
 
 name=gnome-volume-manager
-version=2.24.0
+version=2.24.1
 release=1
 gnomever=2.24.3
-source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
+source=(http://ftp.gnome.org/pub/GNOME/sources/$name/2.24/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version
-	rm po/*.po
-	sed -i -e 's/USE_NLS=yes/USE_NLS=no/' \
-		-e 's/ENABLE_NLS 1/ENABLE_NLS 0/' configure
-	./configure --prefix=/usr \
+	./configure --prefix=$GNOME_PREFIX \
 		--libexecdir=/usr/lib/$name \
-		--disable-schemas-install
+		--sysconfdir=/etc 
 	make
 	make DESTDIR=$PKG install
 }
