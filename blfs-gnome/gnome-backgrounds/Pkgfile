@@ -4,9 +4,9 @@
 # Group: gnome/desktop
 
 name=gnome-backgrounds
-version=2.24.1
+version=2.28.0
 release=1
-gnomever=2.26.3
+gnomever=2.28.0
 source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name-$version.tar.bz2)
 
 build() {
