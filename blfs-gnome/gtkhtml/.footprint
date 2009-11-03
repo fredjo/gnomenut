@@ -61,3 +61,7 @@ drwxr-xr-x	root/root	usr/share/gtkhtml-3.14/icons/
 -rw-r--r--	root/root	usr/share/gtkhtml-3.14/icons/texture.png
 -rw-r--r--	root/root	usr/share/gtkhtml-3.14/icons/transparent.png
 -rw-r--r--	root/root	usr/share/gtkhtml-3.14/keybindingsrc.emacs
+drwxr-xr-x	root/root	usr/share/locale/
+drwxr-xr-x	root/root	usr/share/locale/fr/
+drwxr-xr-x	root/root	usr/share/locale/fr/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/fr/LC_MESSAGES/gtkhtml-3.14.mo
