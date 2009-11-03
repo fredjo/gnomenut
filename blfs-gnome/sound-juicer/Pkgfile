@@ -12,7 +12,7 @@ source=(http://download.gnome.org/desktop/${gnomever%.*}/$gnomever/sources/$name
 
 build() {
 	cd $name-$version
-	./configure --prefix=/usr \
+	./configure --prefix=$GNOME_PREFIX \
 		--sysconfdir=/etc \
 		--mandir=/usr/man \
 		--disable-scrollkeeper \
