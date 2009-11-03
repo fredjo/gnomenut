@@ -1,0 +1,20 @@
+# Description: Demon gerant les mots de passe et autres secrets des utilisateurs 
+# URL: http://www.gnome.org/
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: libgnomeui, gnome-doc-utils, intltool
+
+name=gnome-keyring-manager
+version=2.20.0
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/$name/2.20/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX \
+		--libexecdir=$GNOME_PREFIX/lib/gnome-keyrina-manager \
+                --sysconfdir=/etc 
+	make
+	make DESTDIR=$PKG install
+
+}
