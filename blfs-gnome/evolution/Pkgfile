@@ -1,0 +1,28 @@
+# Description: client messagerie 
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: gtk-doc, gtkhtml, gnome-doc-utils, evolution-data-server, nss, hal, dbus-glib, gstreamer, libnotify, intltool
+# Group: gnome/desktop
+
+name=evolution
+version=2.26.3
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/evolution/2.26/$name-$version.tar.bz2 configure.patch)
+
+build() {
+	cd $name-$version
+	patch -Np0 -i ../configure.patch
+	./configure --prefix=$GNOME_PREFIX \
+		--sysconfdir=/etc \
+            --libexecdir=$GNOME_PREFIX/lib/ \
+            --enable-nntp \
+            --enable-nss \
+		--with-nspr-includes=/usr/include/nspr \
+		--with-nss-includes=/usr/include/nss \
+            --enable-smime 
+		
+	make
+	make DESTDIR=$PKG install
+	ln -v -s evolution-2.26 \
+    $GNOME_PREFIX/bin/evolution
+
+}
