@@ -1,0 +1,8 @@
+#!/bin/sh
+
+port=alacarte
+
+# desktop database
+update-desktop-database > /dev/null
+
+# End of file
