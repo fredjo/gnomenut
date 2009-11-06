@@ -2,6 +2,7 @@ drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/gconf/
 drwxr-xr-x	root/root	etc/gconf/schemas/
 -rw-r--r--	root/root	etc/gconf/schemas/evince-thumbnailer-comics.schemas
+-rw-r--r--	root/root	etc/gconf/schemas/evince-thumbnailer-djvu.schemas
 -rw-r--r--	root/root	etc/gconf/schemas/evince-thumbnailer.schemas
 -rw-r--r--	root/root	etc/gconf/schemas/evince.schemas
 drwxr-xr-x	root/root	usr/
@@ -56,9 +57,13 @@ drwxr-xr-x	root/root	usr/lib/evince/
 drwxr-xr-x	root/root	usr/lib/evince/1/
 drwxr-xr-x	root/root	usr/lib/evince/1/backends/
 -rw-r--r--	root/root	usr/lib/evince/1/backends/comicsdocument.evince-backend
+-rw-r--r--	root/root	usr/lib/evince/1/backends/djvudocument.evince-backend
 -rw-r--r--	root/root	usr/lib/evince/1/backends/libcomicsdocument.a
 -rwxr-xr-x	root/root	usr/lib/evince/1/backends/libcomicsdocument.la
 -rwxr-xr-x	root/root	usr/lib/evince/1/backends/libcomicsdocument.so
+-rw-r--r--	root/root	usr/lib/evince/1/backends/libdjvudocument.a
+-rwxr-xr-x	root/root	usr/lib/evince/1/backends/libdjvudocument.la
+-rwxr-xr-x	root/root	usr/lib/evince/1/backends/libdjvudocument.so
 -rw-r--r--	root/root	usr/lib/evince/1/backends/libpdfdocument.a
 -rwxr-xr-x	root/root	usr/lib/evince/1/backends/libpdfdocument.la
 -rwxr-xr-x	root/root	usr/lib/evince/1/backends/libpdfdocument.so
