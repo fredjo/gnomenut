@@ -1,0 +1,17 @@
+# Description: Ce paquet va installer Warzone2100 et ses dépendances
+# URL: http://wz2100.net/
+# Maintainer: frederic.joly@9online.fr
+# Packager: frederic.joly@9online.fr
+# Depends on: openal physfs sdl_net quesoglc
+
+name=warzone2100
+version=2.2.4
+release=1    
+source=(http://downloads.sourceforge.net/project/$name/$name/Warzone%202100%20$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure
+	make
+	make DESTDIR=$PKG install	
+	}

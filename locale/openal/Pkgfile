@@ -1,0 +1,21 @@
+# Description: Librairie gerant le son.
+# URL: http://kcat.strangesoft.net/openal.html
+# Maintainer: Danny Rawlins, monster dot romster at gmail dot com
+# Packager: frederic.joly
+# Depends on: 
+
+name=openal
+version=1.8.466
+release=1
+source=(http://kcat.strangesoft.net/openal-releases/openal-soft-$version.tar.bz2)
+
+build() {
+	cd openal-soft-$version
+	mkdir build
+	cd build
+	cmake ../ -DCMAKE_INSTALL_PREFIX=/usr
+	make -j3
+        make DESTDIR=$PKG install
+	
+}
+

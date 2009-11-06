@@ -1,0 +1,244 @@
+# Hungarian translation of mplayerplug-in
+# Copyright (C) 2005, Free Software Foundation, Inc.
+# This file is distributed under the same license as the mplayerplug-in package.
+# Gabor Kelemen <kelemeng@gnome.hu>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mplayerplug-in HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-30 00:22+0100\n"
+"PO-Revision-Date: 2006-01-09 20:25+0200\n"
+"Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
+"Language-Team: Hungarian <gnome@gnome.hu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../Source/plugin.cpp:819 ../Source/plugin-ui.cpp:1201
+msgid "Play"
+msgstr "Lejátszás"
+
+#: ../Source/plugin.cpp:823 ../Source/plugin-ui.cpp:1232
+msgid "Pause"
+msgstr "Szünet"
+
+#: ../Source/plugin.cpp:827 ../Source/plugin-ui.cpp:1266
+msgid "Stop"
+msgstr "Leállítás"
+
+#: ../Source/plugin.cpp:840
+msgid "Show Controls"
+msgstr "Vezérlés mutatása"
+
+#: ../Source/plugin.cpp:848 ../Source/plugin-ui.cpp:1404
+msgid "Full Screen"
+msgstr "Teljes képernyő"
+
+#: ../Source/plugin.cpp:860
+msgid "Copy URL"
+msgstr "URL másolása"
+
+#: ../Source/plugin.cpp:864 ../Source/plugin-ui.cpp:1760
+#, c-format
+msgid "Save"
+msgstr "Mentés"
+
+#: ../Source/plugin.cpp:874
+msgid "Configure"
+msgstr "Beállítások"
+
+#: ../Source/plugin.cpp:968
+msgid "Initializing"
+msgstr "Inicializálás"
+
+#: ../Source/plugin.cpp:1427 ../Source/plugin.cpp:1431
+msgid "Download Complete"
+msgstr "Letöltés kész"
+
+#: ../Source/plugin.cpp:1951
+#, c-format
+msgid "Buffering %li KB"
+msgstr "Pufferelés: %li KB"
+
+#: ../Source/plugin.cpp:1957
+#, c-format
+msgid "Buffering %i%% - %li KB"
+msgstr "Pufferelés: %i%% - %li KB"
+
+#: ../Source/plugin.cpp:1967
+#, c-format
+msgid "Buffering Complete - %li KB"
+msgstr "Pufferelés kész - %li KB"
+
+#: ../Source/plugin-threads.cpp:266 ../Source/plugin-threads.cpp:270
+#: ../Source/plugin-threads.cpp:1632 ../Source/plugin-threads.cpp:1635
+#, c-format
+msgid "Loading Media..."
+msgstr "Média betöltése..."
+
+#: ../Source/plugin-threads.cpp:605 ../Source/plugin-threads.cpp:609
+msgid "Getting playlist..."
+msgstr "Lejátszólista lekérése..."
+
+#: ../Source/plugin-threads.cpp:917
+#, c-format
+msgid "Buffering %s"
+msgstr "%s pufferelése"
+
+#: ../Source/plugin-threads.cpp:942 ../Source/plugin-threads.cpp:1856
+#, c-format
+msgid "Playing %s"
+msgstr "%s lejátszása"
+
+#: ../Source/plugin-threads.cpp:1182
+msgid "Stream Title: "
+msgstr "Adatfolyam címe: "
+
+#: ../Source/plugin-threads.cpp:1524 ../Source/plugin-ui.cpp:698
+#, c-format
+msgid "Stopped"
+msgstr "Leállítva"
+
+#: ../Source/plugin-ui.cpp:1167
+msgid "Rewind"
+msgstr "Vissza"
+
+#: ../Source/plugin-ui.cpp:1299
+msgid "Fast Forward"
+msgstr "Gyorsan előre"
+
+#: ../Source/plugin-ui.cpp:1369
+msgid "Volume"
+msgstr "Hangerő"
+
+#: ../Source/plugin-ui.cpp:1755
+#, c-format
+msgid "Save as %s/%s"
+msgstr "Mentés mint %s/%s"
+
+#: ../Source/plugin-ui.cpp:1775
+#, c-format
+msgid "Append URL to %s/playlist"
+msgstr "URL hozzáfűzése %s/playlist-hez"
+
+#: ../Source/plugin-ui.cpp:1847
+#, c-format
+msgid "%2i:%02i / %2i:%02i | %2i%% ▼"
+msgstr "%2i:%02i / %2i:%02i | %2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:1854
+#, c-format
+msgid "%i:%02i:%02i / %i:%02i:%02i | %2i%% ▼"
+msgstr "%i:%02i:%02i / %i:%02i:%02i | %2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:1886
+#, c-format
+msgid "%2i%% ▼"
+msgstr "%2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:2262
+msgid "Save As..."
+msgstr "Mentés másként..."
+
+#: ../Source/plugin-ui.cpp:2662
+msgid "mplayerplug-in configuration"
+msgstr "Az mplayerplug-in beállításai"
+
+#: ../Source/plugin-ui.cpp:2752
+msgid "OK"
+msgstr "OK"
+
+#: ../Source/plugin-ui.cpp:2756
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: ../Source/plugin-ui.cpp:2761
+msgid "Video Output:"
+msgstr "Videokimenet:"
+
+#: ../Source/plugin-ui.cpp:2769
+msgid "Audio Output:"
+msgstr "Hangkimenet:"
+
+#: ../Source/plugin-ui.cpp:2777
+msgid "Save to Location:"
+msgstr "Mentés erre a helyre:"
+
+#: ../Source/plugin-ui.cpp:2786
+msgid "Minimum Cache Size:"
+msgstr "Minimális gyorsítótár-méret:"
+
+#: ../Source/plugin-ui.cpp:2798
+msgid "Percent of Media to Cache:"
+msgstr ""
+"A média\n"
+"gyorsítótárazandó %-a:"
+
+#: ../Source/plugin-ui.cpp:2812
+msgid "Show time in progress bar"
+msgstr "Idő mutatása a folyamatjelzőn"
+
+#: ../Source/plugin-ui.cpp:2823
+msgid "Enable Windows Media Player Support"
+msgstr "Windows Media Player támogatás bekapcsolása"
+
+#: ../Source/plugin-ui.cpp:2834
+msgid "Enable QuickTime Support"
+msgstr "QuickTime támogatás bekapcsolása"
+
+#: ../Source/plugin-ui.cpp:2845
+msgid "Enable RealMedia Support"
+msgstr "RealMedia támogatás bekapcsolása"
+
+#: ../Source/plugin-ui.cpp:2857
+msgid "Enable SMIL Support (Effects QuickTime and RealMedia)"
+msgstr "SMIL támogatás bekapcsolása (A QuickTime-ra és a RealMedia-ra hat)"
+
+#: ../Source/plugin-ui.cpp:2868
+msgid "Enable Helix Emulation"
+msgstr "Helix emuláció bekapcsolása"
+
+#: ../Source/plugin-ui.cpp:2880
+msgid "Enable Google Media Player Support"
+msgstr "Google Media Player támogatás bekapcsolása"
+
+#: ../Source/plugin-ui.cpp:2891
+msgid "Enable MPEG Support"
+msgstr "MPEG támogatás bekapcsolása"
+
+#: ../Source/plugin-ui.cpp:2903
+msgid "Enable MP3 Support (Requires MPEG Support)"
+msgstr "MP3 támogatás bekapcsolása (Az MPEG támogatást igényli)"
+
+#: ../Source/plugin-ui.cpp:2914
+msgid "Enable Ogg Support"
+msgstr "Ogg támogatás bekapcsolása"
+
+#: ../Source/plugin-ui.cpp:2925
+msgid "Enable MIDI Support"
+msgstr "MIDI támogatás bekapcsolása"
+
+#: ../Source/plugin-ui.cpp:2936
+msgid "Enable Shoutcast PLS Support"
+msgstr "Shoutcast PLS támogatás bekapcsolása"
+
+#: ../Source/plugin-ui.cpp:2947
+msgid "Enable DivX Support"
+msgstr "DivX támogatás bekapcsolása"
+
+#: ../Source/plugin-ui.cpp:2959
+msgid "Play media directly from site (No Caching)"
+msgstr "Média lejátszása közvetlenül az oldalról (Nincs gyorsítótár)"
+
+#: ../Source/plugin-ui.cpp:2971
+msgid "Connect to RTSP Media over TCP"
+msgstr "Kapcsolódás az RTSP médiához TCP-n keresztül"
+
+#: ../Source/plugin-ui.cpp:2981
+msgid "Use HTTP instead of RTSP"
+msgstr "HTTP használata RTSP helyett"
+
+#: ../Source/plugin-ui.cpp:2991
+msgid "Pause Video when hidden"
+msgstr "Videó szüneteltetése ha rejtett"

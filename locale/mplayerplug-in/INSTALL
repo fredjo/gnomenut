@@ -1,0 +1,110 @@
+INSTALL
+
+Source Code Releases:
+
+The Mozilla developement files are needed to compile this code
+
+To get the Mozilla development files there are two options
+1. mozilla-devel package (includes pkg-config files)
+2. gecko-sdk
+
+1. The mozilla-devel package may come with your distribution and it is an optional install try using apt-get or yum or your package installer
+2. The gecko-sdk can be obtained from mozilla.org (version 1.6 or higher of the SDK are the only ones that work)
+http://ftp.mozilla.org/pub/mozilla.org/mozilla/releases/mozilla1.6/
+Extract the tar file in some directory
+
+The GTK development files are needed to compile this code 
+The X11 development files are needed to compile this code
+Xpm development files are needed to compile this code
+pkg-config is needed
+
+To get the latest source from CVS do the following
+
+cd to some directory
+
+cvs -d:pserver:anonymous@mplayerplug-in.cvs.sourceforge.net:/cvsroot/mplayerplug-in login
+(just hit enter for password)
+
+cvs -z3 -d:pserver:anonymous@mplayerplug-in.cvs.sourceforge.net:/cvsroot/mplayerplug-in co mplayerplug-in
+
+or, if you have already downloaded from CVS before.
+
+cd [cvs root]/mplayerplug-in
+cvs update -PAd
+
+
+OR
+
+download the source 
+
+then
+
+tar -xzvf mplayerplug-in-{version}.tar.gz
+cd mplayerplug-in
+
+
+BUILDING
+In the mplayerplug-in directory type
+
+Compilation options
+--with-gecko-sdk=/path/to/gecko-sdk    (replace /path/to with the correct value)
+--enable-gtk2				(default option, use if mozilla is linked to gtk2 libs)
+--enable-gtk1				(use if mozilla is linked to gtk1 libs (usually if fonts in mozilla are not smooth))
+--enable-x				(use if you don't know if your mozilla is linked to gtk1 or gtk2)
+
+
+Examples:	
+To configure with defaults:	
+./configure
+
+if you are using gecko-sdk do the following
+./configure --with-gecko-sdk=/path/to/gecko-sdk    (replace /path/to with the correct value)
+
+if you are using gecko-sdk and gtk1
+./configure --with-gecko-sdk=/path/to/gecko-sdk --enable-gtk1
+
+If you get this error during configure:  
+checking for mozilla-plugin... Package mozilla-plugin was not found in the pkg-config search path.
+
+You need to use the gecko-sdk option. Using gecko-sdk 1.6 with an earlier version of mozilla seems to be ok.
+
+If you can't figure out what you need try running 
+
+./whatoptions.sh 
+
+in the mplayerplug-in directory.
+
+
+After configure is done and successful:
+make
+
+If during the make process you get an error about missing "mozilla-config.h" and you are not using the gecko-sdk.
+You need to use the gecko-sdk because your mozilla-devel package is incomplete.
+
+
+The results of that command should produce files called mplayerplug-in.so and mplayerplug-in.xpt in the current directory.
+
+INSTALLING
+
+Per User:
+
+cp mplayerplug-in*.so mplayerplug-in*.xpt ~/.mozilla/plugins  or   make install
+
+For the system:
+
+If you use mozilla:
+cp mplayerplug-in*.so /usr/lib/mozilla/plugins
+cp mplayerplug-in*.xpt /usr/lib/mozilla/components
+
+If you use firebird:
+cp mplayerplug-in*.so /usr/lib/mozilla-firebird/plugins
+cp mplayerplug-in*.xpt /usr/lib/mozilla-firebird/components
+
+If you use firefox:
+cp mplayerplug-in*.so /usr/lib/firefox/plugins
+cp mplayerplug-in*.xpt /usr/lib/firefox/components
+
+or run 'make install' as root
+
+
+Restart mozilla

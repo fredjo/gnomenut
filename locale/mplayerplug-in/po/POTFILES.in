@@ -1,0 +1,7 @@
+[encoding: UTF-8]
+Source/plugin.cpp
+Source/plugin-list.cpp
+Source/plugin-setup.cpp
+Source/plugin-support.cpp
+Source/plugin-threads.cpp
+Source/plugin-ui.cpp

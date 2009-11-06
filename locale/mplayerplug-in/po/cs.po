@@ -1,0 +1,240 @@
+# Czech translation of mplayerplug-in
+# This file is distributed under the same license as the mplayerplu-in package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Jozef Riha <zefo@seznam.cz>, 2005.
+# Jozef Riha <jose1711@gmail.com>, 2006, 2007.
+# Petr Pisar <petr.pisar@atlas.cz>, 2007
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mplayerplug-in 3.40\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-20 12:23-0600\n"
+"PO-Revision-Date: 2007-06-27 23:09+0200\n"
+"Last-Translator: Petr Pisar <petr.pisar@atlas.cz>\n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../Source/plugin.cpp:819 ../Source/plugin-ui.cpp:1179
+msgid "Play"
+msgstr "Spustit"
+
+#: ../Source/plugin.cpp:823 ../Source/plugin-ui.cpp:1210
+msgid "Pause"
+msgstr "Pauza"
+
+#: ../Source/plugin.cpp:827 ../Source/plugin-ui.cpp:1244
+msgid "Stop"
+msgstr "Zastavit"
+
+#: ../Source/plugin.cpp:840
+msgid "Show Controls"
+msgstr "Zobrazit ovládání"
+
+#: ../Source/plugin.cpp:848 ../Source/plugin-ui.cpp:1347
+msgid "Full Screen"
+msgstr "Celá obrazovka"
+
+#: ../Source/plugin.cpp:860
+msgid "Copy URL"
+msgstr "Kopírovat adresu"
+
+#: ../Source/plugin.cpp:864 ../Source/plugin-ui.cpp:1702
+#, c-format
+msgid "Save"
+msgstr "Uložit"
+
+#: ../Source/plugin.cpp:874
+msgid "Configure"
+msgstr "Nastavit"
+
+#: ../Source/plugin.cpp:968
+msgid "Initializing"
+msgstr "Inicializuji"
+
+#: ../Source/plugin.cpp:1424 ../Source/plugin.cpp:1428
+msgid "Download Complete"
+msgstr "Stahovaní dokončeno"
+
+#: ../Source/plugin.cpp:1948
+#, c-format
+msgid "Buffering %li KB"
+msgstr "Predčítám %li KB"
+
+#: ../Source/plugin.cpp:1954
+#, c-format
+msgid "Buffering %i%% - %li KB"
+msgstr "Predčítám %i%% – %li KB"
+
+#: ../Source/plugin.cpp:1964
+#, c-format
+msgid "Buffering Complete - %li KB"
+msgstr "Predčítání dokončeno – %li KB"
+
+#: ../Source/plugin-threads.cpp:266 ../Source/plugin-threads.cpp:270
+#: ../Source/plugin-threads.cpp:1630 ../Source/plugin-threads.cpp:1633
+#, c-format
+msgid "Loading Media..."
+msgstr "Načítám média…"
+
+#: ../Source/plugin-threads.cpp:603 ../Source/plugin-threads.cpp:607
+msgid "Getting playlist..."
+msgstr "Získávám seznam skladeb…"
+
+#: ../Source/plugin-threads.cpp:915
+#, c-format
+msgid "Buffering %s"
+msgstr "Predčítám %s"
+
+#: ../Source/plugin-threads.cpp:940 ../Source/plugin-threads.cpp:1854
+#, c-format
+msgid "Playing %s"
+msgstr "Přehrávám %s"
+
+#: ../Source/plugin-threads.cpp:1180
+msgid "Stream Title: "
+msgstr "Název proudu: "
+
+#: ../Source/plugin-threads.cpp:1522 ../Source/plugin-ui.cpp:692
+#, c-format
+msgid "Stopped"
+msgstr "Zastaveno"
+
+#: ../Source/plugin-ui.cpp:1145
+msgid "Rewind"
+msgstr "Převinout zpět"
+
+#: ../Source/plugin-ui.cpp:1277
+msgid "Fast Forward"
+msgstr "Převinout dopředu"
+
+#: ../Source/plugin-ui.cpp:1697
+#, c-format
+msgid "Save as %s/%s"
+msgstr "Uložit jako %s/%s"
+
+#: ../Source/plugin-ui.cpp:1717
+#, c-format
+msgid "Append URL to %s/playlist"
+msgstr "Přidat URL do %s / seznamu skladeb"
+
+#: ../Source/plugin-ui.cpp:1789
+#, c-format
+msgid "%2i:%02i / %2i:%02i | %2i%% ▼"
+msgstr "%2i:%02i / %2i:%02i | %2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:1796
+#, c-format
+msgid "%i:%02i:%02i / %i:%02i:%02i | %2i%% ▼"
+msgstr "%i:%02i:%02i / %i:%02i:%02i | %2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:1828
+#, c-format
+msgid "%2i%% ▼"
+msgstr "%2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:2204
+msgid "Save As..."
+msgstr "Uložit jako…"
+
+#: ../Source/plugin-ui.cpp:2604
+msgid "mplayerplug-in configuration"
+msgstr "Nastavení mplayerplug-inu"
+
+#: ../Source/plugin-ui.cpp:2694
+msgid "OK"
+msgstr "OK"
+
+#: ../Source/plugin-ui.cpp:2698
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: ../Source/plugin-ui.cpp:2703
+msgid "Video Output:"
+msgstr "Obrazový výstup:"
+
+#: ../Source/plugin-ui.cpp:2711
+msgid "Audio Output:"
+msgstr "Zvukový výstup:"
+
+#: ../Source/plugin-ui.cpp:2719
+msgid "Save to Location:"
+msgstr "Ukládat do adresáře:"
+
+#: ../Source/plugin-ui.cpp:2728
+msgid "Minimum Cache Size:"
+msgstr "Minimální velikost vyrovnávací paměti:"
+
+#: ../Source/plugin-ui.cpp:2740
+msgid "Percent of Media to Cache:"
+msgstr "Kolik procent souboru sa má předčítat:"
+
+#: ../Source/plugin-ui.cpp:2754
+msgid "Show time in progress bar"
+msgstr "Zobrazovat čas na liště průběhu"
+
+#: ../Source/plugin-ui.cpp:2765
+msgid "Enable Windows Media Player Support"
+msgstr "Zapnout podporu pro Windows Media Player"
+
+#: ../Source/plugin-ui.cpp:2776
+msgid "Enable QuickTime Support"
+msgstr "Zapnout podporu pro QuickTime"
+
+#: ../Source/plugin-ui.cpp:2787
+msgid "Enable RealMedia Support"
+msgstr "Zapnout podporu pro RealMedia"
+
+#: ../Source/plugin-ui.cpp:2799
+msgid "Enable SMIL Support (Effects QuickTime and RealMedia)"
+msgstr "Zapnout podporu SMIL (týká se QuickTime a RealMedia)"
+
+#: ../Source/plugin-ui.cpp:2810
+msgid "Enable Helix Emulation"
+msgstr "Zapnout emulaci Helixu"
+
+#: ../Source/plugin-ui.cpp:2822
+msgid "Enable Google Media Player Support"
+msgstr "Zapnout podporu Google Media Playeru"
+
+#: ../Source/plugin-ui.cpp:2833
+msgid "Enable MPEG Support"
+msgstr "Zapnout podporu MPEG"
+
+#: ../Source/plugin-ui.cpp:2845
+msgid "Enable MP3 Support (Requires MPEG Support)"
+msgstr "Zapnout podporu MP3 (vyžaduje podporu MPEG)"
+
+#: ../Source/plugin-ui.cpp:2856
+msgid "Enable Ogg Support"
+msgstr "Zapnout podporu Ogg"
+
+#: ../Source/plugin-ui.cpp:2867
+msgid "Enable MIDI Support"
+msgstr "Zapnout podporu MIDI"
+
+#: ../Source/plugin-ui.cpp:2878
+msgid "Enable Shoutcast PLS Support"
+msgstr "Zapnout podporu Shoutcast PLS"
+
+#: ../Source/plugin-ui.cpp:2889
+msgid "Enable DivX Support"
+msgstr "Zapnout podporu DivX"
+
+#: ../Source/plugin-ui.cpp:2901
+msgid "Play media directly from site (No Caching)"
+msgstr "Přehrávat přímo z webu (bez předčítání)"
+
+#: ../Source/plugin-ui.cpp:2913
+msgid "Connect to RTSP Media over TCP"
+msgstr "Připojovat sa k RTSP médiím přes TCP"
+
+#: ../Source/plugin-ui.cpp:2923
+msgid "Use HTTP instead of RTSP"
+msgstr "Používat HTTP místo RTSP"
+
+#: ../Source/plugin-ui.cpp:2933
+msgid "Pause Video when hidden"
+msgstr "Pozastavit video při skrytí"

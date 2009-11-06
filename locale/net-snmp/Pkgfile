@@ -1,0 +1,21 @@
+# Description: SNMP daemon and client tools
+# URL: http://net-snmp.sourceforge.net/
+# Maintainer: Mikhail Kolesnik, mike at openbunker dot org
+# Packager: Oleksiy V. Khilkevich, centericq at ukr dot net
+# Depends on: perl lm_sensors
+
+name=net-snmp
+version=5.5
+release=1
+source=(http://dl.sourceforge.net/sourceforge/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+				--sysconfdir=/etc \
+				--enable-shared 
+	make
+	make install INSTALL_PREFIX=$PKG DESTDIR=$PKG
+
+}
+

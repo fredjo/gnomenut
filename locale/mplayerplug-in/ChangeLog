@@ -1,0 +1,1179 @@
+Development
+	Alternate patch to rmda file references
+	Fix some compile issues on Fedora 11
+	Merge in some patches from FreeBSD
+	Fix a couple of translation issues
+	Fix Gentoo bug # 233863, minimum cache setting
+	Add in audio mp4 mime types
+3.55
+	Take patch from gecko-mediaplayer to compile idl file at compile time
+	Converted one gtk_ call to g_idle_ event may fix crash in thread on some systems
+	Fix display issue when pulse audio is selected, and add pulse to options
+	Apply patches from Bill Lear rael at zopyra com
+	Fixed flag problem in killmplayer, now allows open,src and others to work correctly
+	Add back in "Plug-in" to QT description
+	Change "QuickTime Plug-in 6.0 /7" to "QuickTime 7.4.5" 
+	Change "Windows Media Player Plugin" to "Windows Media Player Plug-in"
+	Add tvdevice to setup options
+	Add in make dist support, and autogenerating spec files (way over due on these)
+ 	Change url max length from 1024 to 4096 (some sites still do not work, investigating)
+	Disable non-blocking mode when we get the mmst packet length
+	If loop = 0 from site change it to -1
+	Don't fail out of the read loop if we get a 'No stream found' message
+3.50
+	Initialize enable_mp3 to enabled (it should have been)
+	Add javascript src attribute
+	Get rid of GTK size request exception
+        Alternate parsing of RAM files
+        Updated Spanish translation by Festor Wailon Dacoba
+	Make qtsrc locations work, makes some apple sites work
+        Add support for realmedia pnm:// streaming media
+        Turn volume down by pressing 9 and up by pressing 0
+        Add the ability to set the onClick callback via a javascript method
+3.45
+        Fix gtk1 compile error
+        Don't call g_main_* from thread
+        Updated pt_BR translation
+        Add additional windows mime type
+        Only update the buffering message once per second
+        Try running without catching the child signal
+        Fix segfault when null filename is passed
+        Add Turkish Translation
+        Fix invalid pointer reference SF patch id 1709087
+        Fix gtk_set_size_request warnings
+        Updated Slovak translation
+        Implement patch from Toad King for PARAM elements
+        Add support for autohref embed commands
+3.40
+        Fix gtk1 compile issue
+        Fix firefox-plugin requirement change for firefox 2.0.0.2
+        Change mediaprogress_callback to use more acurate position calc
+            From GNOME MPlayer
+        Change ASX (without version) processing to be like ASX 3.0
+        Drop ASX 3.0 processing in plugin and pass it to mplayer
+        Try and add case for REPEAT block in ASX file.
+        Added Walloon translation by pablo@walon.org Pablo Saratxaga
+	Try fixing problem with XV in GTK2 mode
+	Update some docs in javascript.txt
+	Alter RTSP playlist parsing
+	Minor fixes patch provided by elf@ephemeral.net
+	Add --enable-force32 option (use this for building 32bit on 64bit arch)
+	Remove --enable-x86_64 option
+	Change X11,Xpm and Xt detection to use pkg-config
+	Add support for iceape-plugin
+	When playing url rather than local file, mark it so that we don't retry on failure
+	Cleanup layout of GUI when using small window.
+	Disable the unEscapeXML code
+	run indent -kr on the .cpp files
+	Implement PATCH 1612197
+	Fix problem where another fix broke the fallback to url, when local file won't play fix
+	Fix problem with X mode compiling
+3.35
+	Improve entryref handling in ASX files
+	Fix the fallback more correctly
+	Fall back to URL playing when, local file won't play
+	Improved ASX detection
+	Help with passing mouse click thru to desktop on Fullscreen
+	Simplified Chinese translation by Yang Hong
+	Cleanup allocated pointers from config options
+	Add config file option "profile"
+	Cleanup install.sh.in and uninstall.sh.in
+	updated whatoptions.sh
+	Log no media cache setting when in debug mode
+	Fixed incorrect video resize in NP_FULL mode
+	Add Volume Percent to tooltip text
+	Updated nl.po file
+	Fix problem with href videos (Apple HD sites) cancelled flag was not cleared correctly
+	Fix problem in playlist when using hrefs and clicking/selecting second time
+	Fix for xv output in mplayer see http://bugzilla.mplayerhq.hu/show_bug.cgi?id=617
+	Implement SetVolume and GetVolume javascript methods
+	Fixed volume button placement for HD windows
+	Use mplayer softvol option by default, can disable with config option 'softvol=0'
+	Correct some minor compiler warnings
+	Mark an item as played when you get a 404, but not everything in the mirror list
+		Allows trying the next mirror in the list
+	In ASF Reference files mark everything in the reference file as a mirror site
+	In ASX 3.0 files recognise entry with multiple hrefs as mirror sites 
+		and only play one of the mirror sites per entry. This prevents playing the 
+		same commercial	once per mirror site, like at www.24trailer.com
+	Updated hu translation by Gabor Keleman
+	Added volume control, use mouse wheel to control
+	Updated nl.po by Luuk Mulder
+	Fix logo display
+	Initial support for video/x-flv mimetype
+	Updated Polish Translation from Julian Sikorski 
+	Unfix the fullscreen button, as it causes other major issues
+	Fix problem with fullscreen button click being passed to desktop
+	Have drawing_area properly respond to dynamic resizing of embed window
+	Added video/3gpp mimetype
+	Updated Polish Translation from Julian Sikorski 
+	Change from transparentatstart to displaysize
+	Add FLAC audio support, based on patch from Stuart Longland FR # 1560038
+	Fix for bug 1559591 French Translation issue
+	Make transparentatstart embed option, make the player in it's own window
+	Make tv:// be recognized as a streaming type of URL
+	Reorganize tv patch
+	Added embed arguments: tvdriver,tvinput,tvwidth,tvheight and tvoutfmt
+	Added config arguments: tv-driver, tv-input, tv-width, tv-height and tv-outfmt
+	Change allowable zero cache fill tries from 1 to 3
+	Parse StreamTitle coming from ICY server, and show it
+	Fix problem with .pls playlist files where they start with [playlist]
+3.31
+	Updated sk translation by Jozef Riha
+	Add "registry file" to the list of skipped File not found messages (Slackware)
+	Applied memory leak patch in X mode from Burkhard Fischer
+	Added workaround for dumb href urls are onegoodmove.org
+	Changed fopen from a+ to w+ mode, this should stop appending to an existing file
+	Fix problem with infinite loop logic
+	Fix problem with keep-download and URLs with redirect
+	Fix loop logic
+	Make keep-download work when full URL is present
+	Rename unHTML to unEscapeXML as it is a better description
+	Improved unHTML code to remove &amp; and replace it with &
+	Disable Google Media Player emulation by default as google uses flash now
+	Replace &amp; with & in URLs
+	Fix logic error in /dev/rtc and LIRC detection
+3.30
+	Replace &amp; with & in URLs
+	Fix logic error in /dev/rtc and LIRC detection
+3.30
+	Added embed option "enableContextMenu" to disable popup menu
+	Found and fixed place where fclose value was not properly NULLd
+	Change mms rotation from http > mms > mmst to mms > msst > https	
+		Affects video quality at some sites, but keeps mplayer from crashing
+	Implement debian patches from Michael Rasmussen
+	Tag as 3.30
+	Abort ff_callback and rew_callback if mmsstream != 0
+	Fix another problem with http->mms->mmst rotation
+	Add SoundTracker support .mod files
+	Fix make clean, not cleaning DVX plugin
+	Fixed Failed to Open LIRC early quit error
+	Fixed Failed to Open /dev/rtc early quit error
+	Fix GTK crash when mplayer is ran with window = 0 
+	Fix problem with http->mms->mmst rotation
+	Fixed problem with GTK < 2.4 detection 
+	Fixed missing include strings.h
+	Remove glib/gprintf.h include as it causes problems and is not needed
+	Fixed problem with Save As not becoming sensitive
+	Added some additional checks to shift back into blocking mode.
+	Cleanup the RTSP playlist parser
+	Add ~/.firefox/pluginreg.dat to delete list when updating plugin config
+	Mark elements of the ASX file to be streaming
+	Correct incorrect resetting of NON_BLOCK flag
+	Change player FD from ASYNC to NON_BLOCK but only during connection
+		phase when mplayer is in streaming mode
+	Change player FD to NON_BLOCK during shutdown
+	Change player FD from NON_BLOCK to ASYNC mode. Uses much less CPU
+	Change pipe reader to handle NON_BLOCK mode properly
+	Change player FD to NON_BLOCK mode
+	GTK Warning cleanups
+	Fixed problem where NULL value was free'd
+	DivX Browser Plug-In emulation - requires new .so & .xpt files
+	Don't show buffering % in tracker when we are streaming as value 
+		doesn't mean anything
+	Added selection box to Save as menu selection RFE # 1459192
+	Finally make the ▼ disappear correctly when 99% or higher is reached
+	Change "Buffered" message to "▼" at suggestion of Luuk
+	Added % Buffering message to media progress bar
+	Link patch by Ari Pollak to loosen the linkage
+	Fix problem with QT target being specified but href not being present
+	Fix GTK1 compile issue
+	Add additional clipboard set text 
+	Clean up some event handlers
+	Fix problem with drawing_area being destroyed when it should not
+	Fix problem with cache not being set for some URLs
+	Fix problem with stopping playback of a list of mms streams
+3.25
+	Updated Danish translation by Anders Lind
+	Remove detection of file not found message as this was a false positive
+	Updated Dutch translation by Luuk Mulder
+	Updated Hungarian translation by Gabor Kelemen
+	Fix problem with double play issue when Win32 library load fails
+	Updated French translation by Alexandre Svetoslavsky
+	Make showcontrols a config file option
+	Fix relative url issue with code that calls srcToButton
+	Set black background on gtkwidget
+	Add support in srcToButton if original src is a jpeg or bitmap..etc
+	Add showstatus config option (cause I keep recommending it)
+	Fix problem with audio/mpeg mimetype and mplayer playing them
+	Updated Spanish translation by Matias Orellana
+	Clean up some compile warnings
+	Add xulrunner to the list of potential mozilla providers
+	Patch to create option enable-pls (enabled by default) by Laurence Dukhovny
+	Only set -rtsp-stream-over-tcp when URL is a rtsp URL
+	Fix button problem in HD GUI
+	Fix for problem with space at the end of a RAM file
+	Fix problem with keeping filehandle open when using nomediacache
+	Update GUI during media transition
+	Convert mms:// urls to http:// urls and see what that does, it makes
+		the Arena Football site show a higher quality video
+	Add .mp3 extension to tmp file for audio/mp3 types fixes problem 
+		at http://www.technodj.de/
+3.21
+	Hide tracker when in NP_FULL mode and window is small
+	Fix problem where apple.com HD site opened too many windows
+	Fix problem with apple HD site where controls where covered by window
+	Alter what is seen as a "controlwindow" for realmedia emulation
+	Fix problem where gtkwidget is hide and never shown again in EMBED mode
+	Fix crash when window is small (logo not created)
+	Add config option "showtracker" 0 = hide media progress bar
+	GTK1 compile fixes
+	Reintroduce gtk_plug object between mozilla window and gtkwidget
+		Fixes problems with full screen mode
+	Move drawing area setup from SetupPlayer to SetWindow solves a double
+		reference issue and may be the cause of the crashes on Linspire
+	Fix some more GTK2 issues
+	Fix some GTK2 widget errors (sizes not specified)
+	Undo XEmbed fix and try another
+	Fix crash when using XEmbed mode in GTK2
+3.20
+	Allow window to be resized 
+		make arenafootball site work
+	Add extra error reporting for failed codecs
+3.20pre1
+	Comment out GTK Hide code
+	Change GTK Destroy to GTK Hide
+	Fix runtime issue with --enable-x option
+	Disconnect window_visible callback prior to shutdown
+	Apply locking patch from Yasuhiro
+	Comment out widget destroy for gtkwidget
+	Add jack as an ao option, as this is default on Linspire
+	Apply Yasuhiro's patch for option to prefer http over rtsp transfer
+	Add "Pause Video when hidden" to Configuration dialog
+	Updated Danish translation by Anders Lind
+	Applied X11 font patch from Yasuhiro Matsumoto
+	Updated Polish translation by Marcin Bukat
+	Updated Japanese translation by Yasuhiro Matsumoto
+	Updated Hungarian translation by Gabor Kelemen
+	Updated translation strings in en_US.po
+	Add x86_64 lib path to spec file
+	Added audio/x-scpls mimetype for Shoutcast Playlist (pls) files
+	Updated Japanese translation by Yasuhiro Matsumoto
+	Make sure Save option comes available when download is complete
+	Added audio/x-mpegurl to supported mimetypes
+		make www.internetdj.com links work
+	Hungarian translation by Gabor Kelemen
+	Add video/divx mimetype
+	Add support for audio/midi mimetype
+	Fix for crash when value = NULL bug #1394901
+	Fix for problem with ASF media bug #1394777
+	Workaround for BSD issue bug #1394652
+	Fix issue with autostart=0 in config file
+	Fix issue with RealPlayer emulation
+3.17
+	Allow compile with GTK2 2.0 (config dialog is limited)
+	Compile and mark memmem,strlcat and strlcpy as C functions
+	Enforce that GTK2 >= 2.4.0
+	Fix to allow src and href media to be the same url
+	Fix fgetc crash by using a lock and changing to fread
+	Fix GTK1 compile issue
+3.16
+	Tuned some of the state settings
+	Fix problem where second video of same size would not be shown
+	Fix some issues with RealPlayer emulation
+	Fix crash and long delay on shutdown issue
+	Added Basic audio mimetypes
+	Added more real media mimetypes
+	Add in fix where button image cannot be read fixes http://www.apple.com/trailers/fox/ice_age_2/
+	Add another real media mimetype
+	Media progress tweaks
+	Show media time in progress bar
+	Enable/Disable showing of time via config option "showtime"
+	Add showtime to config window
+	Change specfile buildrequires from XFree86-devel to xorg-x11-devel
+	Updated Norwegian Bokmål translation by Alexander N. Sørnes
+	Updated Japanese translation by Yasuhiro Matsumoto
+	Add DivX mimetype media support
+3.15
+	Make prefer-aspect=0 and showcontrols=1 work together
+	Cleanup directories when using srcToImage
+	Fix rew button position when using targetplayer
+	When clicking on the media progress bar, don't allow percentage to go
+		beyond bytes downloaded percentage if we know the total size
+	Fix mediaprogress_callback for GTK1
+	Clicking on the media progress bar (not the download percent bar)
+		allows the user to seek within the media.
+	Make nocache an embedable parameter
+	Add some locks back in
+	More aggressivly try an get the media length and percent
+	Make DEBUG an embedable parameter
+	Found a place where the threadsignalled flag was not set properly
+		This helps with mms media and player commands
+	Fix a lockup when playing an MMS Media source again, not sure 100% fixed, but better
+	Have onMediaCompleteWithError return ERROR_PLAYLIST_EMPTY when told to play with nothing in the list
+	Minor fix to make the BBC site work (codec error, without failure)
+	Add tooltips to the buttons on the GUI
+	Make onMouseDown and onMouseUp actually work
+	Adding some locks back in and disable killmplayer function (causes a long wait)
+	Fixed crash when you have two players on a page and browser window closed
+	Changed onMouseDown and onMouseUp to return the buttons
+	Updated DOCS/tech/javascript.txt
+	Catch File Not Found Error from mplayer
+	Added onMediaCompleteWithError callback 
+	Added config options showlogo and hidestatus
+	Print to the window if mplayer can't be found
+	Make GTK1 compile and work, no controls and probably not going to be
+		as too many critical GTK2 features are missing.
+	Create target player for Apple HD content (GTK2 only, GTK1 coming)
+	Fixed problem when src/href combination is used, and clicking second time
+	Added af option to config file
+	Make javascript method playlistClear return true or false
+	Added javascript method playlistAppend and playlistClear
+	Fix getTime returning non-zero value when stopped
+	Fix SMIL parsing problem with http://www.avnet.kuleuven.be/toledo/index2.php?id=37
+	Remove pthread_exit(0) from end of playPlaylist to prevent seamonkey from crashing
+	Only redraw buttons when they are visible
+	Add event callbacks onMouseOver & onMouseOut
+	Add event callbacks onMouseDown & onMouseUp
+	Make GTK2 use XEmbed
+	Updated Brazilian Portugese translation by BRUNO GONÇALVES
+	Updated Korean translation by Joonil Kim
+3.11
+	Fix problem with -playlist directive
+3.10
+	Fix GTK1 runtime issue
+	Make http://www.apple.com/quicktime/hdgallery/magnificentdesolation.html work the way it was intended
+		Quicktime Buttons are now turned into buttons and load the movie when clicked
+	Respect autostart in config file
+	onClick callback patch by Sergey Khlutchin
+	Remove detection of "Stream not seekable" and fall back to playlist
+	Enable setting SMIL and Helix support via the configuration dialog
+	make isMms nomediacache aware
+	do onMediaComplete callback when in X mode (patch from Xavier Richez)
+	Don't overwrite conf files without making a backup (Patch from Takis)
+	Make nomediacache work properly when src="http://some.site.com"
+		it worked properly with filename="file://some/file/name"
+	Add "Play media directly from site" to configure dialog (this is the nomediacache setting)
+	Add gl vo to the configure dialog needs mplayer 1.0pre8 to work correctly
+	Changes for Elphel cameras to work better
+	Updated Korean translation from Joonil Kim
+	Updated configure to look for firefox, mozilla or seamonkey packages
+	Added widget realize code
+	Removed widget realize code, it did bad things
+	Fix X mode compilation issues
+	Updated Polish translation from Marcin Bukat
+	Add Norwegian Bokmål translation from Alexander N. Sørnes
+	Add configure option --enable-rpath to help with Gentoo Bug 100809
+	Fixed problem of buttons disappearing after Stop and then Play
+	Fix for rtsp-use-tcp to fallback to 0 if we get an "interrupted" message
+	Fix a bug in the ASX parsing routine
+	Added a bunch of configuration options to the GTK2 configuration dialog
+		WMP,QT,RM,GMP,MPEG,MP3 and Ogg options are now selectable and able to be changed on the fly
+	Removed forcing of full cache of mp3 and mpeg media since mplayer as of 9/10/2005 fixes this problem
+	Updated French translation by Alexandre Svetoslavsky
+	Updated Danish translation by Anders Lind
+	Updated German translation by Rene Engelhard
+3.05
+	When the same url is accessed via different protocols, make sure they are all added to the playlist 
+		This makes Netflix work better
+	Fix playlist problems resulting from multiprotocol fix
+	Fix crash in NP_FULL mode when plugin is closed
+	Foundation for Configuration Dialog
+	Changed the way config files are read... /etc is read first, then $HOME/.mozilla then $HOME/.mplayer
+	Updated config dialog to update config file options for vo,ao,cachesize and cache-percent settings (need localization)
+	Fix crash when switching away from stopped/paused media
+	Pause video playing when not visible in mozilla window (iconization and desktop switching does not work however)
+	Fix dumb in configure.in thanks to Panagiotis Issaris (he fixed it, I messed it up)
+	Added embed callbacks "onHidden" and "onVisible"
+	Added embed flag "nopauseonhide" set to one to disable the pause of video when covered up
+	Added config flag "nopauseonhide" set to one to disable the pause of video when covered up
+	Fix deadlock in filename javascript command
+	Fix use of NULL pointer in URLcmp
+	Add embed callback "onDestroy"
+	Specifically add "-nocache" to mplayer when not streaming.
+	Allow mplayerplug-in.types to have comments in it.
+	Force full download of mpeg and mp3 media since mplayer has issues with cached mp3s and mpegs
+	Make sure cache-percent=100 is respected.
+	Fix crash in configure screen when no config file present
+	js_state fix from Greg
+	Crash fix from Takis, for the configure dialog. GTK may not create a widget.
+	Correct some memory leaks in the config file loading
+	Fixed buttons not showing issue
+	Fixed -nocache issue with http streams
+	Fixed uninitialized buffer error in fullyQualifyURL
+	Cleanup language install/uninstall
+	Add "Save to Location" to configure dialog
+	Fix button disappearing in NP_FULL mode when media has no video component
+	Fix case where idiot content developer uses src and filename in same embed tag, set to same value.
+	Allow Fullscreen button to work correctly now, icon is tracked properly
+	Issue Fullscreen = 0 at end of media
+	Fix an issue where http media that acts like MMS and it contains a multi-item playlist is handled correctly
+	When stopping MMS media, dont pause and seek to time 0, actually quit the stream, can cause mplayer to hang if you seek to time 0
+	Fix bad comparison in getURLBase
+	Fix problem where -cache/-nocache came between -playlist and filename/URL
+	Config option "enable-helix" enabled by default, set to 0 to disable "audio/x-pn-realaudio-plugin" mimetype
+	Get translations working properly (Thanks Anders)
+	Updated Danish translation
+	Added en_US.po language file to use as a template
+	Another fix to URLcmp to make http://www.dr.dk work again
+	Fix case where configure dialog can be opened more than once
+	If media is MMS, at stop mark all items on the playlist as played
+3.01
+	Fixed crash when "src" tag used and src is not found
+	Allow SMIL support to be configurable for Real Media
+	Added --enable-[wmp,qt,rm,gmp] flags to configure
+3.00
+	Warning message when using "--enable-x" option
+	State setting in shutdown (remove unnecessary instance->)
+2.99.1
+	Install.sh fix
+	make clean fix
+	Crasher fix
+	make filename embed tag attribute work properly
+	Makefile fixups done by Greg Hosler
+2.99.0
+	Work with locking issues in play, ff and rew also rework order in play a bit.
+	Korean translation by Joonil Kim
+	Change an assertion into some if checks
+	Handle case where plugin is shutdown, but thread is setup, but has not been signalled and so it may hang
+	Redo ::Play function
+	Add a missing lock to ::Play
+	Add some more GTK_IS_WIDGET checks to the destroy code.
+	Fix download percentage when dealing with large files.
+	Fix issue with nomediacache=1 and autostart=1 and the buttons not displaying
+	Removed unnecessary unlock from ::Play in the SetupPlayer section
+	Plugin separation, made separate plugin for each video type
+	Fixed a dumb bug in the ASF and ASX parseing code
+	Cleaned up (un)installer code
+	Fixed problem with spanish (es) missing on install
+	More cleanups due to lib separation
+	Added lock around deleteList in shutdown
+2.85
+	French translation by AL 
+	updated mimetype description MS ASF video for type video/x-ms-asf
+	Build Fixes from Dag Wieers
+	Minor change to getURLFilename
+	Change to make NetFlix previews work
+	Cap the cachebytes to twice the cachesize
+	Fix up some issues with user-agent
+	Italian translation by Roberto Inzerillo
+	Brazilian Portugese translation by Danilo Bardusco
+	Slovak translation by Jozef Riha
+	Took & compare out of URLcmp so that http://www.dr.dk/netradio/?venstre=true should work.
+	More fixes to make www.dr.dk to work better.
+	Optimize the loop condition with 1 file to play
+	Fix a bug in URLcmp with file:// urls
+	Fix a bug in "loop" attribute make "loop=1" work.
+	Merged and expanded Hiroa's loop patch.
+	Russian translation by Nikolai Prokoschenko
+	Danish translation by Anders Lind
+	Progress Bar over video fix and crasher fix.
+	Spanish translation by Azael Avalos
+	getTime and getPercent patches from anonymous
+	Added options cookies, nomouseinput and noconsolecontrols to config file to disable (set to 0) or enable (set to 1 [default])
+2.80
+	Fix DPMS value on quit
+	Add workaround to disable -xy, -x, -y mplayer flags when not on local display
+		patch from Yasuhiro Matsumoto
+	Add gettext language support (ja only provided, other languages still need to be done)
+		patch from Yasuhiro Matsumoto	
+	Patch to set UserAgent from Yasuhiro Matsumoto
+	Polish translation by Marcin Bukat
+	German translation by Rene Engelhard
+	Dutch translation by Panagiotis Issaris
+	Implement java script method SetFileName
+	autostart/autoplay config option. Set to 0 to disable autostart of media.
+	New Logo by Dusan Maliarik (and Gnome Crystal Icon Set)
+	Fix to URLcmp to make http://ms.radio-canada.ca/CBFT/Telejournal200501182200_4.wmv work. 
+	Implemented the following Javascript functions (QuickTime compatible)
+		void SetIsLooping(in boolean loop);
+		boolean GetIsLooping();
+		void SetAutoPlay(in boolean autoPlay);
+		boolean GetAutoPlay();
+		void SetHREF(in string url);
+		string GetHREF();
+		void SetURL(in string url);
+		string GetURL();
+		string GetMIMEType();
+	Fix up buttons and GUI layout in small windows
+	Make STOP be down when autostart = 0
+	Fix popup menu to work in letterbox bar areas
+	Fix popup menu to work before media is started
+	Fix menu callbacks to work if panel is not drawn
+	Changed behavior of Stop/MediaComplete event to show mplayerplug-in logo when done.
+	Autoconf changes to GTK1/2 Enabled flags.
+	Fix crash with noembed=1 option set
+	Fix compile issue with GTK1 code
+2.75
+	Make sdp media urls work
+	Make GTK1 code request XEmbed mode
+	Only specify mplayer -cache option for streaming data
+	Add mimetype application/x-ms-wmv to the list
+	For realmedia, don't play when controls=statusbar
+	Applied mms playlist detection patch from Yasuhiro Matsumoto (fixes TSN.ca among others)
+	Fix for older mozilla include paths. Fix based on info from FreeBSD package patch.
+	Applied sync A/V options patch from Yasuhiro Matsumoto
+	Applied some Sun JDS patches from Hiroaki Nozaki - did not apply all since they used global variables
+	Added in support for Nullsoft Streaming Video mimetype: application/x-nsv-vp3-mp3
+	Fixed problem with http://www.vg.no/video media
+	Added fallback to smb:// when getting a file:// url that is not found
+	Make Netflix previews work after Netflix website update
+	Apply NetBSD patches from Juan RP
+	Add back in the signal mask patch and a slight pause
+	Add some more pthread_cancel checks in
+	Fixed a buffer overrun that was identified by Adam Feakin
+	Fixes some minor nits with the fullscreen window in GTK2
+	Applied more patches from Hiroaki Nozaki - more HTML property support
+	Added config option enable_smil, default to 1 or enabled. Added so that SMIL support can be disabled independently
+	Fix automake issues on FreeBSD
+	Fix issue with http://www.camerata-trajectina.nl/, autoplay and buttons showing up
+	Add support for keyboard commands, these only work when the mouse is over the buttons or background, not over media
+		space/P/p - play or pause depending on current state
+		S/s - stop
+		</, - rewind 10 seconds
+		>/. - fast forward 10 seconds
+		F/f - fullscreen or not
+2.70	
+	Fix case where browser hangs on MMS media being closed.
+	Fix gtk warning: (gtk_widget_set_events): assertion `!GTK_WIDGET_REALIZED (widget)' failed
+	Reenable GTK2 widget destroy code
+	Fix "Save" MMS stream from popup menu
+	Fix "Save" when rename does not work, copy if needed
+	Fix bug in fullyQualifyURL where url is of form :8080
+	Added Copy URL menu option. It copies the playing url to the clipboard.
+	Recognize and ignore "statuspanel" for realplayer
+	Fix compile issue with gtk1 (clipboard)
+	Fix bug in fullyQualifyURL
+	Fix ao config options so that ao=alsa:device=plug=dmix option works
+	Fix crash when cancelling media play
+	Add config option "enable-ogg", enabled by default and add mimetype of application/ogg
+	Recognise hidden attribute
+	Fix crash when embed attribute hidden is true and fullscreen is set to true
+	Fix video does not play when controls=true is set and media is quicktime (controls is ignored for realmedia)
+	Fix threading state error in ::Play
+	Fix double play issue after media has played and play button is clicked
+	Fix memory leak in playPlaylist
+	removed -> Make sure player status read is in non-blocking mode
+	Rewrote input stream reader 
+	Make mimetype application/smil work even when realmedia is disabled
+	Fix for infinite loop in smil file that the seq block contains no audio or video tags. 
+	Fix bug in URLcmp
+	Xinerama support to only show on one monitor
+	Adjust aspect ratio for wide screen displays
+	More Xinerama changes
+	Xinerama virtual desktop switch fix
+	Show widget toolkit in about:plugins
+	Fixes for GTK1 mode
+	Add configure option --enable-x86_64 that will help with setting up the compile to 32bit mode on x86_64 hardware.
+	Make nomediacache work with a file:// url.
+2.66
+	Fix for Gentoo NPTL threading issues
+2.65
+	Fix case where image == NULL and style is retrieved from it
+	Fix visible buttons when media type changes from non-streaming to streaming in same playlist
+	Positioning issue for NP_FULL media in a small window
+	Fix GUI issues in NP_FULL mode
+	Fix negative percent issues when downloading large media
+	Improve resize issues in NP_FULL mode
+	Instance NULL checks in callbacks
+	Removal of idle events in kill_mplayer
+	Fix memory leak in kill_mplayer
+	Fix FullScreen button position
+	Fixed global pointer that was referencing function memory (MMS Streams)
+	Fix fullscreen mode where video was not centered vertically (NP_EMBED)
+	Disable GTK2 widget cleanup, seems to cause crashes
+	Couple of state checks / corrections
+	Add checks to make sure correct widget toolkit is used at runtime,
+		Display message if not, and stop.
+	Addtional callback checks
+	Fix X mode compile issues
+	Fix RealPlayer multiple images issues
+	Patch from Jesse Dutton for signal handling
+	Fix case where mozilla toolkit has weird number/date code (may allow a crash, but a warning is printed)
+	In X mode only draw status messages when not playing
+	Support gecko-sdk 1.7 and higher (hopefully)
+	In X mode only draw white background when not playing, fixed to not redraw anything if playing and video present
+	Fix fullscreen button click crash when in no_embed=1 mode, hit f to make window fullscreen
+	Make dvd:// url work example: <embed type="application/x-mplayer2" width=500 height=400 autostart=0 href="dvd://1">
+	Fixed issue where DPMS was not reenabled on media cancel, causes screen saver to be disabled.
+	Configure changes to determine if DPMS support is available
+	Tighten up GTK_ENABLED blocks in playNode
+	Fix XPM_LIBS definition
+	Fixed Opera NP_FULL issue
+	Made config option cachemin, synonym for cachesize
+2.60
+	Quit mplayer when "everything done" message is sent from mplayer
+	Clean up memory in plugin-threads.cpp
+	Support onMediaComplete event in embed tag
+	Internally we know, media percent and media length in seconds
+	Javascript methods:	getTime(), getDuration(), getPercent()
+	Updated INSTALL instructions to match website
+	Support onEndOfStream event in embed tag, same code as onMediaComplete
+	Added mediaprogress bar to GUI, although some media types can't use it, QT for example
+	Documented javascript in DOCS/tech/javascript.txt
+	Documented locking rules in DOCS/tech/locking_rules.txt
+	Added config option "nodownloadmedia" that does not download the large files.
+	Fixed crasher when EMBED tag used, but window size is 0x0
+	Fix to fullyQualifyURL for file:// urls
+	Make gecko-sdk option work with mozilla 1.7
+	Changed case of javascript commands to have first letter uppercased
+	Windows media "controls" methods implemented (play, pause, stop)
+	Reworked handling of video / UI in NP_FULL mode.
+	Make ShowControls property work
+	Change option nodownloadmedia to nomediacache
+	Start fullscreen javascript property work
+	Fixed controls method crash after 3 clicks.
+	Fixed ShowControls so that buttons are drawn correctly in all cases
+	Fixed SetFullScreen methods and added UI button to swtich back and forth
+	Forgot to include FS button in showmediacontrols
+	Fix case where showcontrols = 0 and fullscreen = 1 and media ends. No way to get out.
+	Added "whatoptions.sh" to help find out about mozilla
+	Change mediacallback to be called from the gtk idle loop rather than the thread
+	Unused code cleanup
+	Fix pointer error
+	Fix fullscreen mode in NP_FULL mode
+	Basic Popup Menu 
+	Fix comparision of nomediacache option
+	Added ShowControls and Set Fullscreen checked menu items
+	UI cleanups and refinements
+	Fix to make popup menu work over video with versions of mplayer that support it (1.0pre2 and higher I think)
+		plug-in will detect if the option is available and fallback if support not available
+	Fix issues with nomediacache and file not getting played
+	Added javascript method "showlogo" and embed option "showlogo"
+	Playlist parsing audit and fixes
+	Make 9news.com work, although mplayer has issues with this media.
+	new specfiles for rh9 and fc1, fc1 one is still default. rh9 file requires gecko-sdk.
+	Make menu and fullscreen work in GTK1 mode
+	Progress bar size fixes when switching between embedded and fullscreen modes
+	Make NetFlix previews work again.
+	Menu option to "save" the media, only available when media is fully downloaded. Filename is in menuitem
+	Fix crash caused by save menu enable callback when playlist is complete
+	Make media at http://www.comedycentral.com/tv_shows/chappellesshow/showclips.jhtml work
+	Mask out crash caused in kill_mplayer
+	Set window background to be black when in fullscreen mode (GTK2 only)
+	Minor callback fixes
+	Fix issue with QuickTime files that contain http in them.
+	Ignore HTML files in playlist processeing.
+	Clean up X, GTK1, and GTK2 compiling and some minor GTK1 fixes
+2.50
+	Make ifilm.com QuickTime formats work
+	Fix crash when setting up media formats at ifilm.com
+	Added @CPPFLAGS@ to Makefile.in
+	Fixed problem with URLcmp where everything was the same except hostname
+		http://cartoonnetwork.com/file != http://www.cartoonnetwork.com/file
+		This was caused by mozilla resolving the name to the full name
+		Fix crash in this change
+	Fix crash when running in X mode
+	Fix td->list != list issue
+	SetupPlayer safety checks
+	Removed DESTROYED global var, implemented pthread_cancel and pthread_testcancel checks
+	Return of DESTROYED global var, without it in very specific places we get nasty crashes
+		Specifically in the main thread.
+	Fix playlist issue for cbs.com survivor micro-site, Windows Media does not work because
+		of specific codeing for Windows Media, realplayer mostly works. Mplayer
+		does not like some of the commercials.
+	Some fixes to help racerocks.com not crash the browser
+	Alex Eskins's pthread patch applied
+	Alex Eskins's playPlaylist patch applied
+	Make real media work at npr.org and resolve infinate loop in smil code
+	Move mimetype application/smil to realmedia section
+	Alex Eskins's 2nd pthread patch applied
+	DESTROYED global var eliminated again
+	./configure fixes
+	DestroyCB removed as no longer needed
+	Fixed NULL pointer error in smil decode
+	Fixed Locking issue in SetupPlayer
+	Fixed crash with the following URL: http://www.defjam.com/www2/listening/kanye_west/qt_feature/index.html
+	Fixed issue where asf file self references itself and sets to mmsstream and player was not started
+	Fixed issue where -playlist was passed to mplayer for a self reference asf file
+	Alex Eskins's patch #3 applied
+	Fixed error where local cache file was not getting deleted
+	Fixed error where local cache file was being deleted twice
+	More work on sysinstall and uninstall scripts
+	Fixed X mode so that no global variables are used
+	Fixed error where commands were not being send to mplayer (play, pause, etc...)
+	Alex Eskin's fctrl patch
+	Added javascript method "filename"
+	Alex's rescan patch
+	Alex's race patch
+	javascript filename support
+	Found and fixed shortcoming in URLcmp
+	Changed the javascript filename method to a filename property
+	Fixed race with n->cancelled and filename property
+	Fixed crasher in ::GetFilename 
+	Fixed some locking in ::SetFilename
+	Applied Alex's td_null patch
+	Fixed bug in fullyQualifiedURL
+	Applied Alex's mms -> mmst fallback patch
+	Make all ASX files at FoxNews work
+	Make ASX check less strict
+	Show controls when autostart = false
+	GUI consistancy fixes, have buttons respond to javascript commands
+	Found crash in X mode, font != NULL at startup
+	Fixed "loop" logic to that Video-C chart show works as well as other loop sites
+	Redid "loop" logic so that locking is better controlled
+	Added javascript method "Open"
+	Fixed play method so it can be called after the media is complete
+	Set JS_STATE during FF and REW, restore on completion, and lock it
+	Changed semantics of node cancelled, means two things so added played to be used when
+		talking about the playlist, and cancelled to mean file not needed
+	Changed logic of JS_STATE during FF and REW, set it and then when the media plays again set it
+		to PLAYING
+	Fixed some GUI issues with the progress bar
+	Have plugin background respect GTK theme
+2.45
+	Work on fixing crasher when flipping media quickly.
+	Merged in patch from Pere László
+	Fixed problem with Fox News where 2 files were played at once
+	Fixed problems with apple.com/trailers where video didn't play
+	Fix more crashers
+	Fix for QuickTime file with old encoder. Fixes QT at plugger and QT at harvard site.
+	Updated downloading status message
+	When in GTK mode, draw to a GTK window 
+	Fix GTK2 hang after playing movie
+	Fix GTK2 async GUI calls. 
+	Safety checks
+	Merge in some of Pere Laszlo's 2nd patch. 
+	Draw buttons in right spot in NP_FULL mode
+	Move buttons on canvas if window resized in NP_FULL mode
+	Support noembed option again for people with xvidix
+	Fixed broken X mode
+	ReMerge javascript seek patch
+	quicktime-media-link format support
+	Fixed the button/javascript callbacks to work better
+	Fix QuickTime detection at AtomFilms
+	Fix crasher when RealMedia control window is specified
+2.40
+	Set default value of DEBUG = 0, not 1
+	Corrected Logosize
+	Fixes for IBM Linux commercials (realplayer format)
+	Fix plugin description to be aware of the enable flags in the config file
+	Change rtsp fps from 30 to 25, somethings are just too fast with 30
+	Changed cachefile handling so that file was not opened and closed as much, 
+		should help with slower non-DMA disks. Should be faster too.
+	Make video/x-ms-wmp videos work from http://cgi.omroep.nl/cgi-bin/streams?/tv/nos/journaal/bb.laatste.asf
+	Fix a bug with argc in PlayerThread
+	Resize Player Window to actual video size.
+	Created a embeded GUI to replace the mini-gui functionality in GTK2
+		Using this with mozilla with gtk1 libs will not work
+		to disable gtk2 run ./configure --disable-gtk2
+	Updated ./configure script to take the following options
+		--enable-gtk1		
+		--enable-x		
+	gtk1 & gtk2 interfaces working now.
+	Embed option ShowControls respected
+	Added FastForward and Rewind Buttons, only when non-mms stream
+	Fixed Crasher
+	Adjusted small GUI interface
+	More GUI cleanups
+2.11
+	Added some missing #defines for older compilers
+	Fixed getBaseURL crasher on SUN
+	Removed -cookies option in call to mplayer because it is not present on some versions of mplayer
+2.10
+	Fix crash and double play with American Idol site
+	Configure fixes, added --with-gecko-sdk option if pkg-config does not work
+	Fixed bug where first file in playlist was not being cleaned up
+	Fixed casting error in memmem.c
+	Playback reset if frame decode error
+	New option cache-percent defaulted to 25 values are [0-100] used with
+		cachesize, takes value of stream size and takes larger (huge Shrek plays on DSL now)
+	Fix errors on building on a solaris 9 with gcc tools environment
+	Fix compile issue on slackware
+2.0
+	Massive code reorganization to get javascript commands to work
+	Conversion of C code to C++ code
+	Code retains all fixes of 1.3 candidate
+	Code retains almost all functionality of 1.3 candidate
+	functions/options that have been removed include:
+		use of gmplayer, no longer an option, built-in gui planned
+		logging to a file
+		download option - now automatic
+		other options have now been made default
+	mozilla-devel package now required to compile code.
+	gcc -Wall is used now, so all those errors/warnings should be fixed
+	strncpy/strncat replaced with strlcpy/strlcat, files included in archive
+	Fixed browser hang when player crashes or is killed
+	Fix play so that it restarts the video even when complete or quit
+	Fix shutdown of no-window media
+	Fix uninitialized variables: window, display, widget
+	Added some button images and cleaned up the logo a bit
+	Fixed uninstall function
+	Fixed some issued with node->retrieved and node->play in Write and DestroyStream
+	Made isMms case insensitive
+
+Code Split - 1.3 candidate
+	Fix possible buffer overflow in buildPlaylist
+	Correct mplayer shutdown process
+	More UI enhancements from Erich
+	Even more UI enhancements
+	Fix XML parse error on smil files that don't have seq tags. Which DTD does SMIL use?
+	Fix videotag not found omission
+	Fix UI crasher FreeUI was called with uninitialized pointers
+	Parse mplayer output to determine the actual size and play size of the media
+	Support RealMedia with embedded rtsp streams, allows NASA TV to work
+		needs enable-real=1 in mplayerplug-in.conf
+		mplayer with RealMedia codecs and support
+	Fix possible crash in NPP_Destroy
+	Change buildPlaylist to be called from NPP_DestroyStream rather than after a magic value in NPP_Write
+		This way we are sure we have the entire playlist downloaded.
+	Found possible crash in smil format decode
+	Added stat.c to make Solaris compile work
+	Fixed bug in getURLBase
+	Fixed handling of This->baseurl
+	Fixed crash in ASX format handling, should fix http://www.rbcmp3.com
+	Account for CR and LF instead of just LF in RM playlists
+	Solaris compile issue - change stat.c references to lstat.c
+	Fixed compile issue in lstat.c
+	Applied Alexandre Pereira da Silva's player manager work. Should help those with "ps" issues.
+1.2
+	QuickTime streaming, speed work
+	Fix crasher on url http://www.video-c.co.uk/frontend/asp/microshow.asp?vidref=benn001&FileType=ADSLprog
+		This was caused by an incorrect assumption about Quicktime MOV Reference files
+		rmda elements can contain rmdr and rdrf in any order, files I had only showed one order.
+	When keep-download=1 write mms url's into $dload-dir/playlist for reference
+	All unwanted streams are now cancelled and not downloaded with QT autospeed.
+	Changed qt-speed config option from a 0-12 number to [low|medium|high], this should be final now
+	Fixed crasher in smil format support when bitrate not specified.
+	Fixed bug with MSN Music site where http urls are self referencing and act like MMS Streams
+	Applied patch from Erich that reduces the amount of flicker when updating the status screen
+	Changed Full Redraw threshhold from 50 to 80, some sites were a little crammed.
+	Merged patch from Erich to display progress bar during download
+	Fixed bug where video was streamed rather then downloaded, when it should be downloaded
+	Proper smil format support, with nested video tags with seq tags
+	Found an extra ; in the speed adjustment code that was causing med and high speeds to be off
+v1.1
+	Implemented message passing to mplayer after seeing an email about fifos on mplayer list
+		This allows for clean shutdowns and the foundation for GUI buttons
+		Guess I need to learn GTK coding now.
+	Replaced some calls to strcmp with URLcmp to handle urls with spaces in them.
+	Fixed Windows CRLF ended reference files. To get the URL out of them
+	Fixed enabling of -playlist flag when http url behaves like mms url
+		http://www.cotonete.iol.pt/ now works.
+	Fixed Makefile.in issue with missing destination dir.
+	Added downloaded bytes to status window.
+	Fixed bug in copyNode that did not copy the playlist flag and the delete flag
+	Patch from Todd to convert sprintf's to snprintf's in support.c also changed in other files
+	Fixed minor error with first download file not being kept when specified.
+	Delete downloaded files that are not played.
+	Ignore certain qt .MOV files that are never played.
+	Removed mozilla requirement from spec file, for people that have firebird but not mozilla
+	Merged in a patch from David Maybohm that should fix some possible buffer overruns
+		1) Fix two memory leaks where return value of getURLFilename was not
+		   freed.
+		2) Use strlcat/strlcpy instead of strcpy/strcat. This are safer versions
+		   of strcpy/strcat that include the destination buffer size.
+		   Probably fixes a few holes, but is a good idea in general when
+		   dealing with static buffers. In particular PluginInstance->url is
+		   copied to Node->url, but PluginInstace->url looks like it's
+		   dynamically allocated and Node->url is staticly 1024 chars). The most
+		   serious bug was already fixed (only in CVS though) by using snprintf
+		   in buildPlaylist to copy from a 4096-char buffer to a 1024-char
+		   buffer.
+		3) Use AC_REPLACE_FUNCS for memmem, strlcpy, strlcat. The object files
+		   are added to the standard LIBOBJS variable that is substituted in
+		   Makefile.in. The files are compiled only if the respective functions
+		   are missing.
+(omitted)	4) Simplify Makefile.in a little by using a pattern rule to build
+		   objects. (This patch did not seem to work)
+		5) Fix possible remote execution in playPlaylist() when the URL contains
+		   double-quote or shell meta-characters, because the playlist URL could
+		   be something like http://exploit.your.shell.com/";`touch
+		   /tmp/0wn3d`;rm -rf $HOME;#, giving the command executed as
+
+		   mplayer -playlist "http://exploit.your.shell.com";`touch /tmp/0wn3d`;rm -rf $HOME;#" <> /tmp/fifoXy9388
+
+		   So, this patch single-quotes the URL, which will avoid interpolating
+		   any shell metacharacters (like backquote, etc). But, there is still
+		   the same problem if single-quote chars themselves are used in the
+		   URL. So, this also truncates the URL at any quote characters. This is
+		   obviously not good (but still better than exploitability): should
+		   probably URL-encode any single-quotes, though i've never seen any URL
+		   have a single-quote in it.
+		6) Fix possibly non-terminated buffer in readMimeTypes()
+		7) Fix miscalculated allocation length in mmsToHttp() [off by 1].
+	Merged in Logo Patch from Erich Hoover <ehoover@Mines.EDU>
+	Fixed configure.in and Makefile.in to find libXpm
+	Fixed issue where logo overwrites movie window when desktops are switched.
+	Fixed bug in getURLFilename that caused Null to be returned on a valid URL
+	Fix buffer overrun in memset url line
+	Support rtsp streams from racerocks.com
+	Fixed a bug in addToList that caused a pointer to be overwritten
+	Fixed missing strcpy in addToList
+	Fixed issues with speed auto select code from Erich and found a hidden bug with hrefs
+	Fixed minor bug when specifing vo option, gcc optimized out a variable increment in some cases
+		Only seen when vo=x11 in config file, otherwise it worked fine.
+		Found it when doing new screen shots, can't shoot xv output, but you can x11
+	Fix garbage in "Cache fill" message
+	Rewrite DestroyStream handler, should now do all proper checks now before starting something
+		(Fixed spiderman 2 full screen trailer, but you need lots of bandwidth
+		 ,DSL is not enough, or a huge cache setting to make it work)
+	Possible NULL pointer error in Cache fill processing fix
+	More Cache fill processing work
+	Fix possible crash if This->display == NULL
+	Set parent->playlist if parent is a QT Reference file
+	Merged in UI fixes from Erich
+	Fixed Erich's patches to compile with gcc 2.96
+1.0
+	Added -zoom patch from Giuseppe Ghibò <ghibo@mandrakesoft.com>
+	Patch to only kill the mplayer associated with the window being destroyed.
+		This allows multiple streams to play in different windows
+	Cosmetic "about:plugins" patch from Benjamin Larsson <banan@student.luth.se>
+	More about:plugin work to fix an issue with AtomFilms, Quicktime was not coming up
+	Keep trailing ; in mimetype list
+	smil format support - Clone wars
+1.0pre2
+	Removed X11/xpm.h as an include
+	Removed sys/wait.h as an include
+	Added Vivo mime type
+	Version 1.0pre2	- requires mplayer 1.0pre2, still works with mplayer 0.92
+	Set default cachesize to 512
+	Added mime type video/mp4
+	Fixed pointer error in mime type list
+	More work on playlist handling
+	[REMOVED]Work around bug in mplayer -playlist option with asf streams.
+	Switched to automake type build system
+	Removed 2>/dev/null from popen calls.
+		Seems like it might cause shell issues
+	Fixed status update when debug is off
+	Changed pthread objects from global to instance level varibles
+	Removed a forgotten 2>/dev/null from popen calls
+	[REMOVED]Made plugin playlist work correctly with mplayer CVS as of 10/21/03 (period at end of url removed)
+	[REMOVED]Work around "-playlist" bug with MP3 files
+	Switch to determining playlist in plugin rather than calling mplayer to do it
+		Redo playlist code. Trash using mplayer to parse playlist instead do it in the plugin
+		Updated support for ASF and ASX files of mixed case
+	Cleaned up some printf statements that were not wrapped by if DEBUG flags
+	Identify mmst streams as mms streams internally
+	Switch to having all formats being streamable.
+		Allows linking to asx/asf files directly.
+	More autoconf changes
+0.95
+	Streaming of media on mozilla supported protocols (file,http,https,ftp)
+	Handle case where the drawing window is NULL and don't draw to it.
+	Dropped a few unused variables in the PluginInstance structure
+	Complete rewrite of getting playlist and then playing the playlist
+	Too many changes to remember
+	0.95b-DEV
+		Fixed up pthread locking
+		handle MMS streams better
+		test sites seem to work better
+		download and save still broke
+		TODO:	code cleanup, too many debug statements, need to clean them out
+	0.95pre2
+		Cleaned up some of the debug statements
+		initial mms streams should work now.
+		keep-download option works now.
+	0.95pre3
+		Fix some crashes with www.apple.com/trailer sites
+		Made QVC.com work correctly
+		Update screen with url's being played
+	0.95pre4
+		Fix crash when playing was cancelled in middle of playlist
+	0.95pre5
+		Show Cache filling message when playing mms stream
+		More null pointer detection, prevent crashes
+		Prevent buffer overflows
+		Redraw of status window when uncovered
+		Initialize required pointers to NULL
+		Some code path cleanups
+	0.95pre6
+		Fix unhandled "filename" attribute in EMBED tags
+		Check for Cancelled state in WriteReady and Write
+		Ran plugin with valgrind and got rid of a few pointer errors and a thread crasher
+	Note: mplayer 2003/09/28 and future seems to break playlist processing. Working this out.
+	Set Mplayer 0.92 as the prerequisite
+0.91
+	No more forks, going to pthreads
+	downloading flag is ignored for now, until we get some other things working.
+	Usage of shared memory is gone for now.
+	Corrected omission of qtnext tagged URLs in 0.90 in the playlist.
+0.90
+	More work with the download option. Play video while still downloading, works with cache option
+	Added another mimetype for realmedia
+	Working on the DrawUI function when downloading, so we can have a counter so we can have a download counter.
+		So far it is getting there, but needs some work. Maybe someone with some X exp can help
+	Download option does not save files downloaded, set keep-download=1 in option file to have that behavior
+	Changed XSync to XFlush and DrawUI works a bit better.
+	Fixed 2 bugs identified by James Blanford
+	Separated out ui.c.
+		REMOVED: Now have mplayer drawing to a subwindow so we can have stuff under the video if we want
+	Applied some of Sverker Wilberg's patch
+	More UI fixes and changes still have some weird crash issues, code that crashes commented out
+		NOT USED: Added SendKey Function
+	Changed to single SHM structure, vs multiple SHM ints
+	Added fallback to smb:// when getting a file:// url that is not found
+	Do not read codecs.conf file to determine mime types, but read config file for the following options
+		enable-real=0|1		default to 0
+		enable-qt=0|1		default to 1
+		enable-wm=0|1		default to 1
+		enable-mpeg=0|1		default to 1
+
+		Mozilla only will evalate the mime types the plugin supports when the plugin is updated or when
+		$HOME/.mozilla/pluginreg.dat is missing. So when you change the enable options you need to delete
+		pluginreg.dat or touch mplayerplug-in.so
+	Optionally you can use the option "use-mimetype=1" and this will get the list of mime types from the file mime.types
+	Change the way playlists are downloaded from the sites. This will work much better for many sites especially when download=1
+	Changed execlp to popen, this allows the loop to be done.
+	Added in code to do a linked list, will be useful in post 0.90 version
+	Added in buildPlaylist routine as a starting point. Several issues still
+		1. Issues with async downloads
+		2. The actual URL to download from, when mplayer reads a reference file the
+			referenced files sometimes have relative urls which will cause
+			some issues. Just will have to parse them out
+		3. streaming internet radio could cause this process to lockup. Async will help in this area
+		4. What are the implications of threads and the linked list pointers? Address space issues?
+	If this new playlist code works, we should be able to download video from protected sites
+	Discovered today why I keep crashing X, turns out you can't call Xlib functions from inside of a fork
+		So I'll have to figure out ways around this...
+	Got around the X crashing by using shared memory message passing.
+
+v0.80
+	Added option "display" which is passed to mplayer
+	Fixed a cosmetic debug message
+	Downloading prior to playing and saving off to a directory
+	Fixed up the filename for downloaded files
+	Copy files that have been downloaded to cache, that way we don't download twice
+	If file is downloaded already, don't download again, looping optimization
+	Fix crash
+	Fix problem with startrek.com
+	Added patch from Giuseppe Ghibò for osd
+	Added support for $HOME in dload-dir and logfile config options
+	Help rtsp protocol work
+	Added video/quicktime:sdp:Quicktime
+	Fixed a bug at www.apple.com/switch
+v0.71
+	Fixed a bug in embedded QT Playlists
+v0.70
+	Changed mms:// data stream handling. Fixes a few sites.. ie:www.qvc.com
+	Merged in most of Don Estberg's patch. 
+		config option:	vopopt	= passes vop parameters to mplayer
+	Cleaned up a few other areas. 
+	Pretty much determined that Mozilla 1.0 has problems with the plugin and
+		it is not recommened to use
+	Also have found problems in gmplayer causing it to play things twice.
+	Fixed uninitialized varibles from the vopopt patch that was causing 
+		loops and crashes
+	Set initial value of a counter from -1 to 0
+	Changed file:// url's to have the file:// stripped off.
+	Patched spec file to allow for alternate install location
+v0.60
+	Fixed rtl.be site
+	More mimetypes
+	RPM Spec file
+	RPMS on Site now
+v0.50
+	Fixed bug setting -ao option to mplayer
+	Incorporated patch from Todd Kirby to respect QuickTime scale option
+	Shortcut config option comparisions
+	Fixed embed tag support, off by one error
+     	Add novop=[0|1] option patch from Ed Fisher	
+	Add prefer-aspect=[0|1] option to config file
+	Work around bug in mozilla 1.3b with a mms: url
+	Add rtsp-use-tcp=[0|1] option for Live.com video behind a proxy
+	Changed shared memory key creation from hardcoded to random. This allows
+		multiple copies of the player to work at the same time.
+	Added a couple of mimetypes 
+	Initial support for streaming, but does not work yet.
+v0.40
+	mplayer 0.90rc4 required for gui support
+	Added config file options: use-gui
+		use-gui		no, yes, mini
+			no 	stock mplayer
+			yes	gui with floating menus
+			mini	gui embeded in window, requires "mini" skin
+	Removed config option:	use-gmplayer
+		replaced by use gui
+	Cleaned up some obsolete code
+v0.35
+	Removed RealPlayer from description for now
+	Added support for "loop" command and respect it
+	Added config file options: use-gmplayer,noembed,vo,ao
+		use-gmplayer	uses gmplayer over mplayer, flaky.
+				A separate, unsupported patch to mplayer
+				is needed to make this work. Also the
+				mini-skin for mplayer is recommended.
+		noembed		shows mplayer in separate window
+		vo		overrides mplayer config
+		ao		overrides mplayer config
+                $HOME/.mplayer/mplayerplug-in.conf
+                $HOME/.mozilla/mplayerplug-in.conf
+		/etc/mplayerplug-in.conf
+	Added code to make rtl.de sites work
+	Added new mimetype: application/x-drm-v2
+
+v0.34
+	Found a crash that was occuring in NPP_Destroy
+	Added a config file option	"player"
+		ie:	player=mplayer	(default)
+			player=gmplayer	(does not work yet)
+		If you have an app that can take mplayers command line it should work here
+	
+v0.33
+	Added config file and options
+	file can be in, first one found is used. files are listed in order
+		/etc/mplayerplug-in.conf
+		$HOME/.mplayer/mplayerplug-in.conf
+		$HOME/.mozilla/mplayerplug-in.conf
+	options:
+
+		cachesize=	(value in K)
+		debug=		(0 no log, 1 log)
+		logfile=	(fully qualified path to logfile, no shell vars)
+
+	example:
+
+	cachesize=32
+	debug=0
+	logfile=/home/uid/logs/mplayerplug-in.log
+
+
+v0.32
+	Debug wrappers on printf and fprint functions
+	Added "-really-quiet" to mplayer command
+	Makefile now has "install" option, only installs peruser 
+v0.31
+	Fixed compile issue with gcc 2.95x
+	Added mimetype video/x-ms-asf
+v0.30
+	Stability achieved, now we can go on to other things
+	Turned out to be a pointer error.
+v0.28
+	More attepts to fix the crashes, but nothing helps
+v0.27
+	Catching widget destroy event now and killing things better
+	Still having the dang hang problem with NP_EMBED videos
+	Pretty sure something in Moz is screwy, but it could be this code
+		Code runs 2-4 times before blowing up.
+	Konqi works pretty good now. (Some issues with Harry Potter Site)
+	Shared Memory cleanups
+v0.26
+	Fixes for Konqueror Display Errors
+	Removed EventHander Registration, code still present cause it was not
+		helpful for anything at the moment
+	Added asx file extension
+v0.25
+	Logging to a file /tmp/mppi[1-3].log
+	Don't force -vo and -ao options, allow mplayer to read them from
+		~/.mozilla/config (see mplayer docs for info)
+	Still got the problem with playing 2+ embedded videos
+	changed "system" call to execlp, this is better
+	NPP_SetWindow changes, cleanups
+	Add Window Event Handler, although we never see a Destroy
+v0.24
+	Cleanup shared memory
+	remove specific -vo and -ao options from command line
+		edit ~/.mplayer/config to set those values
+	Cleaned up streaming code
+	Set shared memory to be more secure perms from 0666 to 0600
+	Initialized more internal structures
+	Kill all created threads
+	Problem: Playing more than 2 streaming videos causes crash
+v0.23
+	Fix typo in Windows Media Player, added the "er" at the end
+	Fixed the PID passing issue by using shared memory
+	Changed SIGINT to SIGTERM, cleaner shutdown of mplayer
+	Removed duplicate MIMETYPES
+v0.22
+	gcc2.95 compile fixes, provided by A'rpi of mplayer fame
+v0.21	
+	More work on double play bug
+	handle www.apple.com/switch/ads site
+
+v0.20
+	Fix a double play bug
+	Add support for www.msn.com videos and atomfilms.shockwave.com
+	Mimetypes: video/x-ms-wm,application/x-mplayer2
+v0.10
+	Initial release
+	Support for QuickTime, AVI and MPEG mimetypes

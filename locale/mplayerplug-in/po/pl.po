@@ -1,0 +1,241 @@
+# translation of pl.po to
+# English translation of mplayerplug-in
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Kevin DeKorte <kdekorte@yahoo.com>
+#
+# Julian Sikorski <belegdol@gmail.com>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: pl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-20 12:23-0600\n"
+"PO-Revision-Date: 2006-10-12 09:45+0200\n"
+"Last-Translator: Julian Sikorski <belegdol@gmail.com>\n"
+"Language-Team:  <pl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../Source/plugin.cpp:819 ../Source/plugin-ui.cpp:1179
+msgid "Play"
+msgstr "Odtwarzaj"
+
+#: ../Source/plugin.cpp:823 ../Source/plugin-ui.cpp:1210
+msgid "Pause"
+msgstr "Pauza"
+
+#: ../Source/plugin.cpp:827 ../Source/plugin-ui.cpp:1244
+msgid "Stop"
+msgstr "Stop"
+
+#: ../Source/plugin.cpp:840
+msgid "Show Controls"
+msgstr "Pokaż przyciski"
+
+#: ../Source/plugin.cpp:848 ../Source/plugin-ui.cpp:1347
+msgid "Full Screen"
+msgstr "Pełny ekran"
+
+#: ../Source/plugin.cpp:860
+msgid "Copy URL"
+msgstr "Kopiuj URL"
+
+#: ../Source/plugin.cpp:864 ../Source/plugin-ui.cpp:1702
+#, c-format
+msgid "Save"
+msgstr "Zapisz"
+
+#: ../Source/plugin.cpp:874
+msgid "Configure"
+msgstr "Konfiguracja"
+
+#: ../Source/plugin.cpp:968
+msgid "Initializing"
+msgstr "Uruchamianie"
+
+#: ../Source/plugin.cpp:1424 ../Source/plugin.cpp:1428
+msgid "Download Complete"
+msgstr "Pobieranie zakończone"
+
+#: ../Source/plugin.cpp:1948
+#, c-format
+msgid "Buffering %li KB"
+msgstr "Buforowanie %li KB"
+
+#: ../Source/plugin.cpp:1954
+#, c-format
+msgid "Buffering %i%% - %li KB"
+msgstr "Buforowanie %i%% - %li KB"
+
+#: ../Source/plugin.cpp:1964
+#, c-format
+msgid "Buffering Complete - %li KB"
+msgstr "Buforowanie zakończone - %li KB"
+
+#: ../Source/plugin-threads.cpp:266 ../Source/plugin-threads.cpp:270
+#: ../Source/plugin-threads.cpp:1630 ../Source/plugin-threads.cpp:1633
+#, c-format
+msgid "Loading Media..."
+msgstr "Ładowanie mediów..."
+
+#: ../Source/plugin-threads.cpp:603 ../Source/plugin-threads.cpp:607
+msgid "Getting playlist..."
+msgstr "Pobieranie playlisty..."
+
+#: ../Source/plugin-threads.cpp:915
+#, c-format
+msgid "Buffering %s"
+msgstr "Buforowanie %s"
+
+#: ../Source/plugin-threads.cpp:940 ../Source/plugin-threads.cpp:1854
+#, c-format
+msgid "Playing %s"
+msgstr "Odtwarzanie %s"
+
+#: ../Source/plugin-threads.cpp:1180
+msgid "Stream Title: "
+msgstr "Tytuł strumienia:"
+
+#: ../Source/plugin-threads.cpp:1522 ../Source/plugin-ui.cpp:692
+#, c-format
+msgid "Stopped"
+msgstr "Zatrzymane"
+
+#: ../Source/plugin-ui.cpp:1145
+msgid "Rewind"
+msgstr "Przewijanie do tyłu"
+
+#: ../Source/plugin-ui.cpp:1277
+msgid "Fast Forward"
+msgstr "Przewijanie do przodu"
+
+#: ../Source/plugin-ui.cpp:1697
+#, c-format
+msgid "Save as %s/%s"
+msgstr "Zapisz jako %s/%s"
+
+#: ../Source/plugin-ui.cpp:1717
+#, c-format
+msgid "Append URL to %s/playlist"
+msgstr "Dodaj URL do %s/playlist"
+
+#: ../Source/plugin-ui.cpp:1789
+#, c-format
+msgid "%2i:%02i / %2i:%02i | %2i%% ▼"
+msgstr "%2i:%02i / %2i:%02i | %2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:1796
+#, c-format
+msgid "%i:%02i:%02i / %i:%02i:%02i | %2i%% ▼"
+msgstr "%i:%02i:%02i / %i:%02i:%02i | %2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:1828
+#, c-format
+msgid "%2i%% ▼"
+msgstr "%2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:2204
+msgid "Save As..."
+msgstr "Zapisz jako..."
+
+#: ../Source/plugin-ui.cpp:2604
+msgid "mplayerplug-in configuration"
+msgstr "konfiguracja mplayerplug-in'a"
+
+#: ../Source/plugin-ui.cpp:2694
+msgid "OK"
+msgstr "OK"
+
+#: ../Source/plugin-ui.cpp:2698
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: ../Source/plugin-ui.cpp:2703
+msgid "Video Output:"
+msgstr "Sterownik obrazu:"
+
+#: ../Source/plugin-ui.cpp:2711
+msgid "Audio Output:"
+msgstr "Sterownik dźwięku:"
+
+#: ../Source/plugin-ui.cpp:2719
+msgid "Save to Location:"
+msgstr "Zapisz do katalogu:"
+
+#: ../Source/plugin-ui.cpp:2728
+msgid "Minimum Cache Size:"
+msgstr "Minimalny rozmiar Cache:"
+
+#: ../Source/plugin-ui.cpp:2740
+msgid "Percent of Media to Cache:"
+msgstr "Ile buforować strumienia:"
+
+#: ../Source/plugin-ui.cpp:2754
+msgid "Show time in progress bar"
+msgstr "Wyświetlaj czas na pasku postępu"
+
+#: ../Source/plugin-ui.cpp:2765
+msgid "Enable Windows Media Player Support"
+msgstr "Włącz obsługę Windows Media Player"
+
+#: ../Source/plugin-ui.cpp:2776
+msgid "Enable QuickTime Support"
+msgstr "Włącz obsługę QuickTime"
+
+#: ../Source/plugin-ui.cpp:2787
+msgid "Enable RealMedia Support"
+msgstr "Włącz obsługę RealMedia"
+
+#: ../Source/plugin-ui.cpp:2799
+msgid "Enable SMIL Support (Effects QuickTime and RealMedia)"
+msgstr "Włącz obsługę SMIL (powoduje QuickTime i RealMedia)"
+
+#: ../Source/plugin-ui.cpp:2810
+msgid "Enable Helix Emulation"
+msgstr "Włącz emulację Helix"
+
+#: ../Source/plugin-ui.cpp:2822
+msgid "Enable Google Media Player Support"
+msgstr "Włącz obsługę Google Media Player"
+
+#: ../Source/plugin-ui.cpp:2833
+msgid "Enable MPEG Support"
+msgstr "Włącz obsługę MPEG"
+
+#: ../Source/plugin-ui.cpp:2845
+msgid "Enable MP3 Support (Requires MPEG Support)"
+msgstr "Włącz obsługę MP3 (Wymaga włączonej obsługi MPEG)"
+
+#: ../Source/plugin-ui.cpp:2856
+msgid "Enable Ogg Support"
+msgstr "Włącz obsługę Ogg"
+
+#: ../Source/plugin-ui.cpp:2867
+msgid "Enable MIDI Support"
+msgstr "Włącz obsługę MIDI"
+
+#: ../Source/plugin-ui.cpp:2878
+msgid "Enable Shoutcast PLS Support"
+msgstr "Włącz obsługę Shoutcast PLS"
+
+#: ../Source/plugin-ui.cpp:2889
+msgid "Enable DivX Support"
+msgstr "Włącz obsługę DivX"
+
+#: ../Source/plugin-ui.cpp:2901
+msgid "Play media directly from site (No Caching)"
+msgstr "Odtwarzaj strumień wprost ze strony (bez buforowania)"
+
+#: ../Source/plugin-ui.cpp:2913
+msgid "Connect to RTSP Media over TCP"
+msgstr "Połącz się ze medium RTSP poprzez TCP"
+
+#: ../Source/plugin-ui.cpp:2923
+msgid "Use HTTP instead of RTSP"
+msgstr "Używaj HTTP zamiast RTSP"
+
+#: ../Source/plugin-ui.cpp:2933
+msgid "Pause Video when hidden"
+msgstr "Zatrzymaj film gdy ukryty"

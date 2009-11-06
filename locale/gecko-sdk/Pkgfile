@@ -1,0 +1,21 @@
+# $Id: Pkgfile,v 1.3 2005/06/27 8:43:11 nym Exp $
+# Description: Gecko rendering engine SDK.
+# URL: http://www.mozilla.org/
+# Maintainer: Aaron Marks <nymacro AT gmail DOT com>
+# Packager: Aaron Marks <nymacro AT gmail DOT com>
+# Depends on: mozilla
+name=gecko-sdk
+version=1.7.8
+release=1
+
+source=(http://ftp.mozilla.org/pub/mozilla.org/mozilla/releases/mozilla1.7.8/gecko-sdk-i686-pc-linux-gnu-$version.tar.gz)
+
+build() {
+    cd $name
+    mkdir -p $PKG/usr/{bin,include,lib}
+    cp -r bin/* $PKG/usr/bin
+    cp -r include/* $PKG/usr/include
+    cp -r lib/* $PKG/usr/lib
+    cp -r idl/* $PKG/usr/lib
+    rm $PKG/usr/lib/libnspr4.so $PKG/usr/lib/libplc4.so $PKG/usr/lib/libplds4.so
+}

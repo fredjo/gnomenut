@@ -1,0 +1,18 @@
+#!/bin/bash
+
+rm -rf mplayerplug-in-@PACKAGE_VERSION@
+mkdir mplayerplug-in-@PACKAGE_VERSION@
+mkdir mplayerplug-in-@PACKAGE_VERSION@/Source
+cp -pr Source/*.cpp Source/*.h Source/*.idl Source/*.xpt mplayerplug-in-@PACKAGE_VERSION@/Source
+cp -pr *.in mplayerplug-in-@PACKAGE_VERSION@
+cp *.spec mplayerplug-in-@PACKAGE_VERSION@
+cp *.sh mplayerplug-in-@PACKAGE_VERSION@
+cp -pr common mplayerplug-in-@PACKAGE_VERSION@
+cp -pr extras mplayerplug-in-@PACKAGE_VERSION@
+cp -pr include mplayerplug-in-@PACKAGE_VERSION@
+cp -pr pixmaps mplayerplug-in-@PACKAGE_VERSION@
+cp -pr plugingate mplayerplug-in-@PACKAGE_VERSION@
+cp -pr po mplayerplug-in-@PACKAGE_VERSION@
+cp ChangeLog configure INSTALL mplayerplug-in.conf mplayerplug-in.types README TODO mplayerplug-in-@PACKAGE_VERSION@
+echo "GZIP=--best gzip -c >mplayerplug-in-@PACKAGE_VERSION@.tar.gz"
+tar -czvf mplayerplug-in-@PACKAGE_VERSION@.tar.gz mplayerplug-in-@PACKAGE_VERSION@

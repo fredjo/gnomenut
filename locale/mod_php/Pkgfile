@@ -1,0 +1,30 @@
+# Description: PHP DSO module for apache 
+# URL:         http://www.php.net
+# Maintainer:  Juergen Daubert, juergen dot daubert at t-online dot de
+# Depends on:  libpcre zlib apache libxml2
+
+name=mod_php
+version=5.2.10
+release=1
+source=(http://www.php.net/distributions/php-$version.tar.bz2)
+
+build () {
+    cd php-$version
+
+    local PHP_CONFIG="
+    --prefix=/usr \
+    --with-config-file-path=/etc/php \
+    --with-config-file-scan-dir=/etc/php/conf.d \
+    --with-zlib \
+    --with-pcre-regex=/usr \
+    --disable-static --disable-debug --without-pear"
+
+    EXTENSION_DIR=/usr/lib/php/extensions \
+    ./configure \
+        $PHP_CONFIG \
+        --with-apxs2=/usr/sbin/apxs \
+        --disable-cli
+
+    make
+    install -D -m 755 libs/libphp5.so $PKG/usr/lib/apache/libphp5.so
+}

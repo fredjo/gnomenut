@@ -1,0 +1,250 @@
+#                                               -*- Autoconf -*-
+# Process this file with autoconf to produce a configure script.
+
+AC_PREREQ(2.59)
+AC_INIT(mplayerplug-in, 3.55, mplayerplug-in-devel@lists.sourceforge.net)
+AC_CONFIG_SRCDIR([config.h.in])
+AC_CONFIG_HEADER([config.h])
+AC_CONFIG_LIBOBJ_DIR([Source])
+
+# Checks for programs.
+AC_PROG_CXX
+AC_PROG_CC
+AC_PROG_INSTALL
+AC_PROG_AWK
+AC_PROG_MAKE_SET
+
+# Checks for libraries.
+
+AC_ARG_ENABLE(force32,
+  AC_HELP_STRING([--enable-force32], [Compile 32bit version of mplayerplug-in for use on x86_64 architecture]),
+  [if test "$enableval" = ""; then use_32=yes; else use_32=$enableval; fi],[use_32=no])
+  
+if test $use_32 = yes; then
+   CXXFLAGS64="-m32"
+   LDFLAGS64="-melf_i386"
+   PKG_CONFIG_PATH="${prefix}/lib/pkgconfig"
+   export PKG_CONFIG_PATH
+   AC_SUBST(PKG_CONFIG_PATH)
+   AC_MSG_NOTICE("Using pkg-config path of ${PKG_CONFIG_PATH}")
+fi   
+   
+#tell us where gecko-sdk is, try to find if not provided
+
+AC_ARG_WITH([gecko-sdk],[  --with-gecko-sdk=<path> prefix of gecko-sdk installation],
+[GECKO_SDK_PREFIX=$with_gecko_sdk 
+AC_SUBST(GECKO_SDK_PREFIX)
+if test -d ${GECKO_SDK_PREFIX}/xpcom/include; then
+    MOZPLUG_CFLAGS="-I${GECKO_SDK_PREFIX} -I${GECKO_SDK_PREFIX}/xpcom/include  -I${GECKO_SDK_PREFIX}/nspr/include -I${GECKO_SDK_PREFIX}/string/include  -I${GECKO_SDK_PREFIX}/plugin/include -I${GECKO_SDK_PREFIX}/java/include -DGECKOSDK_ENABLED"
+    GECKO_DEFINES="-DXPCOM_GLUE -DMOZILLA_STRICT_API"
+    AC_SUBST(GECKO_DEFINES)
+else
+    echo "Using new (v1.7+) gecko-sdk" 
+    MOZPLUG_CFLAGS="-I${GECKO_SDK_PREFIX} -I${GECKO_SDK_PREFIX}/include -I${GECKO_SDK_PREFIX}/include/plugin -I${GECKO_SDK_PREFIX}/include/xpcom -I${GECKO_SDK_PREFIX}/include/nspr -I${GECKO_SDK_PREFIX}/include/string -I${GECKO_SDK_PREFIX}/include/java"
+    GECKO_DEFINES="-DXPCOM_GLUE -DMOZILLA_STRICT_API"
+    AC_SUBST(GECKO_DEFINES)
+    GECKO_IDLDIR="${GECKO_SDK_PREFIX}/idl"
+    MOZILLA_HOME="${GECKO_SDK_PREFIX}/bin"
+fi
+AC_ARG_ENABLE(rpath,
+  AC_HELP_STRING([--enable-rpath], [Add gecko-sdk bin and lib directories to the rpath]),
+  [if test "$enableval" = ""; then use_rpath=yes; else use_rpath=$enableval; fi], [use_rpath=no])
+
+if test "$use_rpath" = "yes"; then
+  LDFLAGS="$LDFLAGS -Wl,-R${GECKO_SDK_PREFIX}/bin:${GECKO_SDK_PREFIX}/lib"
+fi
+
+],[
+	AC_MSG_NOTICE([Determining mozilla/firefox packages to build against])
+	PKG_CHECK_MODULES(MOZPLUG,[mozilla-plugin mozilla-xpcom],[AC_SUBST(MOZPLUG_CFLAGS) MOZPLUG_CFLAGS="${MOZPLUG_CFLAGS} -I`$PKG_CONFIG --variable=includedir mozilla-plugin`"
+MOZILLA_HOME=`$PKG_CONFIG --variable=libdir mozilla-plugin`
+GECKO_IDLDIR=`$PKG_CONFIG --variable=idldir mozilla-xpcom`
+],[AC_MSG_WARN([mozilla-plugin not found])])
+
+	if test "$MOZPLUG_CFLAGS" = ""; then
+		PKG_CHECK_MODULES(MOZPLUG,[firefox-plugin firefox-xpcom],[AC_SUBST(MOZPLUG_CFLAGS) MOZPLUG_CFLAGS="${MOZPLUG_CFLAGS} -I`$PKG_CONFIG --variable=includedir firefox-plugin`"
+MOZILLA_HOME=`$PKG_CONFIG --variable=libdir firefox-plugin`
+GECKO_IDLDIR=`$PKG_CONFIG --variable=idldir firefox-xpcom`
+],[AC_MSG_WARN([firefox-plugin not found])])
+	fi
+	if test "$MOZPLUG_CFLAGS" = ""; then
+		PKG_CHECK_MODULES(MOZPLUG,[seamonkey-plugin seamonkey-xpcom],[AC_SUBST(MOZPLUG_CFLAGS) MOZPLUG_CFLAGS="${MOZPLUG_CFLAGS} -I`$PKG_CONFIG --variable=includedir seamonkey-plugin`"
+MOZILLA_HOME=`$PKG_CONFIG --variable=libdir seamonkey-plugin`
+GECKO_IDLDIR=`$PKG_CONFIG --variable=idldir seamonkey-xpcom`
+],[AC_MSG_WARN([seamonkey-plugin not found])])
+	fi
+	if test "$MOZPLUG_CFLAGS" = ""; then
+		PKG_CHECK_MODULES(MOZPLUG,[xulrunner-plugin xulrunner-xpcom],[AC_SUBST(MOZPLUG_CFLAGS) MOZPLUG_CFLAGS="${MOZPLUG_CFLAGS} -I`$PKG_CONFIG --variable=includedir xulrunner-plugin`"
+MOZILLA_HOME=`$PKG_CONFIG --variable=libdir xulrunner-plugin`
+GECKO_IDLDIR=`$PKG_CONFIG --variable=idldir xulrunner-xpcom`
+],[AC_MSG_WARN([xulrunner-plugin not found])])
+	fi
+	if test "$MOZPLUG_CFLAGS" = ""; then
+		PKG_CHECK_MODULES(MOZPLUG,[libxul],[AC_SUBST(MOZPLUG_CFLAGS) MOZPLUG_CFLAGS="${MOZPLUG_CFLAGS} -I`$PKG_CONFIG --variable=includedir libxul`"
+MOZILLA_HOME=`$PKG_CONFIG --variable=libdir libxul`
+GECKO_IDLDIR=`$PKG_CONFIG --variable=idldir libxul`
+],[AC_MSG_WARN([libxul not found])])
+	fi
+	if test "$MOZPLUG_CFLAGS" = ""; then
+		PKG_CHECK_MODULES(MOZPLUG,[iceape-plugin iceape-xpcom],[AC_SUBST(MOZPLUG_CFLAGS) MOZPLUG_CFLAGS="${MOZPLUG_CFLAGS} -I`$PKG_CONFIG --variable=includedir iceape-plugin`"
+MOZILLA_HOME=`$PKG_CONFIG --variable=libdir iceape-plugin`
+GECKO_IDLDIR=`$PKG_CONFIG --variable=idldir iceape-xpcom`
+],[AC_MSG_WARN([iceape-plugin not found])])
+	fi
+
+	if test "$MOZPLUG_CFLAGS" = ""; then
+		AC_MSG_ERROR([Unable to find mozilla or firefox development files])
+	fi
+  ]
+)
+
+AC_ARG_WITH([mozilla-home],[  --with-mozilla-home=<path> prefix of mozilla/firefox installation],
+[MOZ_HOME=$with_mozilla_home
+ 	if test -d ${MOZ_HOME}/plugins; then
+    		MOZILLA_HOME=$MOZ_HOME
+ 	fi
+])
+AC_SUBST(MOZILLA_HOME)
+
+AC_SUBST(MOZPLUG_CFLAGS)
+
+AC_PATH_PROG([GECKO_XPIDL], [xpidl], [no], [$MOZILLA_HOME:$PATH])
+if test "x$GECKO_XPIDL" = "xno"; then
+	AC_MSG_ERROR([xpidl compiler not found])
+fi
+AC_SUBST(GECKO_XPIDL)
+AC_SUBST(GECKO_IDLDIR)
+
+GTK_DEFINES="-DX_ENABLED"
+AC_ARG_ENABLE(gtk2,
+  AC_HELP_STRING([--disable-gtk2], [Disable the use of gtk2 toolkit]),
+  [use_gtk2=$enableval], [use_gtk2=yes])
+AC_ARG_ENABLE(gtk1,
+  AC_HELP_STRING([--enable-gtk1], [Enable the use of gtk1 toolkit. Disable gtk2]),
+  [if test "$enableval" = ""; then use_gtk1=yes; else use_gtk1=$enableval; fi], [use_gtk1=no])
+AC_ARG_ENABLE(x,
+  AC_HELP_STRING([--enable-x], [Enable the use of X toolkit. Disable gtk1 and gtk2]),
+  [if test "$enableval" = ""; then use_x=yes; else use_x=$enableval; fi], [use_x=no])
+
+if test $use_x = yes; then
+   use_gtk2=no
+   use_gtk1=no
+fi
+
+if test $use_gtk1 = yes; then
+   use_gtk2=no
+fi
+
+if test $use_gtk2 = yes; then
+  PKG_CHECK_MODULES(GTK,[gtk+-2.0],[GTK_DEFINES="-DGTK_ENABLED" AC_DEFINE([GTK2_ENABLED],[1],[Define to 1 if you have GTK2])],[AC_MSG_WARN([*** Running in X mode - Limited Features ***])])
+  PKG_CHECK_MODULES(GTK24,[gtk+-2.0 >= 2.4.0],[GTK_DEFINES="-DGTK_ENABLED" AC_DEFINE([GTK24_ENABLED],[1],[Define to 1 if you have GTK2])],[AC_MSG_WARN([Some GUI Features are disabled])])
+  PKG_CHECK_MODULES(GTHREAD,[gthread-2.0],,[AC_MSG_ERROR([Missing gthread package])])
+fi
+if test $use_gtk1 = yes; then
+  PKG_CHECK_MODULES(GTK,[gtk+],[GTK_DEFINES="-DGTK_ENABLED" AC_DEFINE([GTK1_ENABLED],[1],[Define to 1 if you have GTK1])],[AC_MSG_WARN([gtk+ development packages are not found])])
+  PKG_CHECK_MODULES(GTHREAD,[gthread],,[AC_MSG_ERROR([Missing gthread package])])
+fi
+
+AC_ARG_ENABLE(wmp,
+  AC_HELP_STRING([--enable-wmp], [Build with Windows Media Support]),
+  [if test "$enableval" = ""; then wmp=yes; else wmp=$enableval; fi],[wmp=yes])
+AC_ARG_ENABLE(qt,
+  AC_HELP_STRING([--enable-qt], [Build with QuickTime Support]),
+  [if test "$enableval" = ""; then qt=yes; else qt=$enableval; fi],[qt=yes])
+AC_ARG_ENABLE(rm,
+  AC_HELP_STRING([--enable-rm], [Build with Real Media Support]),
+  [if test "$enableval" = ""; then rm=yes; else rm=$enableval; fi],[rm=yes])
+AC_ARG_ENABLE(gmp,
+  AC_HELP_STRING([--enable-gmp], [Build with Google Media Support]),
+  [if test "$enableval" = ""; then gmp=no; else gmp=$enableval; fi],[gmp=no])
+AC_ARG_ENABLE(dvx,
+  AC_HELP_STRING([--enable-dvx], [Build with DivX Media Support]),
+  [if test "$enableval" = ""; then dvx=yes; else dvx=$enableval; fi],[dvx=yes])
+
+CREATE="mplayerplug-in"
+if test x$wmp = xyes; then
+   CREATE=" $CREATE mplayerplug-in-wmp"
+fi
+if test x$qt = xyes; then
+   CREATE=" $CREATE mplayerplug-in-qt"
+fi
+if test x$rm = xyes; then
+   CREATE=" $CREATE mplayerplug-in-rm"
+fi
+if test x$gmp = xyes; then
+   CREATE=" $CREATE mplayerplug-in-gmp"
+fi
+if test x$dvx = xyes; then
+   CREATE=" $CREATE mplayerplug-in-dvx"
+fi
+
+AC_SUBST(CREATE)
+AC_SUBST(CXXFLAGS64)
+AC_SUBST(LDFLAGS64)
+   
+AC_SUBST(GTK_CFLAGS)
+AC_SUBST(GTK_LIBS)
+AC_SUBST(GTHREAD_CFLAGS)
+AC_SUBST(GTHREAD_LIBS)
+AC_SUBST(GTK_DEFINES)
+
+# Checks for header files.
+PKG_CHECK_MODULES(X,[x11],,[ AC_PATH_X ])
+PKG_CHECK_MODULES(XT,[xt],,[ AC_PATH_XTRA ])
+PKG_CHECK_MODULES(XPM,[xpm],,[AC_CHECK_HEADER([X11/xpm.h], [XPM_LIBS="-lXpm -lXt"])])
+AC_SUBST(XPM_CFLAGS)
+AC_SUBST(XPM_LIBS)
+#AC_PATH_X
+#AC_PATH_XTRA
+CFLAGS="$CFLAGS $X_CFLAGS $XT_CFLAGS"
+LIBS="$X_LIBS $LIBS -lX11 $X_EXTRA_LIBS $XT_LIBS"
+GTK_CFLAGS="$GTK_CFLAGS $GTK24_CFLAGS"
+GTK_LIBS="$GTK_LIBS $GTK24_LIBS"
+GTK_DEFINES="$GTK_DEFINES $GTK24_DEFINES"
+AC_HEADER_STDC
+AC_CHECK_HEADERS([stddef.h stdlib.h unistd.h sys/stat.h fcntl.h])
+
+# Checks for typedefs, structures, and compiler characteristics.
+AC_C_CONST
+AC_HEADER_TIME
+AC_TYPE_PID_T
+AC_TYPE_SIZE_T
+
+# Checks for library functions.
+AC_FUNC_MALLOC
+AC_FUNC_FORK
+AC_CHECK_FUNCS([memset strcasecmp strchr strdup strncasecmp strstr strrchr snprintf mkfifo dup2 gettimeofday strerror strtol mkdir setlocale])
+#AC_REPLACE_FUNCS([memmem strlcpy strlcat])
+AC_REPLACE_FUNCS([memmem])
+
+LDFLAGS="$LDFLAGS $INTLLIBS"
+LOCALEDIR=/share/locale
+AC_SUBST(LOCALEDIR)
+AC_SUBST(SUBDIR,languages)
+AC_SUBST(INSTALL_SUBDIR,install-languages)
+AC_CHECK_HEADERS([libintl.h],[AC_DEFINE([HAVE_GETTEXT],[1],[Define to 1 if you have the <libintl.h> header file.])])
+
+AC_CHECK_HEADERS([sys/time.h])
+AC_CHECK_HEADERS([sys/param.h])
+AC_CHECK_HEADERS([locale.h])
+
+AC_HEADER_STDBOOL
+AC_HEADER_SYS_WAIT
+AC_TYPE_SIGNAL
+#AC_CHECK_HEADER([X11/xpm.h],[AC_DEFINE([HAVE_X11_XPM],[1],[Define to 1 if you have the <X11/xpm.h> header file.]) XPM_LIBS="-lXpm -lXt"])
+AC_SUBST(XPM_LIBS)
+AC_CHECK_LIB(Xdpms, DPMSQueryExtension, [XEXT_LIBS="-lXdpms" AC_DEFINE([DPMSExtension],[1],[Define to 1 if you have the <X11/extensions/dpms.h> header file.])],[
+AC_CHECK_HEADER([X11/extensions/dpms.h],[AC_DEFINE([DPMSExtension],[1],[Define to 1 if you have the <X11/extensions/dpms.h> header file.]) XEXT_LIBS="-lXext -lX11"],,[ #include <X11/Xlib.h> ])],,)
+AC_SUBST(XEXT_LIBS)
+AC_CONFIG_FILES([Makefile po/Makefile install.sh uninstall.sh dist.sh mplayerplug-in.spec])
+AC_OUTPUT
+chmod u+x install.sh uninstall.sh dist.sh
+echo "$GECKO_XPIDL -w -m header -I $GECKO_IDLDIR -I Source -e Source/nsIScriptableMplayerPlugin.h Source/nsIScriptableMplayerPlugin.idl"
+`$GECKO_XPIDL -w -m header -I $GECKO_IDLDIR -I Source -e Source/nsIScriptableMplayerPlugin.h Source/nsIScriptableMplayerPlugin.idl`
+
+if test $use_x = yes; then
+   echo "**************************************************************"
+   echo "         ARE YOU SURE YOU WANT TO BUILD WITHOUT GTK?"
+   echo " BECAUSE mplayerplug-in WITHOUT GTK TAKES AWAY FUNCITIONALITY    "
+   echo "**************************************************************"
+fi

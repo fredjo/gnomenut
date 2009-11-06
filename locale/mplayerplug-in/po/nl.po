@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Luuk Mulder <luukmulder@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mplayerplug-in\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-20 12:23-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Luuk Mulder<luukmulder@gmail.com>\n"
+"Language-Team: Luuk Mulder<luukmulder@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../Source/plugin.cpp:819 ../Source/plugin-ui.cpp:1179
+msgid "Play"
+msgstr "Afspelen"
+
+#: ../Source/plugin.cpp:823 ../Source/plugin-ui.cpp:1210
+msgid "Pause"
+msgstr "Pauze"
+
+#: ../Source/plugin.cpp:827 ../Source/plugin-ui.cpp:1244
+msgid "Stop"
+msgstr "Stop"
+
+#: ../Source/plugin.cpp:840
+msgid "Show Controls"
+msgstr "Toon knoppen"
+
+#: ../Source/plugin.cpp:848 ../Source/plugin-ui.cpp:1347
+msgid "Full Screen"
+msgstr "Beeldvullend"
+
+#: ../Source/plugin.cpp:860
+msgid "Copy URL"
+msgstr "URL kopieren"
+
+#: ../Source/plugin.cpp:864 ../Source/plugin-ui.cpp:1702
+#, c-format
+msgid "Save"
+msgstr "Opslaan"
+
+#: ../Source/plugin.cpp:874
+msgid "Configure"
+msgstr "Configureren"
+
+#: ../Source/plugin.cpp:968
+msgid "Initializing"
+msgstr "Initialiseren"
+
+#: ../Source/plugin.cpp:1424 ../Source/plugin.cpp:1428
+msgid "Download Complete"
+msgstr "Download compleet"
+
+#: ../Source/plugin.cpp:1948
+#, c-format
+msgid "Buffering %li KB"
+msgstr "Laden %li KB"
+
+#: ../Source/plugin.cpp:1954
+#, c-format
+msgid "Buffering %i%% - %li KB"
+msgstr "Laden %i%% - %li KB"
+
+#: ../Source/plugin.cpp:1964
+#, c-format
+msgid "Buffering Complete - %li KB"
+msgstr "Laden gereed - %li KB"
+
+#: ../Source/plugin-threads.cpp:266 ../Source/plugin-threads.cpp:270
+#: ../Source/plugin-threads.cpp:1630 ../Source/plugin-threads.cpp:1633
+#, c-format
+msgid "Loading Media..."
+msgstr "Laden media..."
+
+#: ../Source/plugin-threads.cpp:603 ../Source/plugin-threads.cpp:607
+msgid "Getting playlist..."
+msgstr "Inlezen afspeellijst..."
+
+#: ../Source/plugin-threads.cpp:915
+#, c-format
+msgid "Buffering %s"
+msgstr "Laden %s"
+
+#: ../Source/plugin-threads.cpp:940 ../Source/plugin-threads.cpp:1854
+#, c-format
+msgid "Playing %s"
+msgstr "Afspelen %s"
+
+#: ../Source/plugin-threads.cpp:1180
+msgid "Stream Title: "
+msgstr "Stream titel: "
+
+#: ../Source/plugin-threads.cpp:1522 ../Source/plugin-ui.cpp:692
+#, c-format
+msgid "Stopped"
+msgstr "Gestopt"
+
+#: ../Source/plugin-ui.cpp:1145
+msgid "Rewind"
+msgstr "Terugspoelen"
+
+#: ../Source/plugin-ui.cpp:1277
+msgid "Fast Forward"
+msgstr "Snel vooruit"
+
+#: ../Source/plugin-ui.cpp:1697
+#, c-format
+msgid "Save as %s/%s"
+msgstr "Opslaan als %s/%s"
+
+#: ../Source/plugin-ui.cpp:1717
+#, c-format
+msgid "Append URL to %s/playlist"
+msgstr "Voeg URL toe aan %s/afspeellijst"
+
+#: ../Source/plugin-ui.cpp:1789
+#, c-format
+msgid "%2i:%02i / %2i:%02i | %2i%% ▼"
+msgstr "%2i:%02i / %2i:%02i | %2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:1796
+#, c-format
+msgid "%i:%02i:%02i / %i:%02i:%02i | %2i%% ▼"
+msgstr "%i:%02i:%02i / %i:%02i:%02i | %2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:1828
+#, c-format
+msgid "%2i%% ▼"
+msgstr "%2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:2204
+msgid "Save As..."
+msgstr "Opslaan als..."
+
+#: ../Source/plugin-ui.cpp:2604
+msgid "mplayerplug-in configuration"
+msgstr "mplayerplug-in instellingen"
+
+#: ../Source/plugin-ui.cpp:2694
+msgid "OK"
+msgstr "OK"
+
+#: ../Source/plugin-ui.cpp:2698
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: ../Source/plugin-ui.cpp:2703
+msgid "Video Output:"
+msgstr "Video uitvoer:"
+
+#: ../Source/plugin-ui.cpp:2711
+msgid "Audio Output:"
+msgstr "Audio uitvoer:"
+
+#: ../Source/plugin-ui.cpp:2719
+msgid "Save to Location:"
+msgstr "Opslaan in:"
+
+#: ../Source/plugin-ui.cpp:2728
+msgid "Minimum Cache Size:"
+msgstr "Minimum cache grootte:"
+
+#: ../Source/plugin-ui.cpp:2740
+msgid "Percent of Media to Cache:"
+msgstr "Percentage in cache:"
+
+#: ../Source/plugin-ui.cpp:2754
+msgid "Show time in progress bar"
+msgstr "Toon afspeeltijd in scherm"
+
+#: ../Source/plugin-ui.cpp:2765
+msgid "Enable Windows Media Player Support"
+msgstr "Afspelen Windows Media Player formaat"
+
+#: ../Source/plugin-ui.cpp:2776
+msgid "Enable QuickTime Support"
+msgstr "Afspelen Quicktime formaat"
+
+#: ../Source/plugin-ui.cpp:2787
+msgid "Enable RealMedia Support"
+msgstr "Afspelen Realmedia formaat"
+
+#: ../Source/plugin-ui.cpp:2799
+msgid "Enable SMIL Support (Effects QuickTime and RealMedia)"
+msgstr "SMIL ondersteuning (tbv. Quicktime en RealMedia)"
+
+#: ../Source/plugin-ui.cpp:2810
+msgid "Enable Helix Emulation"
+msgstr "Afspelen Helix Emulatie formaat"
+
+#: ../Source/plugin-ui.cpp:2822
+msgid "Enable Google Media Player Support"
+msgstr "Afspelen Google Media Player formaat"
+
+#: ../Source/plugin-ui.cpp:2833
+msgid "Enable MPEG Support"
+msgstr "Afspelen MPEG formaat"
+
+#: ../Source/plugin-ui.cpp:2845
+msgid "Enable MP3 Support (Requires MPEG Support)"
+msgstr "Afspelen MP3 formaat (vereist MPEG ondersteuning)"
+
+#: ../Source/plugin-ui.cpp:2856
+msgid "Enable Ogg Support"
+msgstr "Afspelen Ogg formaat"
+
+#: ../Source/plugin-ui.cpp:2867
+msgid "Enable MIDI Support"
+msgstr "Afspelen MIDI formaat"
+
+#: ../Source/plugin-ui.cpp:2878
+msgid "Enable Shoutcast PLS Support"
+msgstr "Afspelen Shoutcast PLS formaat"
+
+#: ../Source/plugin-ui.cpp:2889
+msgid "Enable DivX Support"
+msgstr "Afspelen DivX formaat"
+
+#: ../Source/plugin-ui.cpp:2901
+msgid "Play media directly from site (No Caching)"
+msgstr "Media vanaf de website afspelen (geen caching)"
+
+#: ../Source/plugin-ui.cpp:2913
+msgid "Connect to RTSP Media over TCP"
+msgstr "Afspelen RTSP bestanden via TCP"
+
+#: ../Source/plugin-ui.cpp:2923
+msgid "Use HTTP instead of RTSP"
+msgstr "Gebruik HTTP in plaats van RTSP"
+
+#: ../Source/plugin-ui.cpp:2933
+msgid "Pause Video when hidden"
+msgstr "Onderbreek afspelen bij verborgen scherm"

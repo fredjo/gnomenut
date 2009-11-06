@@ -1,0 +1,17 @@
+# Description:une implementation de kerberos 5
+# URL: 
+# Maintainer: 
+# Depends on: 
+# Group: 
+
+name=heimdal
+version=1.3.0pre9
+release=1
+source=(ftp://ftp.pdc.kth.se/pub/heimdal/src/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

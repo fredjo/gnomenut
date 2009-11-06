@@ -1,0 +1,19 @@
+# Description: jeux.
+# URL: http://plee-the-bear.sourceforge.net
+# Packager: frederic.joly@9online.fr
+# Depends on: libclaw, boost, sdl, sdl_mixer, wxgtk 
+
+name=plee-the-bear
+version=0.4.1
+release=1
+source=(http://downloads.sourceforge.net/project/plee-the-bear/Plee%20the%20Bear/0.4/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+        mkdir build
+        cd build
+        cmake ../ -DCMAKE_INSTALL_PREFIX=/usr 
+        make -j3
+        make DESTDIR=$PKG install
+}
+

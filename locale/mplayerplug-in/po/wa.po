@@ -1,0 +1,237 @@
+# translation of mplayerplug-in.po to walon
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Jean Cayron <jean.cayron@gmail.com>, 2007.
+# Pablo Saratxaga <pablo@walon.org>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mplayerplug-in\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 12:52-0600\n"
+"PO-Revision-Date: 2007-02-08 12:09+0100\n"
+"Last-Translator: Jean Cayron <jean.cayron@gmail.com>\n"
+"Language-Team: Walloon <linux-wa@walon.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../Source/plugin.cpp:790 ../Source/plugin-ui.cpp:1178
+msgid "Play"
+msgstr "Djouwer"
+
+#: ../Source/plugin.cpp:794 ../Source/plugin-ui.cpp:1209
+msgid "Pause"
+msgstr "Djoker"
+
+#: ../Source/plugin.cpp:798 ../Source/plugin-ui.cpp:1243
+msgid "Stop"
+msgstr "Arester"
+
+#: ../Source/plugin.cpp:811
+msgid "Show Controls"
+msgstr "Mostrer les contrôles"
+
+#: ../Source/plugin.cpp:819 ../Source/plugin-ui.cpp:1346
+msgid "Full Screen"
+msgstr "Môde tote li waitroûle"
+
+#: ../Source/plugin.cpp:831
+msgid "Copy URL"
+msgstr "Copyî l' URL"
+
+#: ../Source/plugin.cpp:835 ../Source/plugin-ui.cpp:1695
+#, c-format
+msgid "Save"
+msgstr "Schaper"
+
+#: ../Source/plugin.cpp:845
+msgid "Configure"
+msgstr "Apontyî"
+
+#: ../Source/plugin.cpp:937
+msgid "Initializing"
+msgstr "Atake"
+
+#: ../Source/plugin.cpp:1379 ../Source/plugin.cpp:1383
+msgid "Download Complete"
+msgstr "Eberwetaedje tot fwait"
+
+#: ../Source/plugin.cpp:1855
+#, c-format
+msgid "Buffering %li KB"
+msgstr "Dji mete %li Ko e memwere tampon"
+
+#: ../Source/plugin.cpp:1861
+#, c-format
+msgid "Buffering %i%% - %li KB"
+msgstr "Dji mete %i%% - %li Ko e memwere tampon"
+
+#: ../Source/plugin.cpp:1871
+#, c-format
+msgid "Buffering Complete - %li KB"
+msgstr "Metaedje e memwere tampon tot fwait - %li Ko"
+
+#: ../Source/plugin-threads.cpp:263 ../Source/plugin-threads.cpp:267
+#: ../Source/plugin-threads.cpp:1545 ../Source/plugin-threads.cpp:1548
+#, c-format
+msgid "Loading Media..."
+msgstr "Dji tchedje li media..."
+
+#: ../Source/plugin-threads.cpp:600 ../Source/plugin-threads.cpp:604
+msgid "Getting playlist..."
+msgstr "Dj' obtén l' djivêye a djouwer..."
+
+#: ../Source/plugin-threads.cpp:877
+#, c-format
+msgid "Buffering %s"
+msgstr "Dji mete %s e memwere tampon"
+
+#: ../Source/plugin-threads.cpp:902 ../Source/plugin-threads.cpp:1753
+#, c-format
+msgid "Playing %s"
+msgstr "Dji djowe %s"
+
+#: ../Source/plugin-threads.cpp:1437 ../Source/plugin-ui.cpp:691
+#, c-format
+msgid "Stopped"
+msgstr "Aresté"
+
+#: ../Source/plugin-ui.cpp:1144
+msgid "Rewind"
+msgstr "Aler en erî"
+
+#: ../Source/plugin-ui.cpp:1276
+msgid "Fast Forward"
+msgstr "Rade avancî"
+
+#: ../Source/plugin-ui.cpp:1690
+#, c-format
+msgid "Save as %s/%s"
+msgstr "Dji schape come %s/%s"
+
+#: ../Source/plugin-ui.cpp:1710
+#, c-format
+msgid "Append URL to %s/playlist"
+msgstr "Dji rstitche l' URL a l' eplaeçmint %s/playlist"
+
+#: ../Source/plugin-ui.cpp:1782
+#, c-format
+msgid "%2i:%02i / %2i:%02i | %2i%% ▼"
+msgstr "%2i:%02i / %2i:%02i | %2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:1789
+#, c-format
+msgid "%i:%02i:%02i / %i:%02i:%02i | %2i%% ▼"
+msgstr "%i:%02i:%02i / %i:%02i:%02i | %2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:1821
+#, c-format
+msgid "%2i%% ▼"
+msgstr "%2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:2194
+msgid "Save As..."
+msgstr "Schaper et rlomer..."
+
+#: ../Source/plugin-ui.cpp:2591
+msgid "mplayerplug-in configuration"
+msgstr "Apontiaedje do tchôke-divins mplayerplug-in"
+
+#: ../Source/plugin-ui.cpp:2681
+msgid "OK"
+msgstr "'l est Bon"
+
+#: ../Source/plugin-ui.cpp:2685
+msgid "Cancel"
+msgstr "Rinoncî"
+
+#: ../Source/plugin-ui.cpp:2690
+msgid "Video Output:"
+msgstr "Rexhowe del videyo:"
+
+#: ../Source/plugin-ui.cpp:2698
+msgid "Audio Output:"
+msgstr "Rexhowe do son:"
+
+#: ../Source/plugin-ui.cpp:2706
+msgid "Save to Location:"
+msgstr "Schaper a l' eplaeçmint"
+
+#: ../Source/plugin-ui.cpp:2715
+msgid "Minimum Cache Size:"
+msgstr "Pus ptite grandeu del muchete:"
+
+#: ../Source/plugin-ui.cpp:2727
+msgid "Percent of Media to Cache:"
+msgstr "Porcint d' media a mete el muchete:"
+
+#: ../Source/plugin-ui.cpp:2741
+msgid "Show time in progress bar"
+msgstr "Mostrer l' tins dins l' bår d' avançmint"
+
+#: ../Source/plugin-ui.cpp:2752
+msgid "Enable Windows Media Player Support"
+msgstr "Permete li sopoirt Windows Media Player"
+
+#: ../Source/plugin-ui.cpp:2763
+msgid "Enable QuickTime Support"
+msgstr "Permete li sopoirt QuickTime"
+
+#: ../Source/plugin-ui.cpp:2774
+msgid "Enable RealMedia Support"
+msgstr "Permete li sopoirt RealMedia"
+
+#: ../Source/plugin-ui.cpp:2786
+msgid "Enable SMIL Support (Effects QuickTime and RealMedia)"
+msgstr "Permete li sopoirt SMIL (fwait roter QuickTime et RealMedia)"
+
+#: ../Source/plugin-ui.cpp:2797
+msgid "Enable Helix Emulation"
+msgstr "Permete l' emulåcion Helix"
+
+#: ../Source/plugin-ui.cpp:2809
+msgid "Enable Google Media Player Support"
+msgstr "Permete li sopoirt Google Media Player"
+
+#: ../Source/plugin-ui.cpp:2820
+msgid "Enable MPEG Support"
+msgstr "Permete li sopoirt MPEG"
+
+#: ../Source/plugin-ui.cpp:2832
+msgid "Enable MP3 Support (Requires MPEG Support)"
+msgstr "Permete li sopoirt MP3 (dimande li sopoirt MPEG)"
+
+#: ../Source/plugin-ui.cpp:2843
+msgid "Enable Ogg Support"
+msgstr "Permete li sopoirt Ogg"
+
+#: ../Source/plugin-ui.cpp:2854
+msgid "Enable MIDI Support"
+msgstr "Permete li sopoirt MIDI"
+
+#: ../Source/plugin-ui.cpp:2865
+msgid "Enable Shoutcast PLS Support"
+msgstr "Permete li sopoirt Shoutcast PLS"
+
+#: ../Source/plugin-ui.cpp:2876
+msgid "Enable DivX Support"
+msgstr "Permete li sopoirt DivX"
+
+#: ../Source/plugin-ui.cpp:2888
+msgid "Play media directly from site (No Caching)"
+msgstr "Djouwer l' media direk a pårti del waibe"
+
+#: ../Source/plugin-ui.cpp:2900
+msgid "Connect to RTSP Media over TCP"
+msgstr "Loyî å Media RTSP avou TCP"
+
+#: ../Source/plugin-ui.cpp:2910
+msgid "Use HTTP instead of RTSP"
+msgstr "Si siervi d' HTTP al plaece di RTSP"
+
+#: ../Source/plugin-ui.cpp:2920
+msgid "Pause Video when hidden"
+msgstr "Djoker l' videyo cwand l' est catchî"

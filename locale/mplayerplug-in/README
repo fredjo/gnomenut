@@ -1,0 +1,25 @@
+This is the README file for mplayerplug-in
+
+mplayerplug-in is a Netscape/Mozilla browser plugin to allow playing embedded movies on web pages.
+
+License: GPL
+
+See INSTALL on how to build and install
+
+This plugin was developed on a RedHat 8.0/9.0/FC1 based system and has been tested with Mozilla 1.6 and FireFox
+
+Build Requirements:
+XFree86 Development package (RPM XFree86-devel)
+Xpm libraries (RPM XFree86-libs)
+Mozilla Development package (RPM mozilla-devel) or gecko-sdk
+GTK 1 or GTK 2 development package
+gettext or gettext-tools
+
+Runtime Requires:
+
+mplayer > 1.0pre7try2
+
+Formats Supported:
+Windows Media	
+Quicktime	
+MPEG

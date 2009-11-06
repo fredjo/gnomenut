@@ -1,0 +1,240 @@
+# translation of tr.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Onur Küçük <onur@pardus.org.tr>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-20 12:23-0600\n"
+"PO-Revision-Date: 2007-05-19 02:40+0300\n"
+"Last-Translator: Onur Küçük <onur@pardus.org.tr>\n"
+"Language-Team:  <yerellestirme@kde.org.tr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../Source/plugin.cpp:819 ../Source/plugin-ui.cpp:1179
+msgid "Play"
+msgstr "Oynat"
+
+#: ../Source/plugin.cpp:823 ../Source/plugin-ui.cpp:1210
+msgid "Pause"
+msgstr "Beklet"
+
+#: ../Source/plugin.cpp:827 ../Source/plugin-ui.cpp:1244
+msgid "Stop"
+msgstr "Dur"
+
+#: ../Source/plugin.cpp:840
+msgid "Show Controls"
+msgstr "Kontrol Penceresini Göster"
+
+#: ../Source/plugin.cpp:848 ../Source/plugin-ui.cpp:1347
+msgid "Full Screen"
+msgstr "Tam Ekran"
+
+#: ../Source/plugin.cpp:860
+msgid "Copy URL"
+msgstr "Adresi Kopyala"
+
+#: ../Source/plugin.cpp:864 ../Source/plugin-ui.cpp:1702
+#, c-format
+msgid "Save"
+msgstr "Kaydet"
+
+#: ../Source/plugin.cpp:874
+msgid "Configure"
+msgstr "Yapılandır"
+
+#: ../Source/plugin.cpp:968
+msgid "Initializing"
+msgstr "Başlatılıyor"
+
+#: ../Source/plugin.cpp:1424 ../Source/plugin.cpp:1428
+msgid "Download Complete"
+msgstr "İndirme Tamamlandı"
+
+#: ../Source/plugin.cpp:1948
+#, c-format
+msgid "Buffering %li KB"
+msgstr "%li KB indirildi"
+
+#: ../Source/plugin.cpp:1954
+#, c-format
+msgid "Buffering %i%% - %li KB"
+msgstr "%i%% - %li KB alındı"
+
+#: ../Source/plugin.cpp:1964
+#, c-format
+msgid "Buffering Complete - %li KB"
+msgstr "Ön İndirme Tamamlandı - %li KB"
+
+#: ../Source/plugin-threads.cpp:266 ../Source/plugin-threads.cpp:270
+#: ../Source/plugin-threads.cpp:1630 ../Source/plugin-threads.cpp:1633
+#, c-format
+msgid "Loading Media..."
+msgstr "Video Yükleniyor..."
+
+#: ../Source/plugin-threads.cpp:603 ../Source/plugin-threads.cpp:607
+msgid "Getting playlist..."
+msgstr "Oynatma listesi alınıyor"
+
+#: ../Source/plugin-threads.cpp:915
+#, c-format
+msgid "Buffering %s"
+msgstr "%s önbelleğe alınıyor"
+
+#: ../Source/plugin-threads.cpp:940 ../Source/plugin-threads.cpp:1854
+#, c-format
+msgid "Playing %s"
+msgstr "%s oynatılıyor"
+
+#: ../Source/plugin-threads.cpp:1180
+msgid "Stream Title: "
+msgstr "Yayın Başlığı: "
+
+#: ../Source/plugin-threads.cpp:1522 ../Source/plugin-ui.cpp:692
+#, c-format
+msgid "Stopped"
+msgstr "Durduruldu"
+
+#: ../Source/plugin-ui.cpp:1145
+msgid "Rewind"
+msgstr "Geri Al"
+
+#: ../Source/plugin-ui.cpp:1277
+msgid "Fast Forward"
+msgstr "Hızlı İleri"
+
+#: ../Source/plugin-ui.cpp:1697
+#, c-format
+msgid "Save as %s/%s"
+msgstr "%s/%s Olarak Kaydet"
+
+#: ../Source/plugin-ui.cpp:1717
+#, c-format
+msgid "Append URL to %s/playlist"
+msgstr "%s/oynatma listesine adresi ekle"
+
+#: ../Source/plugin-ui.cpp:1789
+#, c-format
+msgid "%2i:%02i / %2i:%02i | %2i%% ▼"
+msgstr "%2i:%02i / %2i:%02i | %2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:1796
+#, c-format
+msgid "%i:%02i:%02i / %i:%02i:%02i | %2i%% ▼"
+msgstr "%i:%02i:%02i / %i:%02i:%02i | %2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:1828
+#, c-format
+msgid "%2i%% ▼"
+msgstr "%2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:2204
+msgid "Save As..."
+msgstr "Farklı Kaydet..."
+
+#: ../Source/plugin-ui.cpp:2604
+msgid "mplayerplug-in configuration"
+msgstr "mplayerplug-in ayarları"
+
+#: ../Source/plugin-ui.cpp:2694
+msgid "OK"
+msgstr "Tamam"
+
+#: ../Source/plugin-ui.cpp:2698
+msgid "Cancel"
+msgstr "İptal"
+
+#: ../Source/plugin-ui.cpp:2703
+msgid "Video Output:"
+msgstr "Video Çıktısı:"
+
+#: ../Source/plugin-ui.cpp:2711
+msgid "Audio Output:"
+msgstr "Ses Çıktısı:"
+
+#: ../Source/plugin-ui.cpp:2719
+msgid "Save to Location:"
+msgstr "Konuma Kaydet:"
+
+#: ../Source/plugin-ui.cpp:2728
+msgid "Minimum Cache Size:"
+msgstr "Asgari Önbellek Boyutu:"
+
+#: ../Source/plugin-ui.cpp:2740
+msgid "Percent of Media to Cache:"
+msgstr "Önbelleklenecek Dosya Yüzdesi: "
+
+#: ../Source/plugin-ui.cpp:2754
+msgid "Show time in progress bar"
+msgstr "Durum çubuğunda zamanı göster"
+
+#: ../Source/plugin-ui.cpp:2765
+msgid "Enable Windows Media Player Support"
+msgstr "Windows Media Player Desteğini Etkinleştir"
+
+#: ../Source/plugin-ui.cpp:2776
+msgid "Enable QuickTime Support"
+msgstr "Quicktime Desteğini Etkinleştir"
+
+#: ../Source/plugin-ui.cpp:2787
+msgid "Enable RealMedia Support"
+msgstr "RealMedia Desteğini Etkinleştir"
+
+#: ../Source/plugin-ui.cpp:2799
+msgid "Enable SMIL Support (Effects QuickTime and RealMedia)"
+msgstr "SMIL Desteğini (QuickTime & RealMedia) Etkinleştir"
+
+#: ../Source/plugin-ui.cpp:2810
+msgid "Enable Helix Emulation"
+msgstr "Helix Emülasyonunu Etkinleştir"
+
+#: ../Source/plugin-ui.cpp:2822
+msgid "Enable Google Media Player Support"
+msgstr "Google Media Player Desteğini Etkinleştir"
+
+#: ../Source/plugin-ui.cpp:2833
+msgid "Enable MPEG Support"
+msgstr "MPEG Desteğini Etkinleştir"
+
+#: ../Source/plugin-ui.cpp:2845
+msgid "Enable MP3 Support (Requires MPEG Support)"
+msgstr "MP3 Desteğini Etkinleştir"
+
+#: ../Source/plugin-ui.cpp:2856
+msgid "Enable Ogg Support"
+msgstr "Ogg Desteğini Etkinleştir"
+
+#: ../Source/plugin-ui.cpp:2867
+msgid "Enable MIDI Support"
+msgstr "MIDI Desteğini Etkinleştir"
+
+#: ../Source/plugin-ui.cpp:2878
+msgid "Enable Shoutcast PLS Support"
+msgstr "Shoutcast PLS Desteğini Etkinleştir"
+
+#: ../Source/plugin-ui.cpp:2889
+msgid "Enable DivX Support"
+msgstr "DivX Desteğini Etkinleştir"
+
+#: ../Source/plugin-ui.cpp:2901
+msgid "Play media directly from site (No Caching)"
+msgstr "Web sayfasından doğrudan çal (önbellekleme yok)"
+
+#: ../Source/plugin-ui.cpp:2913
+msgid "Connect to RTSP Media over TCP"
+msgstr "RTSP dosyasına TCP üzerinden bağlan"
+
+#: ../Source/plugin-ui.cpp:2923
+msgid "Use HTTP instead of RTSP"
+msgstr "RTSP yerine HTTP kullan"
+
+#: ../Source/plugin-ui.cpp:2933
+msgid "Pause Video when hidden"
+msgstr "Gizli iken videoyu beklet"
+

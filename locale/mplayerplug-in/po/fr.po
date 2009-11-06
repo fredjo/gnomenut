@@ -1,0 +1,244 @@
+# translation of mplayer_fr.po to french
+# French translation of mplayerplug-in
+# Copyright (C) 2005 Svetoslavsky Alexandre
+# This file is distributed under the same license as the PACKAGE package.
+# Kevin DeKorte <kdekorte@yahoo.com>
+# Alexandre Svetoslavsky <alex.svetos@free.fr>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mplayer_fr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-20 12:23-0600\n"
+"PO-Revision-Date: 2005-09-09 18:56+0200\n"
+"Last-Translator: Alexandre Svetoslavsky <alexsvetos@altern.org>\n"
+"Language-Team: french <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10\n"
+
+#: ../Source/plugin.cpp:819 ../Source/plugin-ui.cpp:1179
+msgid "Play"
+msgstr "Lire"
+
+#: ../Source/plugin.cpp:823 ../Source/plugin-ui.cpp:1210
+msgid "Pause"
+msgstr "Pause"
+
+#: ../Source/plugin.cpp:827 ../Source/plugin-ui.cpp:1244
+msgid "Stop"
+msgstr "Stop"
+
+#: ../Source/plugin.cpp:840
+msgid "Show Controls"
+msgstr "Afficher les boutons de contrôle"
+
+#: ../Source/plugin.cpp:848 ../Source/plugin-ui.cpp:1347
+msgid "Full Screen"
+msgstr "Plein Ecran"
+
+#: ../Source/plugin.cpp:860
+msgid "Copy URL"
+msgstr "Copier l'URL"
+
+#: ../Source/plugin.cpp:864 ../Source/plugin-ui.cpp:1702
+#, c-format
+msgid "Save"
+msgstr "Enregistrer"
+
+#: ../Source/plugin.cpp:874
+msgid "Configure"
+msgstr "Configurer"
+
+#: ../Source/plugin.cpp:968
+msgid "Initializing"
+msgstr "Initialisation"
+
+#: ../Source/plugin.cpp:1424 ../Source/plugin.cpp:1428
+msgid "Download Complete"
+msgstr "Téléchargement Términe"
+
+#: ../Source/plugin.cpp:1948
+#, c-format
+msgid "Buffering %li KB"
+msgstr "Mise en mémoire tampon %li KB"
+
+#: ../Source/plugin.cpp:1954
+#, c-format
+msgid "Buffering %i%% - %li KB"
+msgstr "Mise en mémoire tampon %i%% - %li KB"
+
+#: ../Source/plugin.cpp:1964
+#, c-format
+msgid "Buffering Complete - %li KB"
+msgstr "Mise en mémoire tampon terminée - %li KB"
+
+#: ../Source/plugin-threads.cpp:266 ../Source/plugin-threads.cpp:270
+#: ../Source/plugin-threads.cpp:1630 ../Source/plugin-threads.cpp:1633
+#, c-format
+msgid "Loading Media..."
+msgstr "Chargement du Média..."
+
+#: ../Source/plugin-threads.cpp:603 ../Source/plugin-threads.cpp:607
+msgid "Getting playlist..."
+msgstr "Chargement de la liste de lecture..."
+
+#: ../Source/plugin-threads.cpp:915
+#, fuzzy, c-format
+msgid "Buffering %s"
+msgstr "Mise en mémoire tampon %li KB"
+
+#: ../Source/plugin-threads.cpp:940 ../Source/plugin-threads.cpp:1854
+#, c-format
+msgid "Playing %s"
+msgstr "Lecture de %s"
+
+#: ../Source/plugin-threads.cpp:1180
+msgid "Stream Title: "
+msgstr ""
+
+#: ../Source/plugin-threads.cpp:1522 ../Source/plugin-ui.cpp:692
+#, c-format
+msgid "Stopped"
+msgstr "Arrêté"
+
+#: ../Source/plugin-ui.cpp:1145
+msgid "Rewind"
+msgstr "Rembobiner"
+
+#: ../Source/plugin-ui.cpp:1277
+msgid "Fast Forward"
+msgstr "Avance Rapide"
+
+#: ../Source/plugin-ui.cpp:1697
+#, c-format
+msgid "Save as %s/%s"
+msgstr "Enregistrer sous %s/%s"
+
+#: ../Source/plugin-ui.cpp:1717
+#, c-format
+msgid "Append URL to %s/playlist"
+msgstr "Ajouter l'URL à la liste de lecture %s"
+
+#: ../Source/plugin-ui.cpp:1789
+#, c-format
+msgid "%2i:%02i / %2i:%02i | %2i%% ▼"
+msgstr ""
+
+#: ../Source/plugin-ui.cpp:1796
+#, c-format
+msgid "%i:%02i:%02i / %i:%02i:%02i | %2i%% ▼"
+msgstr ""
+
+#: ../Source/plugin-ui.cpp:1828
+#, c-format
+msgid "%2i%% ▼"
+msgstr ""
+
+#: ../Source/plugin-ui.cpp:2204
+msgid "Save As..."
+msgstr ""
+
+#: ../Source/plugin-ui.cpp:2604
+msgid "mplayerplug-in configuration"
+msgstr "configuration de mplayerplug-in"
+
+#: ../Source/plugin-ui.cpp:2694
+msgid "OK"
+msgstr "OK"
+
+#: ../Source/plugin-ui.cpp:2698
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../Source/plugin-ui.cpp:2703
+msgid "Video Output:"
+msgstr "Sortie Vidéo:"
+
+#: ../Source/plugin-ui.cpp:2711
+msgid "Audio Output:"
+msgstr "Sortie Audio:"
+
+#: ../Source/plugin-ui.cpp:2719
+msgid "Save to Location:"
+msgstr "Dossier de Sauvegarde:"
+
+#: ../Source/plugin-ui.cpp:2728
+msgid "Minimum Cache Size:"
+msgstr "Taille Minimum du Cache:"
+
+#: ../Source/plugin-ui.cpp:2740
+msgid "Percent of Media to Cache:"
+msgstr "Proportion de Média à mettre en Cache:"
+
+#: ../Source/plugin-ui.cpp:2754
+msgid "Show time in progress bar"
+msgstr "Afficher le temps dans la barre de progression"
+
+#: ../Source/plugin-ui.cpp:2765
+msgid "Enable Windows Media Player Support"
+msgstr "Activer le Support Windows Media Player"
+
+#: ../Source/plugin-ui.cpp:2776
+msgid "Enable QuickTime Support"
+msgstr "Activer le Support QuickTime"
+
+#: ../Source/plugin-ui.cpp:2787
+msgid "Enable RealMedia Support"
+msgstr "Activer le Support RealMedia"
+
+#: ../Source/plugin-ui.cpp:2799
+msgid "Enable SMIL Support (Effects QuickTime and RealMedia)"
+msgstr "Activer le Support SMIL (affecte QuickTime et RealMedia)"
+
+#: ../Source/plugin-ui.cpp:2810
+msgid "Enable Helix Emulation"
+msgstr "Activer l'émulation de Helix"
+
+#: ../Source/plugin-ui.cpp:2822
+msgid "Enable Google Media Player Support"
+msgstr "Activer le Support Google Media Player"
+
+#: ../Source/plugin-ui.cpp:2833
+msgid "Enable MPEG Support"
+msgstr "Activer le Support MPEG"
+
+#: ../Source/plugin-ui.cpp:2845
+msgid "Enable MP3 Support (Requires MPEG Support)"
+msgstr "Activer le Support MP3 (Nécessite le support de MPEG)"
+
+#: ../Source/plugin-ui.cpp:2856
+msgid "Enable Ogg Support"
+msgstr "Activer le Support Ogg"
+
+#: ../Source/plugin-ui.cpp:2867
+#, fuzzy
+msgid "Enable MIDI Support"
+msgstr "Activer le Support MIDI"
+
+#: ../Source/plugin-ui.cpp:2878
+#, fuzzy
+msgid "Enable Shoutcast PLS Support"
+msgstr "Activer le Support PLS Shoutcast"
+
+#: ../Source/plugin-ui.cpp:2889
+#, fuzzy
+msgid "Enable DivX Support"
+msgstr "Activer le Support MIDI"
+
+#: ../Source/plugin-ui.cpp:2901
+msgid "Play media directly from site (No Caching)"
+msgstr "Lire le média directement depuis le site (sans cache)"
+
+#: ../Source/plugin-ui.cpp:2913
+msgid "Connect to RTSP Media over TCP"
+msgstr "Se connecter en RTSP par TCP"
+
+#: ../Source/plugin-ui.cpp:2923
+msgid "Use HTTP instead of RTSP"
+msgstr "Utiliser HTTP plutôt que RTSP"
+
+#: ../Source/plugin-ui.cpp:2933
+msgid "Pause Video when hidden"
+msgstr "Pause automatique si la vidéo est cachée"

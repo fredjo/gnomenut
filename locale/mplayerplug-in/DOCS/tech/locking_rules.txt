@@ -1,0 +1,88 @@
+LOCKING RULES AND INVARIANTS:
+
+invariants:
+
+meaning of js_state are the following: 
+
+JS_STATE_UNDEFINED  means no player thread.
+JS_STATE_BUFFERING means thread is waiting on the condition variable.
+JS_STATE_INITIALIZING means thread was just started, but did not start
+         waiting on the condition variable yet.
+JS_STATE_TRANSITIONING means player thread is about to close the
+      connection and accessing control pipe is unsafe
+      (or control == 0).
+JS_STATE_PLAYING etc have the obvious meanings. 
+
+Locking Rules:
+
+(0) Rule: when player thread is dead (i.e. in shut after the 
+    pthread_join), no locking is needed (and no locking rules apply).. 
+
+(1) Rule: all read or write access to instance->js_state (in all threads) must 
+     be protected by control_mutex.
+
+(2) Rule: all read and write access to the playlist (i.e. td->list) must
+    be protected by playlist_mutex. 
+
+(3) Rule: No thread may block with control_mutex held.
+
+(4) Rule: If one needs to acquire both playlist_mutex and control_mutex,
+    playlist_mutex must be acquired first. Doing it in the other order
+    will deadlock.
+
+(5) Rule: all access to instance->control (from both threads) must be protected
+    by control_mutex. 
+
+(6) Exception to last rule: when js_state == JS_STATE_TRANSITIONING
+    player thread does not need locks for instance->control, 
+    but access by main thread is prohibuted.
+
+
+
+(7) Rule: In the player thread, any code which looks like
+
+    pthread_mutex_lock(&some_lock);
+
+    .... do stuff ....
+
+    pthread_mutex_unlock(&some_lock);
+  
+    where the ... do stuff ... includes a cancellation point, 
+    
+    must be protected by pthread_cleanup_push(pthread_mutex_unlock, some_lock)
+    and pthread_cleanup_pop(0)
+    
+    Recall that pthread_test_cancel(), pthread_cond_wait() and any
+    blocking system call/libc function is a cancellation point. 
+
+
+
+(8) Rule: instance->player is owned by the player thread. The only time
+    main thread can access it is when the player thread is already
+    dead (e.g. in shut after the pthread_join).
+
+
+(9) Corollary to above rules: 
+    All calls to sendCommand have to protected by control_mutex. Also
+    in player thread, calls to sendCommand have to be
+    protected by cleanup_push/cleanup_pop as well. 
+
+(10) Rule: Player thread may be started if there isn't one currently
+     (i.e. js_state == JS_STATE_UNDEFINED).  To start player thread, must do: 
+
+     pthread_lock(&control_mutex);
+     pthread_create(....)
+     js_state = JS_STATE_INITIALIZING;
+     pthread_unlock(&control_mutex);
+
+(11) Rule: to signal player thread, must use the signalPlayerThread()
+      function. 
+
+(12) Rule: to kill player thread, must do:
+ 
+        pthread_cancel(&player_thread);
+        pthread_join(&player_thread);
+        js_state = JS_STATE_UNDEFINED;
+
+
+

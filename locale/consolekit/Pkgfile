@@ -1,0 +1,21 @@
+# Description:	framework for defining and tracking users, login sessions, and seats
+# URL:		http://www.freedesktop.org/wiki/Software/ConsoleKit
+# Maintainer:	Oleksiy Khilkevich <grim@asu.ntu-kpi.kiev.ua>
+# Depends on:	linux-pam, dbus, glib, xorg-libx11, policykit
+
+name=consolekit
+version=0.3.0
+release=3
+source=(http://people.freedesktop.org/~mccann/dist/ConsoleKit-$version.tar.bz2)
+
+build() {
+	cd ConsoleKit-$version
+
+	./configure --prefix=/usr \
+	    --sysconfdir=/etc \
+	    --localstatedir=/var \
+	    --mandir=/usr/man
+
+	make
+	make DESTDIR=$PKG install
+}

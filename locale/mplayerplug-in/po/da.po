@@ -1,0 +1,239 @@
+# Danish translation of mplayerplug-in
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Anders Lind <anders.lind@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mplayerplug-in\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-20 12:23-0600\n"
+"PO-Revision-Date: 2006-04-09 15:20+0200 \n"
+"Last-Translator: Anders Lind <anders.lind@gmail.com>\n"
+"Language-Team: Anders Lind <anders.lind@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../Source/plugin.cpp:819 ../Source/plugin-ui.cpp:1179
+msgid "Play"
+msgstr "Afspil"
+
+#: ../Source/plugin.cpp:823 ../Source/plugin-ui.cpp:1210
+msgid "Pause"
+msgstr "Pause"
+
+#: ../Source/plugin.cpp:827 ../Source/plugin-ui.cpp:1244
+msgid "Stop"
+msgstr "Stop"
+
+#: ../Source/plugin.cpp:840
+msgid "Show Controls"
+msgstr "Vis kontrolelementer"
+
+#: ../Source/plugin.cpp:848 ../Source/plugin-ui.cpp:1347
+msgid "Full Screen"
+msgstr "Fuldskærm"
+
+#: ../Source/plugin.cpp:860
+msgid "Copy URL"
+msgstr "Kopiér URL"
+
+#: ../Source/plugin.cpp:864 ../Source/plugin-ui.cpp:1702
+#, c-format
+msgid "Save"
+msgstr "Gem"
+
+#: ../Source/plugin.cpp:874
+msgid "Configure"
+msgstr "Konfigurér"
+
+#: ../Source/plugin.cpp:968
+msgid "Initializing"
+msgstr "Initialiserer"
+
+#: ../Source/plugin.cpp:1424 ../Source/plugin.cpp:1428
+msgid "Download Complete"
+msgstr "Download færdig"
+
+#: ../Source/plugin.cpp:1948
+#, c-format
+msgid "Buffering %li KB"
+msgstr "Lagrer midlertidigt %li KB"
+
+#: ../Source/plugin.cpp:1954
+#, c-format
+msgid "Buffering %i%% - %li KB"
+msgstr "Lagrer midlertidigt %i%% - %li KB"
+
+#: ../Source/plugin.cpp:1964
+#, c-format
+msgid "Buffering Complete - %li KB"
+msgstr "Midlertidig lagring udført - %li KB"
+
+#: ../Source/plugin-threads.cpp:266 ../Source/plugin-threads.cpp:270
+#: ../Source/plugin-threads.cpp:1630 ../Source/plugin-threads.cpp:1633
+#, c-format
+msgid "Loading Media..."
+msgstr "Indlæser medie..."
+
+#: ../Source/plugin-threads.cpp:603 ../Source/plugin-threads.cpp:607
+msgid "Getting playlist..."
+msgstr "Henter afspilningsliste..."
+
+#: ../Source/plugin-threads.cpp:915
+#, c-format
+msgid "Buffering %s"
+msgstr "Lagrer midlertidigt %s"
+
+#: ../Source/plugin-threads.cpp:940 ../Source/plugin-threads.cpp:1854
+#, c-format
+msgid "Playing %s"
+msgstr "Afspiller %s"
+
+#: ../Source/plugin-threads.cpp:1180
+msgid "Stream Title: "
+msgstr ""
+
+#: ../Source/plugin-threads.cpp:1522 ../Source/plugin-ui.cpp:692
+#, c-format
+msgid "Stopped"
+msgstr "Stoppet"
+
+#: ../Source/plugin-ui.cpp:1145
+msgid "Rewind"
+msgstr "Spol tilbage"
+
+#: ../Source/plugin-ui.cpp:1277
+msgid "Fast Forward"
+msgstr "Spol frem"
+
+#: ../Source/plugin-ui.cpp:1697
+#, c-format
+msgid "Save as %s/%s"
+msgstr "Gem som %s/%s"
+
+#: ../Source/plugin-ui.cpp:1717
+#, c-format
+msgid "Append URL to %s/playlist"
+msgstr "Tilføj URL til %s/playlist"
+
+#: ../Source/plugin-ui.cpp:1789
+#, c-format
+msgid "%2i:%02i / %2i:%02i | %2i%% ▼"
+msgstr ""
+
+#: ../Source/plugin-ui.cpp:1796
+#, c-format
+msgid "%i:%02i:%02i / %i:%02i:%02i | %2i%% ▼"
+msgstr ""
+
+#: ../Source/plugin-ui.cpp:1828
+#, c-format
+msgid "%2i%% ▼"
+msgstr ""
+
+#: ../Source/plugin-ui.cpp:2204
+msgid "Save As..."
+msgstr ""
+
+#: ../Source/plugin-ui.cpp:2604
+msgid "mplayerplug-in configuration"
+msgstr "mplayerplug-in-konfiguration"
+
+#: ../Source/plugin-ui.cpp:2694
+msgid "OK"
+msgstr "OK"
+
+#: ../Source/plugin-ui.cpp:2698
+msgid "Cancel"
+msgstr "Annullér"
+
+#: ../Source/plugin-ui.cpp:2703
+msgid "Video Output:"
+msgstr "Video-output:"
+
+#: ../Source/plugin-ui.cpp:2711
+msgid "Audio Output:"
+msgstr "Lyd-output:"
+
+#: ../Source/plugin-ui.cpp:2719
+msgid "Save to Location:"
+msgstr "Gem til lokalitet:"
+
+#: ../Source/plugin-ui.cpp:2728
+msgid "Minimum Cache Size:"
+msgstr "Minimum mellemlager-størrelse:"
+
+#: ../Source/plugin-ui.cpp:2740
+msgid "Percent of Media to Cache:"
+msgstr "Procent af mediet der skal mellemlagres:"
+
+#: ../Source/plugin-ui.cpp:2754
+msgid "Show time in progress bar"
+msgstr "Vis tid i forløbsindikator"
+
+#: ../Source/plugin-ui.cpp:2765
+msgid "Enable Windows Media Player Support"
+msgstr "Aktivér Windows Media Player-understøttelse"
+
+#: ../Source/plugin-ui.cpp:2776
+msgid "Enable QuickTime Support"
+msgstr "Aktivér QuickTime-understøttelse"
+
+#: ../Source/plugin-ui.cpp:2787
+msgid "Enable RealMedia Support"
+msgstr "Aktivér RealMedia-understøttelse"
+
+#: ../Source/plugin-ui.cpp:2799
+msgid "Enable SMIL Support (Effects QuickTime and RealMedia)"
+msgstr "Aktivér SMIL-understøttelse (påvirker QuickTime og RealMedia)"
+
+#: ../Source/plugin-ui.cpp:2810
+msgid "Enable Helix Emulation"
+msgstr "Aktivér Helix-emulering"
+
+#: ../Source/plugin-ui.cpp:2822
+msgid "Enable Google Media Player Support"
+msgstr "Aktivér Google Media Player-understøttelse"
+
+#: ../Source/plugin-ui.cpp:2833
+msgid "Enable MPEG Support"
+msgstr "Aktivér MPEG-understøttelse"
+
+#: ../Source/plugin-ui.cpp:2845
+msgid "Enable MP3 Support (Requires MPEG Support)"
+msgstr "Aktivér MP3-understøttelse (kræver MPEG-understøttelse)"
+
+#: ../Source/plugin-ui.cpp:2856
+msgid "Enable Ogg Support"
+msgstr "Aktivér Ogg-understøttelse"
+
+#: ../Source/plugin-ui.cpp:2867
+msgid "Enable MIDI Support"
+msgstr "Aktivér MIDI-understøttelse"
+
+#: ../Source/plugin-ui.cpp:2878
+msgid "Enable Shoutcast PLS Support"
+msgstr "Aktivér Shoutcast PLS-understøttelse"
+
+#: ../Source/plugin-ui.cpp:2889
+#, fuzzy
+msgid "Enable DivX Support"
+msgstr "Aktivér MIDI-understøttelse"
+
+#: ../Source/plugin-ui.cpp:2901
+msgid "Play media directly from site (No Caching)"
+msgstr "Afspil mediet direkte fra site (uden mellemlagring)"
+
+#: ../Source/plugin-ui.cpp:2913
+msgid "Connect to RTSP Media over TCP"
+msgstr "Forbind til RTSP-medie vha. TCP"
+
+#: ../Source/plugin-ui.cpp:2923
+msgid "Use HTTP instead of RTSP"
+msgstr "Benyt HTTP i stedet for RTSP"
+
+#: ../Source/plugin-ui.cpp:2933
+msgid "Pause Video when hidden"
+msgstr "Hold pause når video er skjult"

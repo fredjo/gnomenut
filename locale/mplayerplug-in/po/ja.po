@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mplayerplug-in 2.7x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-28 00:07+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Yasuhiro Matsumoto <mattn_jp@hotmail.com>\n"
+"Language-Team: Yasuhiro Matsumoto <mattn_jp@hotmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../Source/plugin-threads.cpp:266 ../Source/plugin-threads.cpp:270
+#: ../Source/plugin-threads.cpp:1682 ../Source/plugin-threads.cpp:1685
+#, c-format
+msgid "Loading Media..."
+msgstr "メディアを読み込み中..."
+
+#: ../Source/plugin-threads.cpp:622 ../Source/plugin-threads.cpp:626
+msgid "Getting playlist..."
+msgstr "プレイリスト取得中..."
+
+#: ../Source/plugin-threads.cpp:934
+msgid "Buffering %s"
+msgstr "バッファリング %s"
+
+#: ../Source/plugin-threads.cpp:959 ../Source/plugin-threads.cpp:1906
+msgid "Playing %s"
+msgstr "再生中 %s"
+
+#: ../Source/plugin-threads.cpp:1216
+msgid "Stream Title: "
+msgstr "ストリームタイトル: "
+
+#: ../Source/plugin-threads.cpp:1573 ../Source/plugin-ui.cpp:698
+msgid "Stopped"
+msgstr "停止"
+
+#: ../Source/plugin-ui.cpp:841
+#, c-format
+msgid "Volume %i%%"
+msgstr "ボリューム %i%%"
+
+#: ../Source/plugin-ui.cpp:1201
+msgid "Rewind"
+msgstr "巻き戻し"
+
+#: ../Source/plugin-ui.cpp:1235 ../Source/plugin.cpp:845
+msgid "Play"
+msgstr "再生"
+
+#: ../Source/plugin-ui.cpp:1266 ../Source/plugin.cpp:849
+msgid "Pause"
+msgstr "一時停止"
+
+#: ../Source/plugin-ui.cpp:1300 ../Source/plugin.cpp:853
+msgid "Stop"
+msgstr "停止"
+
+#: ../Source/plugin-ui.cpp:1333
+msgid "Fast Forward"
+msgstr "早送り"
+
+#: ../Source/plugin-ui.cpp:1403
+msgid "Volume"
+msgstr "ボリューム"
+
+#: ../Source/plugin-ui.cpp:1440 ../Source/plugin.cpp:874
+msgid "Full Screen"
+msgstr "全画面"
+
+#: ../Source/plugin-ui.cpp:1791
+#, c-format
+msgid "Save as %s/%s"
+msgstr "%s/%s として保存"
+
+#: ../Source/plugin-ui.cpp:1796 ../Source/plugin.cpp:890
+#, c-format
+msgid "Save"
+msgstr "保存"
+
+#: ../Source/plugin-ui.cpp:1811
+#, c-format
+msgid "Append URL to %s/playlist"
+msgstr "URLを %s/playlist に追加"
+
+#: ../Source/plugin-ui.cpp:1883
+#, c-format
+msgid "%2i:%02i / %2i:%02i | %2i%% ▼"
+msgstr "%2i:%02i / %2i:%02i | %2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:1890
+#, c-format
+msgid "%i:%02i:%02i / %i:%02i:%02i | %2i%% ▼"
+msgstr "%i:%02i:%02i / %i:%02i:%02i | %2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:1922
+#, c-format
+msgid "%2i%% ▼"
+msgstr "%2i%% ▼"
+
+#: ../Source/plugin-ui.cpp:2307
+msgid "Save As..."
+msgstr "名前を付けて保存..."
+
+#: ../Source/plugin-ui.cpp:2707
+msgid "mplayerplug-in configuration"
+msgstr "mplayerplug-in 設定"
+
+#: ../Source/plugin-ui.cpp:2797
+msgid "OK"
+msgstr "OK"
+
+#: ../Source/plugin-ui.cpp:2801
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: ../Source/plugin-ui.cpp:2806
+msgid "Video Output:"
+msgstr "映像出力:"
+
+#: ../Source/plugin-ui.cpp:2814
+msgid "Audio Output:"
+msgstr "音声出力:"
+
+#: ../Source/plugin-ui.cpp:2822
+msgid "Save to Location:"
+msgstr "保存場所:"
+
+#: ../Source/plugin-ui.cpp:2831
+msgid "Minimum Cache Size:"
+msgstr "最小キャッシュサイズ:"
+
+#: ../Source/plugin-ui.cpp:2843
+msgid "Percent of Media to Cache:"
+msgstr "メディアに対するキャッシュの割り合い:"
+
+#: ../Source/plugin-ui.cpp:2857
+msgid "Show time in progress bar"
+msgstr "プログレスバーに時間を表示する"
+
+#: ../Source/plugin-ui.cpp:2868
+msgid "Enable Windows Media Player Support"
+msgstr "Windows Media Player のサポートを有効にする"
+
+#: ../Source/plugin-ui.cpp:2879
+msgid "Enable QuickTime Support"
+msgstr "QuickTime のサポートを有効にする"
+
+#: ../Source/plugin-ui.cpp:2890
+msgid "Enable RealMedia Support"
+msgstr "RealMedia のサポートを有効にする"
+
+#: ../Source/plugin-ui.cpp:2902
+msgid "Enable SMIL Support (Effects QuickTime and RealMedia)"
+msgstr "SMIL のサポートを有効にする (QuickTime と RealMedia に影響)"
+
+#: ../Source/plugin-ui.cpp:2913
+msgid "Enable Helix Emulation"
+msgstr "Helix をエミュレートする"
+
+#: ../Source/plugin-ui.cpp:2925
+msgid "Enable Google Media Player Support"
+msgstr "Google Media Player のサポートを有効にする"
+
+#: ../Source/plugin-ui.cpp:2936
+msgid "Enable MPEG Support"
+msgstr "MPEG のサポートを有効にする"
+
+#: ../Source/plugin-ui.cpp:2948
+msgid "Enable MP3 Support (Requires MPEG Support)"
+msgstr "MP3 のサポートを有効にする (MPEG のサポートが必要)"
+
+#: ../Source/plugin-ui.cpp:2959
+msgid "Enable Ogg Support"
+msgstr "Ogg のサポートを有効にする"
+
+#: ../Source/plugin-ui.cpp:2970
+msgid "Enable MIDI Support"
+msgstr "MIDI のサポートを有効にする"
+
+#: ../Source/plugin-ui.cpp:2981
+msgid "Enable Shoutcast PLS Support"
+msgstr "Shoutcast PLS のサポートを有効にする"
+
+#: ../Source/plugin-ui.cpp:2992
+msgid "Enable DivX Support"
+msgstr "DivX のサポートを有効にする"
+
+#: ../Source/plugin-ui.cpp:3004
+msgid "Play media directly from site (No Caching)"
+msgstr "メディアをサイトから直截再生する (キャッシュしない)"
+
+#: ../Source/plugin-ui.cpp:3016
+msgid "Connect to RTSP Media over TCP"
+msgstr "TCP 越しに RTSP Media へ接続する"
+
+#: ../Source/plugin-ui.cpp:3026
+msgid "Use HTTP instead of RTSP"
+msgstr "RTSP の代わりに HTTP を使用する"
+
+#: ../Source/plugin-ui.cpp:3036
+msgid "Pause Video when hidden"
+msgstr "非表示時にはビデオを一時停止にする"
+
+#: ../Source/plugin.cpp:866
+msgid "Show Controls"
+msgstr "コントロールを表示"
+
+#: ../Source/plugin.cpp:886
+msgid "Copy URL"
+msgstr "URLをコピー"
+
+#: ../Source/plugin.cpp:900
+msgid "Configure"
+msgstr "設定"
+
+#: ../Source/plugin.cpp:994
+msgid "Initializing"
+msgstr "初期化中"
+
+#: ../Source/plugin.cpp:1455 ../Source/plugin.cpp:1459
+msgid "Download Complete"
+msgstr "ダウンロード完了"
+
+#: ../Source/plugin.cpp:1979
+#, c-format
+msgid "Buffering %li KB"
+msgstr "バッファリング %li KB"
+
+#: ../Source/plugin.cpp:1985
+#, c-format
+msgid "Buffering %i%% - %li KB"
+msgstr "バッファリング %i%% - %li KB"
+
+#: ../Source/plugin.cpp:1995
+#, c-format
+msgid "Buffering Complete - %li KB"
+msgstr "バッファリング完了 - %li KB"

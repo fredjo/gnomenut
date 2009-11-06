@@ -1,0 +1,17 @@
+# Description: outil de scan reseau.
+# URL: http://www.wireshark.org/
+# Packager: frederic.joly@9online.fr
+# Depends on:libpcap 
+
+name=wireshark
+version=1.2.1
+release=1
+source=(http://nervion.us.es/wsdownload/src/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}
+

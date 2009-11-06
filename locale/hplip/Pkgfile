@@ -1,0 +1,29 @@
+# Description: HP Printing and Imaging for Linux (Includes HPIJS)
+# URL: http://hplip.sourceforge.net/
+# Maintainer: Kuba Kaminski, teoqba at gmail dot com
+# Packager: Diederick de Vries <diederick at diederickdevries dot net>
+# Depends on: foomatic-filters
+
+name=hplip
+version=3.9.8
+release=1
+source=(http://downloads.sourceforge.net/project/hplip/$name/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr --enable-hpijs-install \
+			--enable-hpcups-install \
+                    --enable-foomatic-ppd-install \
+			--enable-qt4  \
+			--enable-foomatic-drv-install \
+			--enable-cups-drv-install \
+			--enable-cups-ppd-install \
+			--enable-foomatic-rip-hplip-install \
+			--enable-policykit 
+		
+	make clean
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/doc
+	chown -R root:root $PKG
+}

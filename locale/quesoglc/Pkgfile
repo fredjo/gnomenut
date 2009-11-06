@@ -1,0 +1,18 @@
+# Description: Librairie opengl.
+# URL: http://quesoglc.sourceforge.net
+# Maintainer: Danny Rawlins, monster dot romster at gmail dot com
+# Packager: frederic.joly@9online.fr
+# Depends on: 
+
+name=quesoglc
+version=0.7.2
+release=1
+source=(http://downloads.sourceforge.net/project/quesoglc/QuesoGLC/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}
+

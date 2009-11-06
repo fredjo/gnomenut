@@ -1,0 +1,234 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 3.31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-20 16:28+0800\n"
+"PO-Revision-Date: 2006-11-20 16:28+0800\n"
+"Last-Translator: Yang Hong <yanghong@ccoss.com.cn>\n"
+"Language-Team: 简体中文 <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../Source/plugin.cpp:805 ../Source/plugin-ui.cpp:1179
+msgid "Play"
+msgstr "播放"
+
+#: ../Source/plugin.cpp:809 ../Source/plugin-ui.cpp:1210
+msgid "Pause"
+msgstr "暂停"
+
+#: ../Source/plugin.cpp:813 ../Source/plugin-ui.cpp:1244
+msgid "Stop"
+msgstr "停止"
+
+#: ../Source/plugin.cpp:826
+msgid "Show Controls"
+msgstr "显示控制栏"
+
+#: ../Source/plugin.cpp:834 ../Source/plugin-ui.cpp:1347
+msgid "Full Screen"
+msgstr "全屏"
+
+#: ../Source/plugin.cpp:846
+msgid "Copy URL"
+msgstr "复制连接地址"
+
+#: ../Source/plugin.cpp:850 ../Source/plugin-ui.cpp:1743
+#, c-format
+msgid "Save"
+msgstr "保存"
+
+#: ../Source/plugin.cpp:860
+msgid "Configure"
+msgstr "配置"
+
+#: ../Source/plugin.cpp:954
+msgid "Initializing"
+msgstr "初始化"
+
+#: ../Source/plugin.cpp:1398 ../Source/plugin.cpp:1402
+msgid "Download Complete"
+msgstr "下载完成"
+
+#: ../Source/plugin.cpp:1916
+#, c-format
+msgid "Buffering %li KB"
+msgstr "正在缓冲 %li KB"
+
+#: ../Source/plugin.cpp:1922
+#, c-format
+msgid "Buffering %i%% - %li KB"
+msgstr "正在缓冲 %i%% - %li KB"
+
+#: ../Source/plugin.cpp:1932
+#, c-format
+msgid "Buffering Complete - %li KB"
+msgstr "缓冲完成 - %li KB"
+
+#: ../Source/plugin-threads.cpp:266 ../Source/plugin-threads.cpp:270
+#: ../Source/plugin-threads.cpp:1611 ../Source/plugin-threads.cpp:1614
+#, c-format
+msgid "Loading Media..."
+msgstr "正在载入媒体..."
+
+#: ../Source/plugin-threads.cpp:603 ../Source/plugin-threads.cpp:607
+msgid "Getting playlist..."
+msgstr "正在获取播放列表..."
+
+#: ../Source/plugin-threads.cpp:913
+#, c-format
+msgid "Buffering %s"
+msgstr "正在缓冲 %s"
+
+#: ../Source/plugin-threads.cpp:938 ../Source/plugin-threads.cpp:1826
+#, c-format
+msgid "Playing %s"
+msgstr "正在播放 %s"
+
+#: ../Source/plugin-threads.cpp:1503 ../Source/plugin-ui.cpp:692
+#, c-format
+msgid "Stopped"
+msgstr "已停止"
+
+#: ../Source/plugin-ui.cpp:1145
+msgid "Rewind"
+msgstr "快退"
+
+#: ../Source/plugin-ui.cpp:1277
+msgid "Fast Forward"
+msgstr "快进"
+
+#: ../Source/plugin-ui.cpp:1738
+#, c-format
+msgid "Save as %s/%s"
+msgstr "另存为 %s/%s"
+
+#: ../Source/plugin-ui.cpp:1758
+#, c-format
+msgid "Append URL to %s/playlist"
+msgstr "添加连接地址到 %s/playlist"
+
+#: ../Source/plugin-ui.cpp:1830
+#, c-format
+msgid "%2i:%02i / %2i:%02i | %2i%% ▼"
+msgstr ""
+
+#: ../Source/plugin-ui.cpp:1837
+#, c-format
+msgid "%i:%02i:%02i / %i:%02i:%02i | %2i%% ▼"
+msgstr ""
+
+#: ../Source/plugin-ui.cpp:1869
+#, c-format
+msgid "%2i%% ▼"
+msgstr ""
+
+#: ../Source/plugin-ui.cpp:2246
+msgid "Save As..."
+msgstr "另存为..."
+
+#: ../Source/plugin-ui.cpp:2646
+msgid "mplayerplug-in configuration"
+msgstr "mplayerplug-in 配置"
+
+#: ../Source/plugin-ui.cpp:2736
+msgid "OK"
+msgstr "确定"
+
+#: ../Source/plugin-ui.cpp:2740
+msgid "Cancel"
+msgstr "取消"
+
+#: ../Source/plugin-ui.cpp:2745
+msgid "Video Output:"
+msgstr "视频输出："
+
+#: ../Source/plugin-ui.cpp:2753
+msgid "Audio Output:"
+msgstr "音频输出："
+
+#: ../Source/plugin-ui.cpp:2761
+msgid "Save to Location:"
+msgstr "保存位置："
+
+#: ../Source/plugin-ui.cpp:2770
+msgid "Minimum Cache Size:"
+msgstr "最小缓冲大小："
+
+#: ../Source/plugin-ui.cpp:2782
+msgid "Percent of Media to Cache:"
+msgstr "缓冲百分比："
+
+#: ../Source/plugin-ui.cpp:2796
+msgid "Show time in progress bar"
+msgstr "在进度条中显示时间"
+
+#: ../Source/plugin-ui.cpp:2807
+msgid "Enable Windows Media Player Support"
+msgstr "开启 Windows Media Player 支持"
+
+#: ../Source/plugin-ui.cpp:2818
+msgid "Enable QuickTime Support"
+msgstr "开启 QuickTime 支持"
+
+#: ../Source/plugin-ui.cpp:2829
+msgid "Enable RealMedia Support"
+msgstr "开启 RealMedia 支持"
+
+#: ../Source/plugin-ui.cpp:2841
+msgid "Enable SMIL Support (Effects QuickTime and RealMedia)"
+msgstr "开启 SMIL 支持（对 QuickTime 和 RealMedia 有效）"
+
+#: ../Source/plugin-ui.cpp:2852
+msgid "Enable Helix Emulation"
+msgstr "开启 Helix 支持"
+
+#: ../Source/plugin-ui.cpp:2864
+msgid "Enable Google Media Player Support"
+msgstr "开启 Google Media Player 支持"
+
+#: ../Source/plugin-ui.cpp:2875
+msgid "Enable MPEG Support"
+msgstr "开启 MPEG 支持"
+
+#: ../Source/plugin-ui.cpp:2887
+msgid "Enable MP3 Support (Requires MPEG Support)"
+msgstr "开启 MP3 支持（需要 MPEG 支持）"
+
+#: ../Source/plugin-ui.cpp:2898
+msgid "Enable Ogg Support"
+msgstr "开启 Ogg 支持"
+
+#: ../Source/plugin-ui.cpp:2909
+msgid "Enable MIDI Support"
+msgstr "开启 MIDI 支持"
+
+#: ../Source/plugin-ui.cpp:2920
+msgid "Enable Shoutcast PLS Support"
+msgstr "开启 Shoutcast PLS 支持"
+
+#: ../Source/plugin-ui.cpp:2931
+msgid "Enable DivX Support"
+msgstr "开启 DivX 支持"
+
+#: ../Source/plugin-ui.cpp:2943
+msgid "Play media directly from site (No Caching)"
+msgstr "直接从原地址播放（不进行缓冲）"
+
+#: ../Source/plugin-ui.cpp:2955
+msgid "Connect to RTSP Media over TCP"
+msgstr "通过 TCP 连接到 RTSP 媒体"
+
+#: ../Source/plugin-ui.cpp:2965
+msgid "Use HTTP instead of RTSP"
+msgstr "使用 HTTP 代替 RTSP"
+
+#: ../Source/plugin-ui.cpp:2975
+msgid "Pause Video when hidden"
+msgstr "隐藏窗口时暂停播放"
