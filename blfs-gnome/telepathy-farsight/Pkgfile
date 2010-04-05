@@ -1,0 +1,18 @@
+# Description: Permet la communication en temps réel
+# URL: http://telepathy.freedesktop.org/wiki/
+# Maintainer: NuTyX packager team
+# Packager: lesibel at free dot fr
+# Depends on: farsight2
+
+name=telepathy-farsight
+version=0.0.12
+release=1
+source=(http://telepathy.freedesktop.org/releases/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=$GNOME_PREFIX
+ 
+	make
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,35 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/telepathy-1.0/
+drwxr-xr-x	root/root	usr/include/telepathy-1.0/telepathy-farsight/
+-rw-r--r--	root/root	usr/include/telepathy-1.0/telepathy-farsight/channel.h
+-rw-r--r--	root/root	usr/include/telepathy-1.0/telepathy-farsight/stream.h
+drwxr-xr-x	root/root	usr/lib/
+-rw-r--r--	root/root	usr/lib/libtelepathy-farsight.a
+-rwxr-xr-x	root/root	usr/lib/libtelepathy-farsight.la
+lrwxrwxrwx	root/root	usr/lib/libtelepathy-farsight.so -> libtelepathy-farsight.so.0.0.4
+lrwxrwxrwx	root/root	usr/lib/libtelepathy-farsight.so.0 -> libtelepathy-farsight.so.0.0.4
+-rwxr-xr-x	root/root	usr/lib/libtelepathy-farsight.so.0.0.4
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/telepathy-farsight.pc
+drwxr-xr-x	root/root	usr/lib/python2.6/
+drwxr-xr-x	root/root	usr/lib/python2.6/site-packages/
+-rw-r--r--	root/root	usr/lib/python2.6/site-packages/tpfarsight.a
+-rwxr-xr-x	root/root	usr/lib/python2.6/site-packages/tpfarsight.la
+-rwxr-xr-x	root/root	usr/lib/python2.6/site-packages/tpfarsight.so
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/gtk-doc/
+drwxr-xr-x	root/root	usr/share/gtk-doc/html/
+drwxr-xr-x	root/root	usr/share/gtk-doc/html/telepathy-farsight/
+-rw-r--r--	root/root	usr/share/gtk-doc/html/telepathy-farsight/TfChannel.html
+-rw-r--r--	root/root	usr/share/gtk-doc/html/telepathy-farsight/TfStream.html
+-rw-r--r--	root/root	usr/share/gtk-doc/html/telepathy-farsight/ch01.html
+-rw-r--r--	root/root	usr/share/gtk-doc/html/telepathy-farsight/home.png
+-rw-r--r--	root/root	usr/share/gtk-doc/html/telepathy-farsight/index.html
+-rw-r--r--	root/root	usr/share/gtk-doc/html/telepathy-farsight/index.sgml
+-rw-r--r--	root/root	usr/share/gtk-doc/html/telepathy-farsight/left.png
+-rw-r--r--	root/root	usr/share/gtk-doc/html/telepathy-farsight/right.png
+-rw-r--r--	root/root	usr/share/gtk-doc/html/telepathy-farsight/style.css
+-rw-r--r--	root/root	usr/share/gtk-doc/html/telepathy-farsight/telepathy-farsight.devhelp
+-rw-r--r--	root/root	usr/share/gtk-doc/html/telepathy-farsight/telepathy-farsight.devhelp2
+-rw-r--r--	root/root	usr/share/gtk-doc/html/telepathy-farsight/up.png
