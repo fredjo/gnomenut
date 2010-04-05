@@ -2,7 +2,7 @@
 # URL: http://hplip.sourceforge.net/
 # Maintainer: Kuba Kaminski, teoqba at gmail dot com
 # Packager: Diederick de Vries <diederick at diederickdevries dot net>
-# Depends on: foomatic-filters
+# Depends on: foomatic-filters, net-snmp, xsane
 
 name=hplip
 version=3.9.8
