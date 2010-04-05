@@ -1,0 +1,5 @@
+#!/bin/sh
+
+gconftool-2 -s -t string /desktop/gnome/interface/gtk_theme H2o\ regurgitated
+gconftool-2 -s -t string /desktop/gnome/interface/icon_theme MacUltimate_Leopard
+gconftool-2 -s -t string /desktop/gnome/interface/gtk_color_scheme 'fg_color:#101010101010nbg_color:#e5e5e5e5e5e5ntext_color:#1a1a1a1a1a1anbase_color:#ffffffffffffnselected_fg_color:#1a1a1a1a1a1anselected_bg_color:#ffff9697567antooltip_fg_color:#333306060606ntooltip_bg_color:#ffffe6e6c4c4'

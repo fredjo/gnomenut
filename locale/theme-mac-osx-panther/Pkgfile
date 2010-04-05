@@ -1,0 +1,24 @@
+# Description: theme Mac OSX Panther pour gtk
+# URL: http://
+# Maintainer: frederic.joly@9online.fr
+# Packager: frederic.joly@9online.fr
+# Depends on: 
+
+name=theme-mac-osx-panther
+version=1
+release=1
+source=(Mac_OSX_Panther.tar.bz2)
+
+build() {
+	cd Mac\ OSX\ Panther
+	mkdir -p $PKG/usr/share/themes
+	mkdir -p $PKG/usr/share/icons
+	mv H2o\ regurgitated $PKG/usr/share/themes/
+	mv T-ish-Brushed-Overlaid $PKG/usr/share/themes/
+	mv MacUltimate_Leopard $PKG/usr/share/icons/
+	mv ../Mac\ OSX\ Panther $PKG/usr/share/themes/
+	cd $PKG
+	chown -R root:root .
+	chmod -R 755 .
+
+	}
