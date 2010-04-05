@@ -1,0 +1,17 @@
+# Description: Application GNOME client messagerie
+# URL: http://www.gnome.org
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: gnome-common, gettext, glib, gtk-doc, libxml2, gtk, libcanberra, gst-plugins-base, libnotify, farsight2, telepathy-glib, telepathy-farsight
+
+name=empathy
+version=2.28.1
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./autogen.sh --prefix=$GNOME_PREFIX 
+	make
+	make DESTDIR=$PKG install
+}
